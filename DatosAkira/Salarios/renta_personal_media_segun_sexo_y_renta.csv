@@ -1,0 +1,30 @@
+﻿"Renta personal media de población ocupada por sexo y rama de actividad, según tipo de renta (euros). 2023"
+
+
+;"Renta total";"Renta del trabajo";"Renta capital mobiliario";"Renta capital inmobiliario";"Renta de actividades";"Transferencias";"Renta neta"
+"Total";33.903;28.118;1.473;485;2.077;1.750;27.265
+"Agricultura, ganadería, silvicultura y pesca";25.857;16.086;1.218;452;6.125;1.976;21.594
+"Industria y energía";42.315;37.408;1.967;423;500;2.017;33.771
+"Construcción";32.409;24.789;1.340;571;4.326;1.383;26.688
+"Comercio, reparación, hostelería, transporte y comunicaciones";27.777;21.834;1.233;484;2.736;1.490;22.786
+"Actividades financieras e inmobiliarias y servicios a empresas";47.094;36.430;3.987;823;4.476;1.379;36.396
+"Otras actividades de servicios";31.978;27.304;896;430;1.405;1.942;25.727
+
+"Hombre";38.343;31.595;1.988;503;2.561;1.697;30.538
+"Agricultura, ganadería, silvicultura y pesca";28.121;18.230;1.198;403;6.246;2.043;23.392
+"Industria y energía";43.918;38.880;2.069;401;507;2.060;34.959
+"Construcción";32.339;24.418;1.351;498;4.672;1.399;26.702
+"Comercio, reparación, hostelería, transporte y comunicaciones";32.541;25.606;1.681;536;3.289;1.429;26.283
+"Actividades financieras e inmobiliarias y servicios a empresas";56.574;42.710;5.625;897;5.937;1.405;42.943
+"Otras actividades de servicios";35.947;30.328;1.404;461;1.970;1.784;28.501
+
+"Mujer";29.108;24.364;917;466;1.554;1.807;23.732
+"Agricultura, ganadería, silvicultura y pesca";17.448;8.123;1.292;631;5.674;1.727;14.916
+"Industria y energía";36.529;32.090;1.599;502;476;1.861;29.478
+"Construcción";32.925;27.530;1.255;1.110;1.766;1.263;26.583
+"Comercio, reparación, hostelería, transporte y comunicaciones";22.632;17.760;750;427;2.139;1.556;19.010
+"Actividades financieras e inmobiliarias y servicios a empresas";38.206;30.541;2.451;754;3.105;1.354;30.258
+"Otras actividades de servicios";29.870;25.698;627;414;1.106;2.026;24.254
+
+"Fuente: Eustat. Estadística de renta personal y familiar"
+

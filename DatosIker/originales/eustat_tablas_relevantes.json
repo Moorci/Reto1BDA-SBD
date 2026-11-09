@@ -1,0 +1,152 @@
+[
+  {
+    "id": "PX_173402_crpf_rp_a_01.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por el nivel formación alcanzado, según sexo y tipo de renta",
+    "actualizado": "2026-10-16T12:37:54"
+  },
+  {
+    "id": "PX_173402_crpf_rp_a_02.px",
+    "titulo": "Población de 18 y más años de la C.A. de Euskadi por decil de renta personal y territorio histórico, según nivel de formación alcanzado (porcentaje)",
+    "actualizado": "2026-10-16T12:37:58"
+  },
+  {
+    "id": "PX_173402_crpf_rp_a_03.px",
+    "titulo": "Renta personal media de población ocupada de la C.A. de Euskadi por profesión, según sexo y tipo de renta (euros). 2021 - 2023",
+    "actualizado": "2026-02-04T09:00:28"
+  },
+  {
+    "id": "PX_173402_crpf_rp_a_04.px",
+    "titulo": "Renta personal media de población parada de la C.A. de Euskadi que ha trabajado antes por profesión, según sexo y tipo de renta (euros). 2021 - 2023",
+    "actualizado": "2026-02-04T09:00:28"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp03.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por edad, según sexo y tipo de renta (euros). 2001 - 2024",
+    "actualizado": "2026-10-16T12:38:02"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp04.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por condición socioeconómica, según sexo y tipo de renta (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:26"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp05.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por estado civil, según sexo y tipo de renta (euros)",
+    "actualizado": "2021-02-10T11:14:23"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp06.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por nivel global de euskera, según territorio histórico y sexo (euros)",
+    "actualizado": "2021-02-10T11:14:24"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp07.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por lugar de nacimiento, según territorio histórico y sexo (euros)",
+    "actualizado": "2026-10-16T12:37:50"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp08.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por el nivel de instrucción, según sexo y tipo de renta (euros). 2001 - 2020",
+    "actualizado": "2022-10-24T09:09:50"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp09.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por relación con la actividad, según sexo y tipo de renta (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:26"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp11s.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por ámbitos territoriales, según sexo y tipo de renta (euros)",
+    "actualizado": "2026-10-16T12:38:49"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp13.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por nacionalidad, según territorio histórico y sexo (euros)",
+    "actualizado": "2026-10-16T12:39:33"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp14.px",
+    "titulo": "Renta personal media de población ocupada de la C.A. de Euskadi por profesión, según sexo y tipo de renta (euros)",
+    "actualizado": "2021-02-10T11:14:28"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp15.px",
+    "titulo": "Renta personal media de población ocupada de la C.A. de Euskadi por rama de actividad, según sexo y tipo de renta (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:26"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp16.px",
+    "titulo": "Renta personal media de población ocupada de la C.A. de Euskadi por situación profesional, según sexo y tipo de renta (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:26"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp17.px",
+    "titulo": "Renta personal media de población ocupada de la C.A. de Euskadi por tipo de renta, según territorio histórico y sexo (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:26"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp18.px",
+    "titulo": "Renta personal media de población parada de la C.A. de Euskadi que ha trabajado antes por profesión, según sexo y tipo de renta (euros)",
+    "actualizado": "2021-02-10T11:14:31"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp19.px",
+    "titulo": "Renta personal media de población parada de la C.A. de Euskadi que ha trabajado antes por rama actividad, según sexo y tipo renta (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:25"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp20.px",
+    "titulo": "Renta personal media de población parada de la C.A. de Euskadi que ha trabajado antes por situación profesional de la C.A. de Euskadi, según sexo y tipo de renta (euros). 2001 - 2023",
+    "actualizado": "2026-02-04T09:00:25"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp21.px",
+    "titulo": "Renta personal media de población jubilada de la C.A. de Euskadi por tipo de renta, según territorio histórico y sexo (euros)",
+    "actualizado": "2021-02-10T11:14:34"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp22_1p.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por barrio de residencia de las capitales, según tipo de renta (euros) (hasta 2003)",
+    "actualizado": "2021-02-10T11:28:01"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp22_2p.px",
+    "titulo": "Renta personal media de la C.A. de Euskadi por barrio de residencia de las capitales, según tipo de renta (euros)",
+    "actualizado": "2026-10-16T12:39:21"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp30.px",
+    "titulo": "Percentiles de la renta personal de los ámbitos territoriales de la C.A. de Euskadi, según sexo",
+    "actualizado": "2026-10-16T12:38:14"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp31.px",
+    "titulo": "Poblaciónde18ymásaños delaC.A.deEuskadipor ámbitos territoriales,según decilderenta personal (porcentaje)",
+    "actualizado": "2026-10-16T12:38:27"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp32.px",
+    "titulo": "Poblaciónde18ymásaños de la C.A. de Euskadi pordecilderenta personal, según territoriohistórico y sexo (porcentaje)",
+    "actualizado": "2026-10-16T12:39:06"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp33.px",
+    "titulo": "Poblaciónde18ymásaños de la C.A. de Euskadi pordecilderenta personal y territoriohistórico, según edad (porcentaje)",
+    "actualizado": "2026-10-16T12:38:54"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp34.px",
+    "titulo": "Población de 18 y más años de la C.A. de Euskadi por decil de renta personal y territorio histórico, según nivel de titulación (porcentaje). 2013 - 2020",
+    "actualizado": "2022-10-24T09:09:44"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp35.px",
+    "titulo": "Población de 18 y másaños delaC.A.deEuskadipordecilderenta personal yterritoriohistórico,según nacionalidad (porcentaje)",
+    "actualizado": "2026-10-16T12:38:10"
+  },
+  {
+    "id": "PX_173402_crpf_rpf_rp36.px",
+    "titulo": "Indicadores de la renta personal de los ámbitos territoriales de la C.A. de Euskadi",
+    "actualizado": "2026-10-16T12:39:37"
+  }
+]

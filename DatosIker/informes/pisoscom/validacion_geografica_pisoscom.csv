@@ -1,0 +1,1042 @@
+﻿fila_original,provincia_pisos,localidad_zona_original,municipio_extraido,provincia_normalizada,municipio_normalizado,estado_correspondencia,numero_candidatos,municipio_oficial_fotocasa,provincia_catalogo,municipio_codigo
+2,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+3,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+4,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+5,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+6,Araba,Aranbizkarra-Arantzabela (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+7,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+8,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+9,Araba,Estavillo (Armiñón),Armiñón,alava,arminon,coincidencia_exacta,1,Armiñón,Álava,01006
+10,Araba,Zona Rural Noroeste (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+11,Araba,Baños de Ebro - Mañueta,Baños de Ebro - Mañueta,alava,banosdeebromanueta,coincidencia_normalizada,1,Baños de Ebro/Mañueta,Álava,01011
+12,Araba,Aranbizkarra-Arantzabela (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+13,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+14,Araba,Ollávarre (Iruña de Oca - Iruña Oka),Iruña de Oca - Iruña Oka,alava,irunadeocairunaoka,sin_correspondencia,0,,,
+15,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+16,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+17,Araba,Lapuebla de Labarca,Lapuebla de Labarca,alava,lapuebladelabarca,coincidencia_exacta,1,Lapuebla de Labarca,Álava,01033
+18,Araba,Biasteri (Laguardia),Laguardia,alava,laguardia,coincidencia_exacta,1,Laguardia,Álava,01031
+19,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+20,Araba,Assa (Lanciego - Lantziego),Lanciego - Lantziego,alava,lanciegolantziego,coincidencia_normalizada,1,Lanciego/Lantziego,Álava,01032
+21,Araba,Zona Rural Noroeste (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+22,Araba,Artziniega,Artziniega,alava,artziniega,coincidencia_exacta,1,Artziniega,Álava,01004
+23,Araba,Legutio,Legutio,alava,legutio,coincidencia_exacta,1,Legutio,Álava,01058
+24,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+25,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+26,Araba,Desemparados-Judimendi-Santa Lucía (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+27,Araba,Baños de Ebro - Mañueta,Baños de Ebro - Mañueta,alava,banosdeebromanueta,coincidencia_normalizada,1,Baños de Ebro/Mañueta,Álava,01011
+28,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+29,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+30,Araba,Desemparados-Judimendi-Santa Lucía (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+31,Araba,Ibaiondo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+32,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+33,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+34,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+35,Araba,Ariznabarra (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+36,Araba,Llodio - Laudio,Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+37,Araba,Llodio - Laudio,Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+38,Araba,Elburgo - Burgelu,Elburgo - Burgelu,alava,elburgoburgelu,coincidencia_normalizada,1,Elburgo/Burgelu,Álava,01021
+39,Araba,Lakua-Arriaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+40,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+41,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+42,Araba,Desemparados-Judimendi-Santa Lucía (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+43,Araba,Acosta (Zigoitia),Zigoitia,alava,zigoitia,coincidencia_exacta,1,Zigoitia,Álava,01018
+44,Araba,Llodio - Laudio,Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+45,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+46,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+47,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+48,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+49,Araba,Aranbizkarra-Arantzabela (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+50,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+51,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+52,Araba,Laguardia,Laguardia,alava,laguardia,coincidencia_exacta,1,Laguardia,Álava,01031
+53,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+54,Araba,Oyón - Oion,Oyón - Oion,alava,oyonoion,coincidencia_normalizada,1,Oyón-Oion,Álava,01043
+55,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+56,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+57,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+58,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+59,Araba,Ariznabarra (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+60,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+61,Araba,Mendizorrotza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+62,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+63,Araba,Desemparados-Judimendi-Santa Lucía (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+64,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+65,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+66,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+67,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+68,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+69,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+70,Araba,Araia (Asparrena),Asparrena,alava,asparrena,coincidencia_exacta,1,Asparrena,Álava,01009
+71,Araba,Sansomendi (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+72,Araba,Añes (Ayala - Aiara),Ayala - Aiara,alava,ayalaaiara,coincidencia_normalizada,1,Ayala/Aiara,Álava,01010
+73,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+74,Araba,Ullivarri Gamboa (Arratzua-Ubarrundia),Arratzua-Ubarrundia,alava,arratzuaubarrundia,coincidencia_exacta,1,Arratzua-Ubarrundia,Álava,01008
+75,Araba,Biasteri (Laguardia),Laguardia,alava,laguardia,coincidencia_exacta,1,Laguardia,Álava,01031
+76,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+77,Araba,Llodio - Laudio,Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+78,Araba,Areta (Llodio - Laudio),Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+79,Araba,Areta (Llodio - Laudio),Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+80,Araba,Zona Rural Noroeste (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+81,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+82,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+83,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+84,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+85,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+86,Araba,Villabuena de Álava - Eskuernaga,Villabuena de Álava - Eskuernaga,alava,villabuenadealavaeskuernaga,coincidencia_normalizada,1,Villabuena de Álava/Eskuernaga,Álava,01057
+87,Araba,Armiñón,Armiñón,alava,arminon,coincidencia_exacta,1,Armiñón,Álava,01006
+88,Araba,Salinas de Añana (Añana),Añana,alava,anana,coincidencia_exacta,1,Añana,Álava,01049
+89,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+90,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+91,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+92,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+93,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+94,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+95,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+96,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+97,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+98,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+99,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+100,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+101,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+102,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+103,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+104,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+105,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+106,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+107,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+108,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+109,Araba,Ibaiondo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+110,Araba,Urarte (Bernedo),Bernedo,alava,bernedo,coincidencia_exacta,1,Bernedo,Álava,01016
+111,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+112,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+113,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+114,Araba,Labastida - Bastida,Labastida - Bastida,alava,labastidabastida,coincidencia_normalizada,1,Labastida/Bastida,Álava,01028
+115,Araba,Zabalgana (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+116,Araba,Txagorritxu-Gazalbide (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+117,Araba,Llodio - Laudio,Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+118,Araba,Villabuena de Álava - Eskuernaga,Villabuena de Álava - Eskuernaga,alava,villabuenadealavaeskuernaga,coincidencia_normalizada,1,Villabuena de Álava/Eskuernaga,Álava,01057
+119,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+120,Araba,Murgia (Zuia),Zuia,alava,zuia,coincidencia_exacta,1,Zuia,Álava,01063
+121,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+122,Araba,Leza,Leza,alava,leza,coincidencia_exacta,1,Leza,Álava,01034
+123,Araba,Artziniega,Artziniega,alava,artziniega,coincidencia_exacta,1,Artziniega,Álava,01004
+124,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+125,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+126,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+127,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+128,Araba,Desemparados-Judimendi-Santa Lucía (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+129,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+130,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+131,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+132,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+133,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+134,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+135,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+136,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+137,Araba,Elciego,Elciego,alava,elciego,coincidencia_exacta,1,Elciego,Álava,01022
+138,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+139,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+140,Araba,Baños de Ebro - Mañueta,Baños de Ebro - Mañueta,alava,banosdeebromanueta,coincidencia_normalizada,1,Baños de Ebro/Mañueta,Álava,01011
+141,Araba,Areta (Llodio - Laudio),Llodio - Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+142,Araba,Elciego,Elciego,alava,elciego,coincidencia_exacta,1,Elciego,Álava,01022
+143,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+144,Araba,Murgia (Zuia),Zuia,alava,zuia,coincidencia_exacta,1,Zuia,Álava,01063
+145,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+146,Araba,Legutio,Legutio,alava,legutio,coincidencia_exacta,1,Legutio,Álava,01058
+147,Araba,Zona Rural Suroeste (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+148,Araba,Elburgo - Burgelu,Elburgo - Burgelu,alava,elburgoburgelu,coincidencia_normalizada,1,Elburgo/Burgelu,Álava,01021
+149,Araba,Vitoria Gasteiz,Vitoria Gasteiz,alava,vitoriagasteiz,coincidencia_normalizada,1,Vitoria-Gasteiz,Álava,01059
+150,Araba,Zona Rural Noroeste (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+151,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+152,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+153,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+154,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+155,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+156,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+157,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+158,Araba,Aretxabaleta-Gardelegi (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+159,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+160,Araba,Elburgo - Burgelu,Elburgo - Burgelu,alava,elburgoburgelu,coincidencia_normalizada,1,Elburgo/Burgelu,Álava,01021
+161,Araba,Lakua-Arriaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+162,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+163,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+164,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+165,Araba,Assa (Lanciego - Lantziego),Lanciego - Lantziego,alava,lanciegolantziego,coincidencia_normalizada,1,Lanciego/Lantziego,Álava,01032
+166,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+167,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+168,Araba,Lakua Bizkarra (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+169,Araba,Mendizorrotza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+170,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+171,Araba,Zona Rural Suroeste (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+172,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+173,Araba,Maestu   Maeztu (Arraia-Maeztu),Arraia-Maeztu,alava,arraiamaeztu,coincidencia_exacta,1,Arraia-Maeztu,Álava,01037
+174,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+175,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+176,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+177,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+178,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+179,Araba,Betoño (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+180,Araba,Txagorritxu-Gazalbide (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+181,Araba,Lakua Bizkarra (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+182,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+183,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+184,Araba,Llodio Laudio,Llodio Laudio,alava,llodiolaudio,sin_correspondencia,0,,,
+185,Araba,Barrio (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+186,Araba,Sansomendi (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+187,Araba,Ametzaga Zuia (Zuia),Zuia,alava,zuia,coincidencia_exacta,1,Zuia,Álava,01063
+188,Araba,Baños de Ebro - Mañueta,Baños de Ebro - Mañueta,alava,banosdeebromanueta,coincidencia_normalizada,1,Baños de Ebro/Mañueta,Álava,01011
+189,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+190,Araba,Txagorritxu-Gazalbide (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+191,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+192,Araba,Antoñana (Campezo - Kanpezu),Campezo - Kanpezu,alava,campezokanpezu,coincidencia_normalizada,1,Campezo/Kanpezu,Álava,01017
+193,Araba,Ibaiondo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+194,Araba,Berricano (Zigoitia),Zigoitia,alava,zigoitia,coincidencia_exacta,1,Zigoitia,Álava,01018
+195,Araba,Luiaondo (Ayala - Aiara),Ayala - Aiara,alava,ayalaaiara,coincidencia_normalizada,1,Ayala/Aiara,Álava,01010
+196,Araba,Desemparados-Judimendi-Santa Lucía (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+197,Araba,Txagorritxu-Gazalbide (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+198,Araba,Betoño (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+199,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+200,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+201,Araba,Vitoria Gasteiz,Vitoria Gasteiz,alava,vitoriagasteiz,coincidencia_normalizada,1,Vitoria-Gasteiz,Álava,01059
+202,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+203,Araba,Hijona   Ixona (Elburgo - Burgelu),Elburgo - Burgelu,alava,elburgoburgelu,coincidencia_normalizada,1,Elburgo/Burgelu,Álava,01021
+204,Araba,Moreda de Álava,Moreda de Álava,alava,moredadealava,sin_correspondencia,0,,,
+205,Araba,Eribe (Zigoitia),Zigoitia,alava,zigoitia,coincidencia_exacta,1,Zigoitia,Álava,01018
+206,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+207,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+208,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+209,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+210,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+211,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+212,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+213,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+214,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+215,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+216,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+217,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+218,Araba,Bóveda (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+219,Araba,Bóveda (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+220,Araba,Bóveda (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+221,Araba,Bóveda (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+222,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+223,Araba,Izarra (Urkabustaiz),Urkabustaiz,alava,urkabustaiz,coincidencia_exacta,1,Urkabustaiz,Álava,01054
+224,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+225,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+226,Araba,Lakua-Arriaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+227,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+228,Araba,Igay (Ribera Baja - Erriberabeitia),Ribera Baja - Erriberabeitia,alava,riberabajaerriberabeitia,coincidencia_normalizada,1,Ribera Baja/Erriberabeitia,Álava,01047
+229,Araba,Acebedo (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+230,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+231,Araba,Ullivarri Gamboa (Arratzua-Ubarrundia),Arratzua-Ubarrundia,alava,arratzuaubarrundia,coincidencia_exacta,1,Arratzua-Ubarrundia,Álava,01008
+232,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+233,Araba,Acebedo (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+234,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+235,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+236,Araba,Zaramaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+237,Araba,Abetxuko (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+238,Araba,Aranbizkarra-Arantzabela (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+239,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+240,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+241,Araba,Casco Viejo (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+242,Araba,Villaluenga (Erriberagoitia - Ribera Alta),Erriberagoitia - Ribera Alta,alava,erriberagoitiariberaalta,coincidencia_normalizada,1,Erriberagoitia/Ribera Alta,Álava,01046
+243,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+244,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+245,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+246,Araba,Mendizorrotza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+247,Araba,San Cristóbal-Adurtza (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+248,Araba,Arana-El Anglo-Santiago (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+249,Araba,San Martín (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+250,Araba,Zona Rural Este (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+251,Araba,Centro (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+252,Araba,El Pilar (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+253,Araba,Acebedo (Valdegovía - Gaubea),Valdegovía - Gaubea,alava,valdegoviagaubea,coincidencia_normalizada,1,Valdegovía/Gaubea,Álava,01055
+254,Araba,Coronación (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+255,Araba,Lakua-Arriaga (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+256,Araba,Zambrana,Zambrana,alava,zambrana,coincidencia_exacta,1,Zambrana,Álava,01062
+257,Araba,Salburua (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+258,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+259,Gipuzkoa,Behobia-Artia (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+260,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+261,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+262,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+263,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+264,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+265,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+266,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+267,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+268,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+269,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+270,Gipuzkoa,Anaka-San Miguel-El Pinar (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+271,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+272,Gipuzkoa,Olaberria,Olaberria,gipuzkoa,olaberria,coincidencia_exacta,1,Olaberria,Gipuzkoa,20058
+273,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+274,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+275,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+276,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+277,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+278,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+279,Gipuzkoa,Intxaurrondo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+280,Gipuzkoa,Aiete-Miramon (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+281,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+282,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+283,Gipuzkoa,Ategorrieta-Ulia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+284,Gipuzkoa,Asteasu,Asteasu,gipuzkoa,asteasu,coincidencia_exacta,1,Asteasu,Gipuzkoa,20014
+285,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+286,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+287,Gipuzkoa,Lapitze-Belaskoenea-Olaberria-Meaka (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+288,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+289,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+290,Gipuzkoa,Lasarte (Lasarte-Oria),Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+291,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+292,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+293,Gipuzkoa,Urnieta,Urnieta,gipuzkoa,urnieta,coincidencia_exacta,1,Urnieta,Gipuzkoa,20072
+294,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+295,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+296,Gipuzkoa,Elgoibar,Elgoibar,gipuzkoa,elgoibar,coincidencia_exacta,1,Elgoibar,Gipuzkoa,20032
+297,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+298,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+299,Gipuzkoa,Altza (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+300,Gipuzkoa,Altza (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+301,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+302,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+303,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+304,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+305,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+306,Gipuzkoa,Ategorrieta-Ulia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+307,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+308,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+309,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+310,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+311,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+312,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+313,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+314,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+315,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+316,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+317,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+318,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+319,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+320,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+321,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+322,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+323,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+324,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+325,Gipuzkoa,Altza (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+326,Gipuzkoa,Tolosa,Tolosa,gipuzkoa,tolosa,coincidencia_exacta,1,Tolosa,Gipuzkoa,20071
+327,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+328,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+329,Gipuzkoa,Altza (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+330,Gipuzkoa,Bidebieta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+331,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+332,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+333,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+334,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+335,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+336,Gipuzkoa,Ategorrieta-Ulia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+337,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+338,Gipuzkoa,Palmera-Dunboa-Arbes (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+339,Gipuzkoa,Legazpi,Legazpi,gipuzkoa,legazpi,coincidencia_exacta,1,Legazpi,Gipuzkoa,20051
+340,Gipuzkoa,Andoain,Andoain,gipuzkoa,andoain,coincidencia_exacta,1,Andoain,Gipuzkoa,20009
+341,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+342,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+343,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+344,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+345,Gipuzkoa,Aiete-Miramon (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+346,Gipuzkoa,Loiola-Txomin-enea-Martutene (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+347,Gipuzkoa,Aiete-Miramon (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+348,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+349,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+350,Gipuzkoa,Tolosa,Tolosa,gipuzkoa,tolosa,coincidencia_exacta,1,Tolosa,Gipuzkoa,20071
+351,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+352,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+353,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+354,Gipuzkoa,Santa Lucía (Tolosa),Tolosa,gipuzkoa,tolosa,coincidencia_exacta,1,Tolosa,Gipuzkoa,20071
+355,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+356,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+357,Gipuzkoa,Elgoibar,Elgoibar,gipuzkoa,elgoibar,coincidencia_exacta,1,Elgoibar,Gipuzkoa,20032
+358,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+359,Gipuzkoa,Ibaeta-Igeldo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+360,Gipuzkoa,Intxaurrondo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+361,Gipuzkoa,Intxaurrondo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+362,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+363,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+364,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+365,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+366,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+367,Gipuzkoa,Ategorrieta-Ulia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+368,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+369,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+370,Gipuzkoa,Ibaeta-Igeldo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+371,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+372,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+373,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+374,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+375,Gipuzkoa,Anaka-San Miguel-El Pinar (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+376,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+377,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+378,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+379,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+380,Gipuzkoa,Usurbil,Usurbil,gipuzkoa,usurbil,coincidencia_exacta,1,Usurbil,Gipuzkoa,20073
+381,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+382,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+383,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+384,Gipuzkoa,Urnieta,Urnieta,gipuzkoa,urnieta,coincidencia_exacta,1,Urnieta,Gipuzkoa,20072
+385,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+386,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+387,Gipuzkoa,Usurbil,Usurbil,gipuzkoa,usurbil,coincidencia_exacta,1,Usurbil,Gipuzkoa,20073
+388,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+389,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+390,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+391,Gipuzkoa,Loiola-Txomin-enea-Martutene (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+392,Gipuzkoa,Añorga-Zubieta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+393,Gipuzkoa,Beasain,Beasain,gipuzkoa,beasain,coincidencia_exacta,1,Beasain,Gipuzkoa,20019
+394,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+395,Gipuzkoa,Mondragón - Arrasate,Mondragón - Arrasate,gipuzkoa,mondragonarrasate,sin_correspondencia,0,,,
+396,Gipuzkoa,Beasain,Beasain,gipuzkoa,beasain,coincidencia_exacta,1,Beasain,Gipuzkoa,20019
+397,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+398,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+399,Gipuzkoa,Lapitze-Belaskoenea-Olaberria-Meaka (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+400,Gipuzkoa,Behobia-Artia (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+401,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+402,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+403,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+404,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+405,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+406,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+407,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+408,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+409,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+410,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+411,Gipuzkoa,Berastegi,Berastegi,gipuzkoa,berastegi,coincidencia_exacta,1,Berastegi,Gipuzkoa,20022
+412,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+413,Gipuzkoa,Altza (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+414,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+415,Gipuzkoa,Aiete-Miramon (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+416,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+417,Gipuzkoa,Añorga-Zubieta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+418,Gipuzkoa,Iurre (Olaberria),Olaberria,gipuzkoa,olaberria,coincidencia_exacta,1,Olaberria,Gipuzkoa,20058
+419,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+420,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+421,Gipuzkoa,Aldaba (Tolosa),Tolosa,gipuzkoa,tolosa,coincidencia_exacta,1,Tolosa,Gipuzkoa,20071
+422,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+423,Gipuzkoa,Tolosa,Tolosa,gipuzkoa,tolosa,coincidencia_exacta,1,Tolosa,Gipuzkoa,20071
+424,Gipuzkoa,Pasai Antxo (Pasaia),Pasaia,gipuzkoa,pasaia,coincidencia_exacta,1,Pasaia,Gipuzkoa,20064
+425,Gipuzkoa,Intxaurrondo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+426,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+427,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+428,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+429,Gipuzkoa,Anaka-San Miguel-El Pinar (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+430,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+431,Gipuzkoa,Zarautz,Zarautz,gipuzkoa,zarautz,coincidencia_exacta,1,Zarautz,Gipuzkoa,20079
+432,Gipuzkoa,Zarautz,Zarautz,gipuzkoa,zarautz,coincidencia_exacta,1,Zarautz,Gipuzkoa,20079
+433,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+434,Gipuzkoa,Elgoibar,Elgoibar,gipuzkoa,elgoibar,coincidencia_exacta,1,Elgoibar,Gipuzkoa,20032
+435,Gipuzkoa,Elgoibar,Elgoibar,gipuzkoa,elgoibar,coincidencia_exacta,1,Elgoibar,Gipuzkoa,20032
+436,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+437,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+438,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+439,Gipuzkoa,Hernani,Hernani,gipuzkoa,hernani,coincidencia_exacta,1,Hernani,Gipuzkoa,20040
+440,Gipuzkoa,Ataun,Ataun,gipuzkoa,ataun,coincidencia_exacta,1,Ataun,Gipuzkoa,20015
+441,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+442,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+443,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+444,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+445,Gipuzkoa,Astigarribia (Mutriku),Mutriku,gipuzkoa,mutriku,coincidencia_exacta,1,Mutriku,Gipuzkoa,20056
+446,Gipuzkoa,Astigarribia (Mutriku),Mutriku,gipuzkoa,mutriku,coincidencia_exacta,1,Mutriku,Gipuzkoa,20056
+447,Gipuzkoa,Ibaeta-Igeldo (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+448,Gipuzkoa,Antzuola,Antzuola,gipuzkoa,antzuola,coincidencia_exacta,1,Antzuola,Gipuzkoa,20011
+449,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+450,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+451,Gipuzkoa,Beasain,Beasain,gipuzkoa,beasain,coincidencia_exacta,1,Beasain,Gipuzkoa,20019
+452,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+453,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+454,Gipuzkoa,Beasain,Beasain,gipuzkoa,beasain,coincidencia_exacta,1,Beasain,Gipuzkoa,20019
+455,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+456,Gipuzkoa,Anaka-San Miguel-El Pinar (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+457,Gipuzkoa,Deba,Deba,gipuzkoa,deba,coincidencia_exacta,1,Deba,Gipuzkoa,20029
+458,Gipuzkoa,Zumaia,Zumaia,gipuzkoa,zumaia,coincidencia_exacta,1,Zumaia,Gipuzkoa,20081
+459,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+460,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+461,Gipuzkoa,Añorga-Zubieta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+462,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+463,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+464,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+465,Gipuzkoa,Oiartzun,Oiartzun,gipuzkoa,oiartzun,coincidencia_exacta,1,Oiartzun,Gipuzkoa,20063
+466,Gipuzkoa,Zarautz,Zarautz,gipuzkoa,zarautz,coincidencia_exacta,1,Zarautz,Gipuzkoa,20079
+467,Gipuzkoa,Beasain,Beasain,gipuzkoa,beasain,coincidencia_exacta,1,Beasain,Gipuzkoa,20019
+468,Gipuzkoa,Lasarte-Oria,Lasarte-Oria,gipuzkoa,lasarteoria,coincidencia_exacta,1,Lasarte-Oria,Gipuzkoa,20902
+469,Gipuzkoa,Idiazabal,Idiazabal,gipuzkoa,idiazabal,coincidencia_exacta,1,Idiazabal,Gipuzkoa,20043
+470,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+471,Gipuzkoa,Segura,Segura,gipuzkoa,segura,coincidencia_exacta,1,Segura,Gipuzkoa,20070
+472,Gipuzkoa,Zaldibia,Zaldibia,gipuzkoa,zaldibia,coincidencia_exacta,1,Zaldibia,Gipuzkoa,20078
+473,Gipuzkoa,Ormaiztegi,Ormaiztegi,gipuzkoa,ormaiztegi,coincidencia_exacta,1,Ormaiztegi,Gipuzkoa,20062
+474,Gipuzkoa,Bergara,Bergara,gipuzkoa,bergara,coincidencia_exacta,1,Bergara,Gipuzkoa,20074
+475,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+476,Gipuzkoa,Beasain,Beasain,gipuzkoa,beasain,coincidencia_exacta,1,Beasain,Gipuzkoa,20019
+477,Gipuzkoa,Legazpi,Legazpi,gipuzkoa,legazpi,coincidencia_exacta,1,Legazpi,Gipuzkoa,20051
+478,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+479,Gipuzkoa,Anaka-San Miguel-El Pinar (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+480,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+481,Gipuzkoa,Zaldibia,Zaldibia,gipuzkoa,zaldibia,coincidencia_exacta,1,Zaldibia,Gipuzkoa,20078
+482,Gipuzkoa,Añorga-Zubieta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+483,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+484,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+485,Gipuzkoa,Deba,Deba,gipuzkoa,deba,coincidencia_exacta,1,Deba,Gipuzkoa,20029
+486,Gipuzkoa,Bergara,Bergara,gipuzkoa,bergara,coincidencia_exacta,1,Bergara,Gipuzkoa,20074
+487,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+488,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+489,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+490,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+491,Gipuzkoa,Bergara,Bergara,gipuzkoa,bergara,coincidencia_exacta,1,Bergara,Gipuzkoa,20074
+492,Gipuzkoa,Elgoibar,Elgoibar,gipuzkoa,elgoibar,coincidencia_exacta,1,Elgoibar,Gipuzkoa,20032
+493,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+494,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+495,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+496,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+497,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+498,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+499,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+500,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+501,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+502,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+503,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+504,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+505,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+506,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+507,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+508,Gipuzkoa,Azkoitia,Azkoitia,gipuzkoa,azkoitia,coincidencia_exacta,1,Azkoitia,Gipuzkoa,20017
+509,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+510,Gipuzkoa,Lazkao,Lazkao,gipuzkoa,lazkao,coincidencia_exacta,1,Lazkao,Gipuzkoa,20049
+511,Gipuzkoa,Bergara,Bergara,gipuzkoa,bergara,coincidencia_exacta,1,Bergara,Gipuzkoa,20074
+512,Gipuzkoa,Elgoibar,Elgoibar,gipuzkoa,elgoibar,coincidencia_exacta,1,Elgoibar,Gipuzkoa,20032
+513,Gipuzkoa,Lapitze-Belaskoenea-Olaberria-Meaka (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+514,Gipuzkoa,Arrona (Zestoa),Zestoa,gipuzkoa,zestoa,coincidencia_exacta,1,Zestoa,Gipuzkoa,20027
+515,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+516,Gipuzkoa,Miraconcha (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+517,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+518,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+519,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+520,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+521,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+522,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+523,Gipuzkoa,Riberas de Loiola (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+524,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+525,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+526,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+527,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+528,Bizkaia,Centro (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+529,Bizkaia,Las Viñas (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+530,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+531,Bizkaia,Centro (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+532,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+533,Bizkaia,Mamariga-La Sardinera (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+534,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+535,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+536,Bizkaia,Zaratamo,Zaratamo,bizkaia,zaratamo,coincidencia_exacta,1,Zaratamo,Bizkaia,48097
+537,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+538,Bizkaia,Bolueta (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+539,Bizkaia,Txabarri-Kueto (Sestao),Sestao,bizkaia,sestao,coincidencia_exacta,1,Sestao,Bizkaia,48084
+540,Bizkaia,Ariz-Soloarte (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+541,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+542,Bizkaia,Begoña (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+543,Bizkaia,Santurtziko Parkea-Txitxarra (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+544,Bizkaia,Santurtziko Parkea-Txitxarra (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+545,Bizkaia,Mamariga-La Sardinera (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+546,Bizkaia,Lutxana-Llano (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+547,Bizkaia,Cruces (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+548,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+549,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+550,Bizkaia,Bolueta (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+551,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+552,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+553,Bizkaia,Durango,Durango,bizkaia,durango,coincidencia_exacta,1,Durango,Bizkaia,48027
+554,Bizkaia,Centro-Arizgoiti (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+555,Bizkaia,Otxandio,Otxandio,bizkaia,otxandio,coincidencia_exacta,1,Otxandio,Bizkaia,48072
+556,Bizkaia,Barrika,Barrika,bizkaia,barrika,coincidencia_exacta,1,Barrika,Bizkaia,48014
+557,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+558,Bizkaia,Iturrialde (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+559,Bizkaia,Iralabarri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+560,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+561,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+562,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+563,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+564,Bizkaia,Iralabarri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+565,Bizkaia,Muncharaz (Abadiño),Abadiño,bizkaia,abadino,coincidencia_exacta,1,Abadiño,Bizkaia,48001
+566,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+567,Bizkaia,Andra Mari (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+568,Bizkaia,Kalero-Basozelai (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+569,Bizkaia,Albiz-Markonzaga (Sestao),Sestao,bizkaia,sestao,coincidencia_exacta,1,Sestao,Bizkaia,48084
+570,Bizkaia,Berango,Berango,bizkaia,berango,coincidencia_exacta,1,Berango,Bizkaia,48016
+571,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+572,Bizkaia,Cruces (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+573,Bizkaia,Urbi (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+574,Bizkaia,Kabiezes (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+575,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+576,Bizkaia,Ariz-Soloarte (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+577,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+578,Bizkaia,Bilbo Zaharra (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+579,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+580,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+581,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+582,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+583,Bizkaia,Lasesarre (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+584,Bizkaia,San Juan-La Magdalena (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+585,Bizkaia,San Juan-La Magdalena (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+586,Bizkaia,Andra Mari (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+587,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+588,Bizkaia,Uretamendi-Iturrigorri-Peñascal (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+589,Bizkaia,Alde Zaharra-Portu (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+590,Bizkaia,Berango,Berango,bizkaia,berango,coincidencia_exacta,1,Berango,Bizkaia,48016
+591,Bizkaia,Goicolegea (Larrabetzu),Larrabetzu,bizkaia,larrabetzu,coincidencia_exacta,1,Larrabetzu,Bizkaia,48052
+592,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+593,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+594,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+595,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+596,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+597,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+598,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+599,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+600,Bizkaia,Plentzia,Plentzia,bizkaia,plentzia,coincidencia_exacta,1,Plentzia,Bizkaia,48077
+601,Bizkaia,Lasesarre (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+602,Bizkaia,Centro (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+603,Bizkaia,Mimétiz (Zalla),Zalla,bizkaia,zalla,coincidencia_exacta,1,Zalla,Bizkaia,48096
+604,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+605,Bizkaia,Zalla,Zalla,bizkaia,zalla,coincidencia_exacta,1,Zalla,Bizkaia,48096
+606,Bizkaia,Arcocha (Zaratamo),Zaratamo,bizkaia,zaratamo,coincidencia_exacta,1,Zaratamo,Bizkaia,48097
+607,Bizkaia,Barakaldo,Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+608,Bizkaia,Barakaldo,Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+609,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+610,Bizkaia,Artzentales,Artzentales,bizkaia,artzentales,coincidencia_exacta,1,Artzentales,Bizkaia,48008
+611,Bizkaia,Plentzia,Plentzia,bizkaia,plentzia,coincidencia_exacta,1,Plentzia,Bizkaia,48077
+612,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+613,Bizkaia,Txurdinaga (Distrito Otxarkoaga-Txurdinaga. Bilbao),Distrito Otxarkoaga-Txurdinaga. Bilbao,bizkaia,distritootxarkoagatxurdinagabilbao,sin_correspondencia,0,,,
+614,Bizkaia,Begoña (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+615,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+616,Bizkaia,Centro (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+617,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+618,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+619,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+620,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+621,Bizkaia,Durango,Durango,bizkaia,durango,coincidencia_exacta,1,Durango,Bizkaia,48027
+622,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+623,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+624,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+625,Bizkaia,Lamiaco (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+626,Bizkaia,Zorrotza (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+627,Bizkaia,Zelaia (Mendexa),Mendexa,bizkaia,mendexa,coincidencia_exacta,1,Mendexa,Bizkaia,48063
+628,Bizkaia,Berango,Berango,bizkaia,berango,coincidencia_exacta,1,Berango,Bizkaia,48016
+629,Bizkaia,San Miguel (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+630,Bizkaia,San Miguel (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+631,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+632,Bizkaia,Centro-Arizgoiti (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+633,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+634,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+635,Bizkaia,Cruces (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+636,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+637,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+638,Bizkaia,Larrauri (Mungia),Mungia,bizkaia,mungia,coincidencia_exacta,1,Mungia,Bizkaia,48069
+639,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+640,Bizkaia,Miribilla (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+641,Bizkaia,Berango,Berango,bizkaia,berango,coincidencia_exacta,1,Berango,Bizkaia,48016
+642,Bizkaia,Centro-Arizgoiti (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+643,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+644,Bizkaia,Amorebieta (Amorebieta-Etxano),Amorebieta-Etxano,bizkaia,amorebietaetxano,coincidencia_exacta,1,Amorebieta-Etxano,Bizkaia,48003
+645,Bizkaia,Castaños (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+646,Bizkaia,Ibaizabal-Abusu (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+647,Bizkaia,Centro (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+648,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+649,Bizkaia,Txurdinaga (Distrito Otxarkoaga-Txurdinaga. Bilbao),Distrito Otxarkoaga-Txurdinaga. Bilbao,bizkaia,distritootxarkoagatxurdinagabilbao,sin_correspondencia,0,,,
+650,Bizkaia,Arrankudiaga (Arrankudiaga-Zollo),Arrankudiaga-Zollo,bizkaia,arrankudiagazollo,coincidencia_exacta,1,Arrankudiaga-Zollo,Bizkaia,48009
+651,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+652,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+653,Bizkaia,Errekaldeberri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+654,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+655,Bizkaia,Igorre,Igorre,bizkaia,igorre,coincidencia_exacta,1,Igorre,Bizkaia,48094
+656,Bizkaia,Plentzia,Plentzia,bizkaia,plentzia,coincidencia_exacta,1,Plentzia,Bizkaia,48077
+657,Bizkaia,Txurdinaga (Distrito Otxarkoaga-Txurdinaga. Bilbao),Distrito Otxarkoaga-Txurdinaga. Bilbao,bizkaia,distritootxarkoagatxurdinagabilbao,sin_correspondencia,0,,,
+658,Bizkaia,Ibaizabal-Abusu (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+659,Bizkaia,Durango,Durango,bizkaia,durango,coincidencia_exacta,1,Durango,Bizkaia,48027
+660,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+661,Bizkaia,Kalero-Basozelai (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+662,Bizkaia,Ariz-Soloarte (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+663,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+664,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+665,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+666,Bizkaia,Ibaiondo (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+667,Bizkaia,Gorliz,Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+668,Bizkaia,Durango,Durango,bizkaia,durango,coincidencia_exacta,1,Durango,Bizkaia,48027
+669,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+670,Bizkaia,Solokoetxe (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+671,Bizkaia,San Frantzisko (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+672,Bizkaia,Solokoetxe (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+673,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+674,Bizkaia,Kabiezes (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+675,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+676,Bizkaia,Santurtziko Parkea-Txitxarra (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+677,Bizkaia,Lutxana-Llano (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+678,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+679,Bizkaia,Mamariga-La Sardinera (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+680,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+681,Bizkaia,Zabaloetxe (Loiu),Loiu,bizkaia,loiu,coincidencia_exacta,1,Loiu,Bizkaia,48903
+682,Bizkaia,Arangoiti (Distrito Deustu. Bilbao),Distrito Deustu. Bilbao,bizkaia,distritodeustubilbao,sin_correspondencia,0,,,
+683,Bizkaia,Astrabudúa (Erandio),Erandio,bizkaia,erandio,coincidencia_exacta,1,Erandio,Bizkaia,48902
+684,Bizkaia,Zurbaran-Arabella (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+685,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+686,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+687,Bizkaia,Santurtziko Parkea-Txitxarra (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+688,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+689,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+690,Bizkaia,Lasesarre (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+691,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+692,Bizkaia,Centro (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+693,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+694,Bizkaia,Centro (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+695,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+696,Bizkaia,Astrabudúa (Erandio),Erandio,bizkaia,erandio,coincidencia_exacta,1,Erandio,Bizkaia,48902
+697,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+698,Bizkaia,Centro (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+699,Bizkaia,Errepelega (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+700,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+701,Bizkaia,Txabarri-Kueto (Sestao),Sestao,bizkaia,sestao,coincidencia_exacta,1,Sestao,Bizkaia,48084
+702,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+703,Bizkaia,Gernika-Lumo,Gernika-Lumo,bizkaia,gernikalumo,coincidencia_exacta,1,Gernika-Lumo,Bizkaia,48046
+704,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+705,Bizkaia,Arrankudiaga (Arrankudiaga-Zollo),Arrankudiaga-Zollo,bizkaia,arrankudiagazollo,coincidencia_exacta,1,Arrankudiaga-Zollo,Bizkaia,48009
+706,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+707,Bizkaia,Las Viñas (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+708,Bizkaia,Errepelega (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+709,Bizkaia,Kabiezes (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+710,Bizkaia,Uribarri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+711,Bizkaia,Mimétiz (Zalla),Zalla,bizkaia,zalla,coincidencia_exacta,1,Zalla,Bizkaia,48096
+712,Bizkaia,Txabarri-Kueto (Sestao),Sestao,bizkaia,sestao,coincidencia_exacta,1,Sestao,Bizkaia,48084
+713,Bizkaia,Buenavista (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+714,Bizkaia,Errepelega (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+715,Bizkaia,Galdakao,Galdakao,bizkaia,galdakao,coincidencia_exacta,1,Galdakao,Bizkaia,48036
+716,Bizkaia,Usansolo,Usansolo,bizkaia,usansolo,sin_correspondencia,0,,,
+717,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+718,Bizkaia,Abandoibarra-Guggenheim (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+719,Bizkaia,Rontegui-Pormetxeta (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+720,Bizkaia,Bilbao,Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+721,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+722,Bizkaia,Urduña - Orduña,Urduña - Orduña,bizkaia,urdunaorduna,coincidencia_normalizada,1,Urduña/Orduña,Bizkaia,48074
+723,Bizkaia,Peñota-San Juan de Dios (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+724,Bizkaia,Centro (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+725,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+726,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+727,Bizkaia,Barrika,Barrika,bizkaia,barrika,coincidencia_exacta,1,Barrika,Bizkaia,48014
+728,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+729,Bizkaia,Bermeo,Bermeo,bizkaia,bermeo,coincidencia_exacta,1,Bermeo,Bizkaia,48017
+730,Bizkaia,Albiz-Markonzaga (Sestao),Sestao,bizkaia,sestao,coincidencia_exacta,1,Sestao,Bizkaia,48084
+731,Bizkaia,San Juan-La Magdalena (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+732,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+733,Bizkaia,Forua,Forua,bizkaia,forua,coincidencia_exacta,1,Forua,Bizkaia,48906
+734,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+735,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+736,Bizkaia,Cruces (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+737,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+738,Bizkaia,Gandia (Gorliz),Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+739,Bizkaia,Mimétiz (Zalla),Zalla,bizkaia,zalla,coincidencia_exacta,1,Zalla,Bizkaia,48096
+740,Bizkaia,Aranguren (Zalla),Zalla,bizkaia,zalla,coincidencia_exacta,1,Zalla,Bizkaia,48096
+741,Bizkaia,Amorebieta (Amorebieta-Etxano),Amorebieta-Etxano,bizkaia,amorebietaetxano,coincidencia_exacta,1,Amorebieta-Etxano,Bizkaia,48003
+742,Bizkaia,Aranguren (Zalla),Zalla,bizkaia,zalla,coincidencia_exacta,1,Zalla,Bizkaia,48096
+743,Bizkaia,Mungia,Mungia,bizkaia,mungia,coincidencia_exacta,1,Mungia,Bizkaia,48069
+744,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+745,Bizkaia,Bermeo,Bermeo,bizkaia,bermeo,coincidencia_exacta,1,Bermeo,Bizkaia,48017
+746,Bizkaia,Bermeo,Bermeo,bizkaia,bermeo,coincidencia_exacta,1,Bermeo,Bizkaia,48017
+747,Bizkaia,Güeñes,Güeñes,bizkaia,guenes,coincidencia_exacta,1,Güeñes,Bizkaia,48045
+748,Bizkaia,Bermeo,Bermeo,bizkaia,bermeo,coincidencia_exacta,1,Bermeo,Bizkaia,48017
+749,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+750,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+751,Bizkaia,Gandia (Gorliz),Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+752,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+753,Bizkaia,Ortuella,Ortuella,bizkaia,ortuella,coincidencia_exacta,1,Ortuella,Bizkaia,48083
+754,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+755,Bizkaia,Alonsotegui (Alonsotegi),Alonsotegi,bizkaia,alonsotegi,coincidencia_exacta,1,Alonsotegi,Bizkaia,48912
+756,Bizkaia,Plentzia,Plentzia,bizkaia,plentzia,coincidencia_exacta,1,Plentzia,Bizkaia,48077
+757,Bizkaia,Barrika,Barrika,bizkaia,barrika,coincidencia_exacta,1,Barrika,Bizkaia,48014
+758,Bizkaia,Astrabudúa (Erandio),Erandio,bizkaia,erandio,coincidencia_exacta,1,Erandio,Bizkaia,48902
+759,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+760,Bizkaia,Cruces (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+761,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+762,Bizkaia,Txurdinaga (Distrito Otxarkoaga-Txurdinaga. Bilbao),Distrito Otxarkoaga-Txurdinaga. Bilbao,bizkaia,distritootxarkoagatxurdinagabilbao,sin_correspondencia,0,,,
+763,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+764,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+765,Bizkaia,Ibaizabal-Abusu (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+766,Bizkaia,Errepelega (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+767,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+768,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+769,Bizkaia,Busturia,Busturia,bizkaia,busturia,coincidencia_exacta,1,Busturia,Bizkaia,48021
+770,Bizkaia,Markina-Xemein,Markina-Xemein,bizkaia,markinaxemein,coincidencia_exacta,1,Markina-Xemein,Bizkaia,48060
+771,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+772,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+773,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+774,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+775,Bizkaia,Pozokoetxe (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+776,Bizkaia,Altamira (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+777,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+778,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+779,Bizkaia,Plentzia,Plentzia,bizkaia,plentzia,coincidencia_exacta,1,Plentzia,Bizkaia,48077
+780,Bizkaia,Urduliz,Urduliz,bizkaia,urduliz,coincidencia_exacta,1,Urduliz,Bizkaia,48089
+781,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+782,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+783,Bizkaia,Arcocha (Zaratamo),Zaratamo,bizkaia,zaratamo,coincidencia_exacta,1,Zaratamo,Bizkaia,48097
+784,Bizkaia,Arrigorriaga,Arrigorriaga,bizkaia,arrigorriaga,coincidencia_exacta,1,Arrigorriaga,Bizkaia,48011
+785,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+786,Bizkaia,Mundaka,Mundaka,bizkaia,mundaka,coincidencia_exacta,1,Mundaka,Bizkaia,48068
+787,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+788,Bizkaia,Bakio,Bakio,bizkaia,bakio,coincidencia_exacta,1,Bakio,Bizkaia,48012
+789,Bizkaia,Centro (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+790,Bizkaia,Zabala (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+791,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+792,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+793,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+794,Bizkaia,Bolueta (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+795,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+796,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+797,Bizkaia,Larrabetzu,Larrabetzu,bizkaia,larrabetzu,coincidencia_exacta,1,Larrabetzu,Bizkaia,48052
+798,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+799,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+800,Bizkaia,Andra Mari (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+801,Bizkaia,Kalero-Basozelai (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+802,Bizkaia,Bagatza-San Vicente (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+803,Bizkaia,Errepelega (Portugalete),Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+804,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+805,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+806,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+807,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+808,Bizkaia,Andra Mari (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+809,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+810,Bizkaia,Berreaga (Mungia),Mungia,bizkaia,mungia,coincidencia_exacta,1,Mungia,Bizkaia,48069
+811,Bizkaia,Solokoetxe (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+812,Bizkaia,Ibarrangelu,Ibarrangelu,bizkaia,ibarrangelu,coincidencia_exacta,1,Ibarrangelu,Bizkaia,48048
+813,Bizkaia,Urduña - Orduña,Urduña - Orduña,bizkaia,urdunaorduna,coincidencia_normalizada,1,Urduña/Orduña,Bizkaia,48074
+814,Bizkaia,Lutxana-Llano (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+815,Bizkaia,Bolueta (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+816,Bizkaia,Durango,Durango,bizkaia,durango,coincidencia_exacta,1,Durango,Bizkaia,48027
+817,Bizkaia,Bolueta (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+818,Bizkaia,Iralabarri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+819,Bizkaia,Errekaldeberri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+820,Bizkaia,Olabeaga (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+821,Bizkaia,Kalero-Basozelai (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+822,Bizkaia,Ariz-Soloarte (Basauri),Basauri,bizkaia,basauri,coincidencia_exacta,1,Basauri,Bizkaia,48015
+823,Bizkaia,Ibarra (Orozko),Orozko,bizkaia,orozko,coincidencia_exacta,1,Orozko,Bizkaia,48075
+824,Araba,Lovaina (Vitoria - Gasteiz),Vitoria - Gasteiz,alava,vitoriagasteiz,coincidencia_exacta,1,Vitoria-Gasteiz,Álava,01059
+825,Araba,Okondo,Okondo,alava,okondo,coincidencia_exacta,1,Okondo,Álava,01042
+826,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+827,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+828,Gipuzkoa,Egia (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+829,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+830,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+831,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+832,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+833,Gipuzkoa,Antiguo Ondarreta (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+834,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+835,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+836,Gipuzkoa,Parte Vieja-Alde Zaharra (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+837,Gipuzkoa,Centro (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+838,Gipuzkoa,Deba,Deba,gipuzkoa,deba,coincidencia_exacta,1,Deba,Gipuzkoa,20029
+839,Gipuzkoa,Gros (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+840,Gipuzkoa,Amara Berri (San Sebastián - Donostia),San Sebastián - Donostia,gipuzkoa,sansebastiandonostia,sin_correspondencia,0,,,
+841,Gipuzkoa,Camping Oliden (Lezo),Lezo,gipuzkoa,lezo,coincidencia_exacta,1,Lezo,Gipuzkoa,20053
+842,Gipuzkoa,Soraluze-Placencia de las Armas,Soraluze-Placencia de las Armas,gipuzkoa,soraluzeplacenciadelasarmas,coincidencia_exacta,1,Soraluze-Placencia de las Armas,Gipuzkoa,20065
+843,Gipuzkoa,Eibar,Eibar,gipuzkoa,eibar,coincidencia_exacta,1,Eibar,Gipuzkoa,20030
+844,Gipuzkoa,Erdialdea-Alde Zaharra-Mendibil-Santiago (Irun),Irun,gipuzkoa,irun,coincidencia_exacta,1,Irun,Gipuzkoa,20045
+845,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+846,Gipuzkoa,Hondarribia,Hondarribia,gipuzkoa,hondarribia,coincidencia_exacta,1,Hondarribia,Gipuzkoa,20036
+847,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+848,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+849,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+850,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+851,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+852,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+853,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+854,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+855,Bizkaia,Gandia (Gorliz),Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+856,Bizkaia,Andra Mari (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+857,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+858,Bizkaia,Gorliz,Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+859,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+860,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+861,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+862,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+863,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+864,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+865,Bizkaia,Doneperiaga-Deustuibarra San Pedro-La Ribera (Distrito Deustu. Bilbao),Distrito Deustu. Bilbao,bizkaia,distritodeustubilbao,sin_correspondencia,0,,,
+866,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+867,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+868,Bizkaia,Abando (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+869,Bizkaia,Castaños (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+870,Bizkaia,Matiko-Loruri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+871,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+872,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+873,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+874,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+875,Bizkaia,Gorliz,Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+876,Bizkaia,Busturia,Busturia,bizkaia,busturia,coincidencia_exacta,1,Busturia,Bizkaia,48021
+877,Bizkaia,Abandoibarra-Guggenheim (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+878,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+879,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+880,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+881,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+882,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+883,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+884,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+885,Bizkaia,Matiko-Loruri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+886,Bizkaia,Bilbo Zaharra (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+887,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+888,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+889,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+890,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+891,Bizkaia,Abando (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+892,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+893,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+894,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+895,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+896,Bizkaia,Santutxu (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+897,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+898,Bizkaia,Altamira (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+899,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+900,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+901,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+902,Bizkaia,Bermeo,Bermeo,bizkaia,bermeo,coincidencia_exacta,1,Bermeo,Bizkaia,48017
+903,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+904,Bizkaia,Meñaka,Meñaka,bizkaia,menaka,coincidencia_exacta,1,Meñaka,Bizkaia,48064
+905,Bizkaia,Abandoibarra-Guggenheim (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+906,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+907,Bizkaia,Iralabarri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+908,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+909,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+910,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+911,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+912,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+913,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+914,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+915,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+916,Bizkaia,Masustegi-Mintegitxueta (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+917,Bizkaia,Plentzia,Plentzia,bizkaia,plentzia,coincidencia_exacta,1,Plentzia,Bizkaia,48077
+918,Bizkaia,Matiko-Loruri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+919,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+920,Bizkaia,Matiko-Loruri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+921,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+922,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+923,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+924,Bizkaia,Castaños (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+925,Bizkaia,Busturia,Busturia,bizkaia,busturia,coincidencia_exacta,1,Busturia,Bizkaia,48021
+926,Bizkaia,Santurtziko Parkea-Txitxarra (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+927,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+928,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+929,Bizkaia,Matiko-Loruri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+930,Bizkaia,Bilbo Zaharra (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+931,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+932,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+933,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+934,Bizkaia,Ibaizabal-Abusu (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+935,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+936,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+937,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+938,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+939,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+940,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+941,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+942,Bizkaia,Gandia (Gorliz),Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+943,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+944,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+945,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+946,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+947,Bizkaia,Begoña (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+948,Bizkaia,Begoña (Distrito Begoña-Santutxu. Bilbao),Distrito Begoña-Santutxu. Bilbao,bizkaia,distritobegonasantutxubilbao,sin_correspondencia,0,,,
+949,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+950,Bizkaia,Mamariga-La Sardinera (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+951,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+952,Bizkaia,Zabala (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+953,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+954,Bizkaia,Iralabarri (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+955,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+956,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+957,Bizkaia,El Castaño (Sopuerta),Sopuerta,bizkaia,sopuerta,coincidencia_exacta,1,Sopuerta,Bizkaia,48086
+958,Bizkaia,Alonsotegui (Alonsotegi),Alonsotegi,bizkaia,alonsotegi,coincidencia_exacta,1,Alonsotegi,Bizkaia,48912
+959,Bizkaia,Peñota-San Juan de Dios (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+960,Bizkaia,Indautxu (Bilbao),Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+961,Bizkaia,Berango,Berango,bizkaia,berango,coincidencia_exacta,1,Berango,Bizkaia,48016
+962,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+963,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+964,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+965,Bizkaia,Matiko-Loruri (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+966,Bizkaia,Zurbaran-Arabella (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+967,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+968,Bizkaia,Gandia (Gorliz),Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+969,Bizkaia,Abando Hurtado de Amézaga (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+970,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+971,Bizkaia,Castaños (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+972,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+973,Bizkaia,San Mamés (Zierbena),Zierbena,bizkaia,zierbena,coincidencia_exacta,1,Zierbena,Bizkaia,48913
+974,Bizkaia,Larrabasterra (Sopela),Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+975,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+976,Bizkaia,Abando Ensanche (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+977,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+978,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+979,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+980,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+981,Bizkaia,Basurtu (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+982,Bizkaia,Valle de Trapagaran (Trapagaran),Trapagaran,bizkaia,trapagaran,sin_correspondencia,0,,,
+983,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+984,Bizkaia,Doneperiaga-Deustuibarra San Pedro-La Ribera (Distrito Deustu. Bilbao),Distrito Deustu. Bilbao,bizkaia,distritodeustubilbao,sin_correspondencia,0,,,
+985,Bizkaia,Masustegi-Mintegitxueta (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+986,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+987,Bizkaia,Gorliz,Gorliz,bizkaia,gorliz,coincidencia_exacta,1,Gorliz,Bizkaia,48043
+988,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+989,Bizkaia,Santurtziko Parkea-Txitxarra (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+990,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+991,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+992,Bizkaia,Arteagabeitia-Retuerto-Kareaga (Barakaldo),Barakaldo,bizkaia,barakaldo,coincidencia_exacta,1,Barakaldo,Bizkaia,48013
+993,Bizkaia,Larrauri (Mungia),Mungia,bizkaia,mungia,coincidencia_exacta,1,Mungia,Bizkaia,48069
+994,Bizkaia,Casco Viejo - Zazpi Kaleak (Distrito Ibaiondo. Bilbao),Distrito Ibaiondo. Bilbao,bizkaia,distritoibaiondobilbao,sin_correspondencia,0,,,
+995,Bizkaia,Peñota-San Juan de Dios (Santurtzi),Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+996,Bizkaia,Abandoibarra-Guggenheim (Distrito Abando. Bilbao),Distrito Abando. Bilbao,bizkaia,distritoabandobilbao,sin_correspondencia,0,,,
+997,Bizkaia,Zurbaran-Arabella (Distrito Uribarri. Bilbao),Distrito Uribarri. Bilbao,bizkaia,distritouribarribilbao,sin_correspondencia,0,,,
+998,Bizkaia,Campa (Urduliz),Urduliz,bizkaia,urduliz,coincidencia_exacta,1,Urduliz,Bizkaia,48089
+999,Bizkaia,Valle de Trapagaran (Trapagaran),Trapagaran,bizkaia,trapagaran,sin_correspondencia,0,,,
+1000,Bizkaia,Ametzola (Distrito Errekalde. Bilbao),Distrito Errekalde. Bilbao,bizkaia,distritoerrekaldebilbao,sin_correspondencia,0,,,
+1001,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+1002,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1003,Bizkaia,Arteaga (Derio),Derio,bizkaia,derio,coincidencia_exacta,1,Derio,Bizkaia,48901
+1004,Bizkaia,Altamira (Distrito Basurtu-Zorrotza. Bilbao),Distrito Basurtu-Zorrotza. Bilbao,bizkaia,distritobasurtuzorrotzabilbao,sin_correspondencia,0,,,
+1005,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+1006,Bizkaia,Andra Mari (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1007,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1008,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1009,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+1010,Bizkaia,Mañaria,Mañaria,bizkaia,manaria,coincidencia_exacta,1,Mañaria,Bizkaia,48059
+1011,Bizkaia,Abadiño,Abadiño,bizkaia,abadino,coincidencia_exacta,1,Abadiño,Bizkaia,48001
+1012,Bizkaia,Santurtzi,Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+1013,Bizkaia,Artaza (Leioa),Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+1014,Bizkaia,Bilbao,Bilbao,bizkaia,bilbao,coincidencia_exacta,1,Bilbao,Bizkaia,48020
+1015,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1016,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1017,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1018,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1019,Bizkaia,Santurtzi,Santurtzi,bizkaia,santurtzi,coincidencia_exacta,1,Santurtzi,Bizkaia,48082
+1020,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1021,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+1022,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1023,Bizkaia,Portugalete,Portugalete,bizkaia,portugalete,coincidencia_exacta,1,Portugalete,Bizkaia,48078
+1024,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1025,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1026,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1027,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1028,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1029,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+1030,Bizkaia,Leioa,Leioa,bizkaia,leioa,coincidencia_exacta,1,Leioa,Bizkaia,48054
+1031,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1032,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1033,Bizkaia,Neguri-Aiboa (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1034,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1035,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1036,Bizkaia,Algorta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1037,Bizkaia,Getxo,Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1038,Bizkaia,Areeta (Getxo),Getxo,bizkaia,getxo,coincidencia_exacta,1,Getxo,Bizkaia,48044
+1039,Bizkaia,Lekeitio,Lekeitio,bizkaia,lekeitio,coincidencia_exacta,1,Lekeitio,Bizkaia,48057
+1040,Bizkaia,Zierbena,Zierbena,bizkaia,zierbena,coincidencia_exacta,1,Zierbena,Bizkaia,48913
+1041,Bizkaia,Sopela,Sopela,bizkaia,sopela,coincidencia_exacta,1,Sopela,Bizkaia,48085
+1042,Bizkaia,Zierbena,Zierbena,bizkaia,zierbena,coincidencia_exacta,1,Zierbena,Bizkaia,48913

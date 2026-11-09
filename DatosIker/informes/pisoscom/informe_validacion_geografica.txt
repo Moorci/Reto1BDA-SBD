@@ -1,0 +1,92 @@
+=================================================================
+INFORME DE VALIDACIÓN GEOGRÁFICA - PISOS.COM
+=================================================================
+Fecha de ejecución: 2026-11-06 19:11:50
+
+ARCHIVOS ANALIZADOS
+Anuncios Pisos.com: 1041
+Registros catálogo Fotocasa: 252
+Municipios validados en catálogo: 251
+
+RESULTADOS DE CORRESPONDENCIA
+Coincidencias exactas: 666
+Coincidencias normalizadas: 47
+Total con correspondencia única: 713
+Sin correspondencia: 328
+Coincidencias ambiguas: 0
+
+PROVINCIAS EN PISOS.COM
+Bizkaia: 495
+Gipuzkoa: 288
+Araba: 258
+
+ESTADOS DE VALIDACIÓN
+coincidencia_exacta: 666
+sin_correspondencia: 328
+coincidencia_normalizada: 47
+
+LOCALIDADES PENDIENTES
+Araba | Iruña de Oca - Iruña Oka | sin_correspondencia | 1 anuncios
+Araba | Llodio - Laudio | sin_correspondencia | 3 anuncios
+Araba | Llodio - Laudio | sin_correspondencia | 5 anuncios
+Araba | Llodio Laudio | sin_correspondencia | 1 anuncios
+Araba | Moreda de Álava | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Abando. Bilbao | sin_correspondencia | 28 anuncios
+Bizkaia | Distrito Abando. Bilbao | sin_correspondencia | 17 anuncios
+Bizkaia | Distrito Abando. Bilbao | sin_correspondencia | 4 anuncios
+Bizkaia | Distrito Basurtu-Zorrotza. Bilbao | sin_correspondencia | 3 anuncios
+Bizkaia | Distrito Basurtu-Zorrotza. Bilbao | sin_correspondencia | 14 anuncios
+Bizkaia | Distrito Basurtu-Zorrotza. Bilbao | sin_correspondencia | 2 anuncios
+Bizkaia | Distrito Basurtu-Zorrotza. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Basurtu-Zorrotza. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Begoña-Santutxu. Bilbao | sin_correspondencia | 4 anuncios
+Bizkaia | Distrito Begoña-Santutxu. Bilbao | sin_correspondencia | 5 anuncios
+Bizkaia | Distrito Begoña-Santutxu. Bilbao | sin_correspondencia | 13 anuncios
+Bizkaia | Distrito Deustu. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Deustu. Bilbao | sin_correspondencia | 2 anuncios
+Bizkaia | Distrito Errekalde. Bilbao | sin_correspondencia | 9 anuncios
+Bizkaia | Distrito Errekalde. Bilbao | sin_correspondencia | 2 anuncios
+Bizkaia | Distrito Errekalde. Bilbao | sin_correspondencia | 5 anuncios
+Bizkaia | Distrito Errekalde. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 3 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 21 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 4 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 3 anuncios
+Bizkaia | Distrito Ibaiondo. Bilbao | sin_correspondencia | 2 anuncios
+Bizkaia | Distrito Otxarkoaga-Txurdinaga. Bilbao | sin_correspondencia | 4 anuncios
+Bizkaia | Distrito Uribarri. Bilbao | sin_correspondencia | 4 anuncios
+Bizkaia | Distrito Uribarri. Bilbao | sin_correspondencia | 6 anuncios
+Bizkaia | Distrito Uribarri. Bilbao | sin_correspondencia | 1 anuncios
+Bizkaia | Distrito Uribarri. Bilbao | sin_correspondencia | 3 anuncios
+Bizkaia | Trapagaran | sin_correspondencia | 2 anuncios
+Bizkaia | Usansolo | sin_correspondencia | 1 anuncios
+Gipuzkoa | Mondragón - Arrasate | sin_correspondencia | 1 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 4 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 5 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 13 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 18 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 4 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 4 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 1 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 32 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 11 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 20 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 3 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 4 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 2 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 9 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 16 anuncios
+Gipuzkoa | San Sebastián - Donostia | sin_correspondencia | 1 anuncios
+
+OBSERVACIONES
+- Los archivos originales no se han modificado.
+- Los nombres se han normalizado solo para comparar.
+- Los códigos municipales se han conservado como texto.
+- No se han asignado códigos en coincidencias ambiguas o sin correspondencia.
+- Una coincidencia normalizada no demuestra por sí sola que la localidad sea correcta.
+- La validación definitiva requiere revisar las localidades pendientes.
+
+=================================================================

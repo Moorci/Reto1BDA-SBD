@@ -1,0 +1,901 @@
+[{"COD":"EAES399", "Nombre":"Ambos sexos. Todas las edades. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15668, "T3_Variable":"Totales de edad", "Nombre":"Todas las edades", "Codigo":""}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":29540.26}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":28049.94}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":26948.87}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":25896.82}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":25165.51}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":24395.98}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":24009.12}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":23646.5}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":23156.34}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":23106.3}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":22858.17}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":22697.86}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22726.44}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22899.35}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22790.2}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":22511.47}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":21883.42}
+]
+}
+,{"COD":"EAES387", "Nombre":"Mujeres. Todas las edades. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15668, "T3_Variable":"Totales de edad", "Nombre":"Todas las edades", "Codigo":""}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":26904.9}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":25591.31}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":24359.82}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":23175.95}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":22467.48}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":21682.02}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":21011.89}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":20607.85}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":20131.41}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":20051.58}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":19744.82}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19514.58}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":19537.33}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":19767.59}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":19735.22}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":19502.02}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":18910.62}
+]
+}
+,{"COD":"EAES375", "Nombre":"Hombres. Todas las edades. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15668, "T3_Variable":"Totales de edad", "Nombre":"Todas las edades", "Codigo":""}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":32057.55}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":30372.49}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":29381.84}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":28388.69}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":27642.52}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":26934.38}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":26738.19}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":26391.84}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":25924.43}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":25992.76}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":25727.24}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":25675.17}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25682.05}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":25667.89}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":25479.74}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":25001.05}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":24203.33}
+]
+}
+,{"COD":"EAES398", "Nombre":"Ambos sexos. Menos de 20 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":311615, "T3_Variable":"Semiintervalos de edad", "Nombre":"Menos de 20 años", "Codigo":""}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":10693.93}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":11313.36}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":10597.24}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":-9180.17, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":-9394.06, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":9101.3}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":8423.42}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":-7868.32, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":-7182.53, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":-7526.91, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":-7732.36, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":-7456.6, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":-7427.72, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":-8148.49, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":10208.7}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":9624.47}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":9960.26}
+]
+}
+,{"COD":"EAES386", "Nombre":"Mujeres. Menos de 20 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":311615, "T3_Variable":"Semiintervalos de edad", "Nombre":"Menos de 20 años", "Codigo":""}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":-9280.82, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":-9558.96, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":-8875.09, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":-8067.08, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":-7825.26, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":-7855.04, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":-7277.64, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":-6066.79, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":-5733.6, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":null, "Notas":[{"texto" : "El número de observaciones muestrales es inferior a 100", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":-6577.38, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":null, "Notas":[{"texto" : "El número de observaciones muestrales es inferior a 100", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":null, "Notas":[{"texto" : "El número de observaciones muestrales es inferior a 100", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":-6952.69, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":-8637.1, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":-8499.86, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":-8130.68, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+]
+}
+,{"COD":"EAES374", "Nombre":"Hombres. Menos de 20 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":311615, "T3_Variable":"Semiintervalos de edad", "Nombre":"Menos de 20 años", "Codigo":""}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":-11752.16, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":12943.66}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":-12436.56, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":-9946.44, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":-10411.69, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":-9902.54, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":-9118.47, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":-8821.3, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":-8369.57, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":-8585.6, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":-9060.68, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":null, "Notas":[{"texto" : "El número de observaciones muestrales es inferior a 100", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":-8045.64, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":-8861.57, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":-11614.73, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":-10305.82, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":11039.25}
+]
+}
+,{"COD":"EAES396", "Nombre":"Ambos sexos. De 20 a 24 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15661, "T3_Variable":"Grupos de edad", "Nombre":"De 20 a 24 años", "Codigo":"Y20T24"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":15636.05}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":15364.17}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":15181.24}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":13224.95}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":12925.08}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":12640.65}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":12914.18}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":11775.39}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":11316.3}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":11228.51}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":11835.07}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":10668.3}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":11296.43}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":12210.47}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":13349.15}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":12784.44}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":13293.39}
+]
+}
+,{"COD":"EAES384", "Nombre":"Mujeres. De 20 a 24 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15661, "T3_Variable":"Grupos de edad", "Nombre":"De 20 a 24 años", "Codigo":"Y20T24"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":14016.31}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":13891.62}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":13789.84}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":11747.25}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":11548.97}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":11427.77}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":11100.84}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":10171.93}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":9746.34}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":9690.75}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":10603.52}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":9410.99}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":10099.75}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":10913.35}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":11906.62}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":11424.08}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":11663.96}
+]
+}
+,{"COD":"EAES372", "Nombre":"Hombres. De 20 a 24 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15661, "T3_Variable":"Grupos de edad", "Nombre":"De 20 a 24 años", "Codigo":"Y20T24"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":17066.66}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":16541.79}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":16337.24}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":14399.62}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":14043.56}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":13663.22}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":14364.46}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":13199.81}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":12641.01}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":12706.37}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":13072.04}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":11856.76}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":12438.6}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":13491.76}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":14804.88}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":13974.59}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":14711.9}
+]
+}
+,{"COD":"EAES395", "Nombre":"Ambos sexos. De 25 a 29 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15666, "T3_Variable":"Grupos de edad", "Nombre":"De 25 a 29 años", "Codigo":"Y25T29"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":22723.25}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":21039.12}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":20459.6}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":19089.06}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":18372.47}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":17772.31}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":17525.91}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":16440.55}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":15876.26}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":16046.47}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":16305.61}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":15587.21}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":16244.38}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":16938.06}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":17637.97}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":17530.28}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":17434.0}
+]
+}
+,{"COD":"EAES383", "Nombre":"Mujeres. De 25 a 29 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15666, "T3_Variable":"Grupos de edad", "Nombre":"De 25 a 29 años", "Codigo":"Y25T29"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":21464.3}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":20244.83}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":19343.03}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":17718.66}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":17208.34}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":16650.63}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":16045.85}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":15129.41}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":14793.84}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":14853.58}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":15019.71}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":14462.27}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":15042.6}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":15552.41}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":16241.61}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":16308.84}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":16005.3}
+]
+}
+,{"COD":"EAES371", "Nombre":"Hombres. De 25 a 29 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15666, "T3_Variable":"Grupos de edad", "Nombre":"De 25 a 29 años", "Codigo":"Y25T29"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":23857.01}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":21747.87}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":21445.91}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":20368.81}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":19469.16}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":18807.51}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":18930.97}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":17615.64}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":16906.88}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":17275.91}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":17634.95}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":16853.47}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":17629.2}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":18429.65}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":19099.29}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":18683.19}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":18739.58}
+]
+}
+,{"COD":"EAES394", "Nombre":"Ambos sexos. De 30 a 34 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15662, "T3_Variable":"Grupos de edad", "Nombre":"De 30 a 34 años", "Codigo":"Y30T34"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":26944.39}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":25222.51}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":24114.17}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":22123.5}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":21321.13}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":20969.47}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":20763.51}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":19847.27}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":19339.25}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":19597.57}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20208.67}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19452.11}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20201.98}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20782.77}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":21274.68}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":20818.91}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":20528.28}
+]
+}
+,{"COD":"EAES382", "Nombre":"Mujeres. De 30 a 34 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15662, "T3_Variable":"Grupos de edad", "Nombre":"De 30 a 34 años", "Codigo":"Y30T34"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":25340.39}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":23572.59}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":22361.32}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":20089.61}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":19283.67}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":19042.73}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":18689.23}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":17882.67}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":17398.35}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":17679.61}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":18435.4}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":17443.94}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":17995.4}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":18645.05}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":19261.16}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":18637.84}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":18371.69}
+]
+}
+,{"COD":"EAES370", "Nombre":"Hombres. De 30 a 34 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15662, "T3_Variable":"Grupos de edad", "Nombre":"De 30 a 34 años", "Codigo":"Y30T34"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":28417.52}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":26764.55}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":25682.23}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":23867.16}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":23129.35}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":22789.9}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":22818.88}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":21669.71}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":21175.45}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":21479.0}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":21924.81}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":21468.59}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22525.75}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22912.41}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":23175.67}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":22884.93}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":22488.18}
+]
+}
+,{"COD":"EAES393", "Nombre":"Ambos sexos. De 35 a 39 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15658, "T3_Variable":"Grupos de edad", "Nombre":"De 35 a 39 años", "Codigo":"Y35T39"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":28704.89}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":26928.36}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":25745.84}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":24134.3}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":23671.27}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":23283.02}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":23431.41}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":22616.45}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":22216.15}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":22397.04}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":22920.46}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":22522.09}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22927.66}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":23136.49}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":23219.24}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":22824.94}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":22429.72}
+]
+}
+,{"COD":"EAES381", "Nombre":"Mujeres. De 35 a 39 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15658, "T3_Variable":"Grupos de edad", "Nombre":"De 35 a 39 años", "Codigo":"Y35T39"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":26277.95}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":24799.41}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":23237.09}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":21832.52}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":21322.66}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":20682.9}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":20757.25}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":19946.55}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":19667.87}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":19924.75}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20324.74}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":19659.26}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20031.92}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20373.05}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":20710.98}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":20072.16}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19526.68}
+]
+}
+,{"COD":"EAES369", "Nombre":"Hombres. De 35 a 39 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15658, "T3_Variable":"Grupos de edad", "Nombre":"De 35 a 39 años", "Codigo":"Y35T39"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":31087.1}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":28919.4}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":28111.8}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":26198.45}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":25833.56}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":25760.79}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":25901.92}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":25051.45}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":24568.19}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":24769.6}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":25392.1}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":25217.67}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25652.49}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":25664.6}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":25423.2}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":25280.29}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":24758.37}
+]
+}
+,{"COD":"EAES392", "Nombre":"Ambos sexos. De 40 a 44 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15663, "T3_Variable":"Grupos de edad", "Nombre":"De 40 a 44 años", "Codigo":"Y40T44"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":30215.05}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":28638.39}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":27713.56}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":26770.18}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":26125.41}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":25734.87}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":25193.03}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":24631.01}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":24305.16}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":24238.98}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":24132.53}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":23973.45}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":24157.21}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":24598.45}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":24336.99}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":23822.65}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":23585.09}
+]
+}
+,{"COD":"EAES380", "Nombre":"Mujeres. De 40 a 44 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15663, "T3_Variable":"Grupos de edad", "Nombre":"De 40 a 44 años", "Codigo":"Y40T44"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":27327.48}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":25955.04}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":24734.92}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":23962.41}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":23223.46}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":22826.24}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":22206.71}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":21792.7}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":21421.72}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":21246.22}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20953.82}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20713.21}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20941.8}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":21290.6}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":20966.53}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":20446.34}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":20268.85}
+]
+}
+,{"COD":"EAES368", "Nombre":"Hombres. De 40 a 44 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15663, "T3_Variable":"Grupos de edad", "Nombre":"De 40 a 44 años", "Codigo":"Y40T44"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":32987.94}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":31199.25}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":30671.43}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":29340.39}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":28823.06}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":28489.96}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":27940.2}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":27259.18}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":26957.7}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":27033.74}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":27068.98}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":26968.77}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":26995.84}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":27351.22}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":27282.66}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":26593.26}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":26242.01}
+]
+}
+,{"COD":"EAES391", "Nombre":"Ambos sexos. De 45 a 49 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15667, "T3_Variable":"Grupos de edad", "Nombre":"De 45 a 49 años", "Codigo":"Y45T49"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":32051.12}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":30514.62}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":29293.69}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":28077.21}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":27279.93}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":26627.9}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":26014.46}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":25674.74}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":25127.54}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":25063.81}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":25078.78}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":24781.25}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":24689.67}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":25265.23}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":25156.71}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":24846.62}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":24326.53}
+]
+}
+,{"COD":"EAES379", "Nombre":"Mujeres. De 45 a 49 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15667, "T3_Variable":"Grupos de edad", "Nombre":"De 45 a 49 años", "Codigo":"Y45T49"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":28750.57}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":27501.67}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":26507.49}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":25071.06}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":24323.96}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":23569.51}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":22826.82}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":22156.46}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":21614.93}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":21453.15}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":21101.2}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20987.98}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":20821.54}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":21545.65}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":21305.78}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":21277.21}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":20842.75}
+]
+}
+,{"COD":"EAES367", "Nombre":"Hombres. De 45 a 49 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15667, "T3_Variable":"Grupos de edad", "Nombre":"De 45 a 49 años", "Codigo":"Y45T49"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":35301.5}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":33470.13}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":31900.79}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":30928.97}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":30024.43}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":29537.85}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":28978.69}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":28912.87}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":28286.16}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":28391.07}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":28787.48}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":28371.35}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":28253.68}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":28449.08}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":28540.81}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":27779.85}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":27015.59}
+]
+}
+,{"COD":"EAES390", "Nombre":"Ambos sexos. De 50 a 54 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15648, "T3_Variable":"Grupos de edad", "Nombre":"De 50 a 54 años", "Codigo":"Y50T54"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":32357.6}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":30887.92}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":29381.29}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":28380.64}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":27754.07}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":27183.07}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":26871.12}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":26256.18}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":25917.68}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":25928.89}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":25819.99}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":25748.79}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25930.82}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":26522.82}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":26604.42}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":26182.26}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":25881.4}
+]
+}
+,{"COD":"EAES378", "Nombre":"Mujeres. De 50 a 54 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15648, "T3_Variable":"Grupos de edad", "Nombre":"De 50 a 54 años", "Codigo":"Y50T54"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":29375.17}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":27862.87}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":25939.04}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":24815.41}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":24228.35}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":23490.58}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":22832.87}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":22367.7}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":22067.03}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":22115.5}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":21786.77}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":21483.87}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":21744.69}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22177.94}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22129.13}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":21899.18}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":22010.7}
+]
+}
+,{"COD":"EAES366", "Nombre":"Hombres. De 50 a 54 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15648, "T3_Variable":"Grupos de edad", "Nombre":"De 50 a 54 años", "Codigo":"Y50T54"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":35185.97}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":33776.94}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":32660.09}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":31656.92}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":30899.77}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":30586.89}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":30312.15}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":29711.02}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":29435.74}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":29600.11}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":29302.92}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":29561.34}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":29562.85}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":30134.37}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":30288.16}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":29503.96}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":28531.8}
+]
+}
+,{"COD":"EAES389", "Nombre":"Ambos sexos. De 55 a 59 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15649, "T3_Variable":"Grupos de edad", "Nombre":"De 55 a 59 años", "Codigo":"Y55T59"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":32247.58}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":31231.39}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":30196.33}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":29149.8}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":28713.98}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":28240.07}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":27948.41}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":27631.35}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":27282.41}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":27457.14}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":27360.02}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":27406.12}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":27166.96}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":27846.0}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":28234.6}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":27208.98}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":26981.89}
+]
+}
+,{"COD":"EAES377", "Nombre":"Mujeres. De 55 a 59 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15649, "T3_Variable":"Grupos de edad", "Nombre":"De 55 a 59 años", "Codigo":"Y55T59"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":28758.22}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":27756.04}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":26928.34}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":25674.78}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":25111.64}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":24648.49}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":23580.95}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":23360.75}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":22821.99}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":22822.24}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":22482.92}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":22563.92}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22396.23}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22999.83}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":23013.28}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":22744.5}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":22666.51}
+]
+}
+,{"COD":"EAES365", "Nombre":"Hombres. De 55 a 59 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15649, "T3_Variable":"Grupos de edad", "Nombre":"De 55 a 59 años", "Codigo":"Y55T59"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":35603.17}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":34431.27}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":33190.54}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":32298.79}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":32067.54}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":31605.67}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":31843.93}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":31399.15}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":31225.13}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":31601.99}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":31451.87}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":31691.39}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":31349.16}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":31615.79}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":32069.41}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":30181.38}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":29393.28}
+]
+}
+,{"COD":"EAES388", "Nombre":"Ambos sexos. De 60 a 64 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":15650, "T3_Variable":"Grupos de edad", "Nombre":"De 60 a 64 años", "Codigo":"Y60T64"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":31814.39}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":30968.18}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":29646.98}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":28220.73}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":27390.57}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":26735.18}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":26073.06}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":25334.93}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":24624.48}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":24716.04}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":24091.36}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":22626.56}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":22290.64}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":22877.58}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":22624.93}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":22332.16}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":22230.81}
+]
+}
+,{"COD":"EAES376", "Nombre":"Mujeres. De 60 a 64 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":15650, "T3_Variable":"Grupos de edad", "Nombre":"De 60 a 64 años", "Codigo":"Y60T64"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":29319.19}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":28406.47}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":27217.22}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":25412.38}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":24957.11}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":24211.54}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":23029.65}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":22241.99}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":21246.54}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":21218.54}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":20460.53}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":20520.08}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":19963.66}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":20604.14}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":20035.11}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":19634.05}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":19003.09}
+]
+}
+,{"COD":"EAES364", "Nombre":"Hombres. De 60 a 64 años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":15650, "T3_Variable":"Grupos de edad", "Nombre":"De 60 a 64 años", "Codigo":"Y60T64"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":34260.95}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":33532.36}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":32125.91}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":30980.79}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":29717.66}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":29030.85}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":28741.28}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":27913.67}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":27685.28}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":27748.31}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":26665.12}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":24188.15}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":23795.55}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":24221.38}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":24128.93}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":23651.77}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":23647.89}
+]
+}
+,{"COD":"EAES397", "Nombre":"Ambos sexos. 65 y más años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":451, "T3_Variable":"Sexo", "Nombre":"Ambos sexos", "Codigo":""}
+,{"Id":10584, "T3_Variable":"Semiintervalos de edad", "Nombre":"65 y más años", "Codigo":"Y-GE65"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":31576.81}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":30930.83}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":30496.85}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":26837.66}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":26833.25}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":24857.33}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":24584.63}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":23190.74}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":22661.04}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":22280.44}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":23854.21}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":24538.14}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":25723.51}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":28058.32}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":27700.12}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":24748.59}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":27116.41}
+]
+}
+,{"COD":"EAES385", "Nombre":"Mujeres. 65 y más años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":453, "T3_Variable":"Sexo", "Nombre":"Mujeres", "Codigo":"6"}
+,{"Id":10584, "T3_Variable":"Semiintervalos de edad", "Nombre":"65 y más años", "Codigo":"Y-GE65"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":26521.52}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":26713.37}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":25437.34}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":22638.42}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":21784.18}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":20126.4}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":19472.58}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":15166.79}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":15097.24}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":-15196.83, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":-15756.77, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":-17821.32, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":-16757.7, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":-18443.64, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":-20182.45, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":-18447.25, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":-20430.39, "Notas":[{"texto" : "Un signo '-' antes del dato, indica que el número de observaciones muestrales está comprendido entre 100 y 500, por lo que la cifra está sujeta a gran variabilidad", "Fk_TipoNota" : 1, "textoTipo" : null}]}
+]
+}
+,{"COD":"EAES373", "Nombre":"Hombres. 65 y más años. Dato base. Total Nacional. Salario medio bruto. ", "T3_Unidad":"Euros", "T3_Escala":" ", "MetaData":[{"Id":452, "T3_Variable":"Sexo", "Nombre":"Hombres", "Codigo":"1"}
+,{"Id":10584, "T3_Variable":"Semiintervalos de edad", "Nombre":"65 y más años", "Codigo":"Y-GE65"}
+,{"Id":72, "T3_Variable":"Tipo de dato", "Nombre":"Dato base", "Codigo":""}
+,{"Id":16473, "T3_Variable":"Total Nacional", "Nombre":"Total Nacional", "Codigo":"00"}
+,{"Id":298054, "T3_Variable":"Conceptos salariales/laborales", "Nombre":"Salario medio bruto", "Codigo":""}
+]
+, "Data":[{"Fecha":"2024-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2024, "Valor":37023.65}
+,{"Fecha":"2023-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2023, "Valor":35924.26}
+,{"Fecha":"2022-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2022, "Valor":35612.02}
+,{"Fecha":"2021-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2021, "Valor":31326.05}
+,{"Fecha":"2020-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2020, "Valor":31898.67}
+,{"Fecha":"2019-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2019, "Valor":30462.15}
+,{"Fecha":"2018-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2018, "Valor":29002.54}
+,{"Fecha":"2017-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2017, "Valor":31850.67}
+,{"Fecha":"2016-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2016, "Valor":30412.35}
+,{"Fecha":"2015-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2015, "Valor":29526.67}
+,{"Fecha":"2014-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2014, "Valor":31005.29}
+,{"Fecha":"2013-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2013, "Valor":30323.76}
+,{"Fecha":"2012-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2012, "Valor":31858.86}
+,{"Fecha":"2011-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2011, "Valor":34136.46}
+,{"Fecha":"2010-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2010, "Valor":32622.94}
+,{"Fecha":"2009-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2009, "Valor":28735.15}
+,{"Fecha":"2008-01-01T00:00:00.000+01:00", "T3_TipoDato":"Definitivo", "T3_Periodo":"A", "Anyo":2008, "Valor":30532.19}
+]
+}
+]

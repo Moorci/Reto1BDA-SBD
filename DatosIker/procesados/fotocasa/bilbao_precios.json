@@ -1,0 +1,1478 @@
+﻿[
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  1,
+        "fecha":  "2020-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.67
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  2,
+        "fecha":  "2020-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.06
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  3,
+        "fecha":  "2020-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.45
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  4,
+        "fecha":  "2020-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.57
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  5,
+        "fecha":  "2020-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.9
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  6,
+        "fecha":  "2020-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.44
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  7,
+        "fecha":  "2020-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.09
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  8,
+        "fecha":  "2020-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.97
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  9,
+        "fecha":  "2020-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.09
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  10,
+        "fecha":  "2020-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.16
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  11,
+        "fecha":  "2020-11",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.22
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  12,
+        "fecha":  "2020-12",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.22
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  1,
+        "fecha":  "2021-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.15
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  2,
+        "fecha":  "2021-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.02
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  3,
+        "fecha":  "2021-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.87
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  4,
+        "fecha":  "2021-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.87
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  5,
+        "fecha":  "2021-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.89
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  6,
+        "fecha":  "2021-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.85
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  7,
+        "fecha":  "2021-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.83
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  8,
+        "fecha":  "2021-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.93
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  9,
+        "fecha":  "2021-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.1
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  10,
+        "fecha":  "2021-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.2
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  11,
+        "fecha":  "2021-11",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.12
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  12,
+        "fecha":  "2021-12",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.01
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  1,
+        "fecha":  "2022-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.95
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  2,
+        "fecha":  "2022-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  12.97
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  3,
+        "fecha":  "2022-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.04
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  4,
+        "fecha":  "2022-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.13
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  5,
+        "fecha":  "2022-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.16
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  6,
+        "fecha":  "2022-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.2
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  7,
+        "fecha":  "2022-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.24
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  8,
+        "fecha":  "2022-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.39
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  9,
+        "fecha":  "2022-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  13.7
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  10,
+        "fecha":  "2022-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.11
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  11,
+        "fecha":  "2022-11",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.43
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  12,
+        "fecha":  "2022-12",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.43
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  1,
+        "fecha":  "2023-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.29
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  2,
+        "fecha":  "2023-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.2
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  3,
+        "fecha":  "2023-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.19
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  4,
+        "fecha":  "2023-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.28
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  5,
+        "fecha":  "2023-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.33
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  6,
+        "fecha":  "2023-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.42
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  7,
+        "fecha":  "2023-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.32
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  8,
+        "fecha":  "2023-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.36
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  9,
+        "fecha":  "2023-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.45
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  10,
+        "fecha":  "2023-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.63
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  11,
+        "fecha":  "2023-11",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.8
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  12,
+        "fecha":  "2023-12",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.06
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  1,
+        "fecha":  "2024-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.19
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  2,
+        "fecha":  "2024-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.07
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  3,
+        "fecha":  "2024-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  14.92
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  4,
+        "fecha":  "2024-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.01
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  5,
+        "fecha":  "2024-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.33
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  6,
+        "fecha":  "2024-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.51
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  7,
+        "fecha":  "2024-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.43
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  8,
+        "fecha":  "2024-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.32
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  9,
+        "fecha":  "2024-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  15.5
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  10,
+        "fecha":  "2024-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.09
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  11,
+        "fecha":  "2024-11",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.54
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  12,
+        "fecha":  "2024-12",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.78
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  1,
+        "fecha":  "2025-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.78
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  2,
+        "fecha":  "2025-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.78
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  3,
+        "fecha":  "2025-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.58
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  4,
+        "fecha":  "2025-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.42
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  5,
+        "fecha":  "2025-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.37
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  6,
+        "fecha":  "2025-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.52
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  7,
+        "fecha":  "2025-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.49
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  8,
+        "fecha":  "2025-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.54
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  9,
+        "fecha":  "2025-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.41
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  10,
+        "fecha":  "2025-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.55
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  11,
+        "fecha":  "2025-11",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.66
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  12,
+        "fecha":  "2025-12",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  17
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  1,
+        "fecha":  "2026-01",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  17.16
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  2,
+        "fecha":  "2026-02",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  17.27
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  3,
+        "fecha":  "2026-03",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  17.18
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  4,
+        "fecha":  "2026-04",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  17.08
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  5,
+        "fecha":  "2026-05",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.86
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  6,
+        "fecha":  "2026-06",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.8
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  7,
+        "fecha":  "2026-07",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.67
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  8,
+        "fecha":  "2026-08",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.67
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  9,
+        "fecha":  "2026-09",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.67
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  10,
+        "fecha":  "2026-10",
+        "tipo_operacion":  "alquiler",
+        "precio_m2":  16.87
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  1,
+        "fecha":  "2020-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3090.91
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  2,
+        "fecha":  "2020-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3088.94
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  3,
+        "fecha":  "2020-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3104.53
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  4,
+        "fecha":  "2020-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3132.14
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  5,
+        "fecha":  "2020-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3148.9
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  6,
+        "fecha":  "2020-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3138.3
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  7,
+        "fecha":  "2020-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3122.49
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  8,
+        "fecha":  "2020-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3111.37
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  9,
+        "fecha":  "2020-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3118.61
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  10,
+        "fecha":  "2020-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3123.51
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  11,
+        "fecha":  "2020-11",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3129.95
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2020,
+        "mes":  12,
+        "fecha":  "2020-12",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3124.67
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  1,
+        "fecha":  "2021-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3107.47
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  2,
+        "fecha":  "2021-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3099.82
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  3,
+        "fecha":  "2021-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3100.27
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  4,
+        "fecha":  "2021-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3105.2
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  5,
+        "fecha":  "2021-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3104.23
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  6,
+        "fecha":  "2021-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3099.48
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  7,
+        "fecha":  "2021-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3096.87
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  8,
+        "fecha":  "2021-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3094.72
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  9,
+        "fecha":  "2021-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3097.79
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  10,
+        "fecha":  "2021-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3113.28
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  11,
+        "fecha":  "2021-11",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3135.6
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2021,
+        "mes":  12,
+        "fecha":  "2021-12",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3161.98
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  1,
+        "fecha":  "2022-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3176.33
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  2,
+        "fecha":  "2022-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3177.27
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  3,
+        "fecha":  "2022-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3176.14
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  4,
+        "fecha":  "2022-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3169.03
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  5,
+        "fecha":  "2022-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3164.15
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  6,
+        "fecha":  "2022-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3153.82
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  7,
+        "fecha":  "2022-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3150.82
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  8,
+        "fecha":  "2022-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3147.74
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  9,
+        "fecha":  "2022-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3165.96
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  10,
+        "fecha":  "2022-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3191.88
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  11,
+        "fecha":  "2022-11",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3214.79
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2022,
+        "mes":  12,
+        "fecha":  "2022-12",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3205.56
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  1,
+        "fecha":  "2023-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3193.13
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  2,
+        "fecha":  "2023-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3196.04
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  3,
+        "fecha":  "2023-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3202.35
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  4,
+        "fecha":  "2023-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3198.73
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  5,
+        "fecha":  "2023-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3194.94
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  6,
+        "fecha":  "2023-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3200.8
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  7,
+        "fecha":  "2023-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3199.67
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  8,
+        "fecha":  "2023-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3194.26
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  9,
+        "fecha":  "2023-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3209.42
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  10,
+        "fecha":  "2023-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3236.54
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  11,
+        "fecha":  "2023-11",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3261.27
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2023,
+        "mes":  12,
+        "fecha":  "2023-12",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3270.11
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  1,
+        "fecha":  "2024-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3283.14
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  2,
+        "fecha":  "2024-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3302.24
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  3,
+        "fecha":  "2024-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3314.81
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  4,
+        "fecha":  "2024-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3325.18
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  5,
+        "fecha":  "2024-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3341.92
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  6,
+        "fecha":  "2024-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3362.95
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  7,
+        "fecha":  "2024-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3362.95
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  8,
+        "fecha":  "2024-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3326
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  9,
+        "fecha":  "2024-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3290.72
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  10,
+        "fecha":  "2024-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3282.29
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  11,
+        "fecha":  "2024-11",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3322.22
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2024,
+        "mes":  12,
+        "fecha":  "2024-12",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3339.58
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  1,
+        "fecha":  "2025-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3358.05
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  2,
+        "fecha":  "2025-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3384.28
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  3,
+        "fecha":  "2025-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3456.07
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  4,
+        "fecha":  "2025-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3548.68
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  5,
+        "fecha":  "2025-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3615.8
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  6,
+        "fecha":  "2025-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3677.2
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  7,
+        "fecha":  "2025-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3709.54
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  8,
+        "fecha":  "2025-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3726.51
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  9,
+        "fecha":  "2025-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3729.53
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  10,
+        "fecha":  "2025-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3729.64
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  11,
+        "fecha":  "2025-11",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3723.63
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2025,
+        "mes":  12,
+        "fecha":  "2025-12",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3690.31
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  1,
+        "fecha":  "2026-01",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3645.15
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  2,
+        "fecha":  "2026-02",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3635.71
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  3,
+        "fecha":  "2026-03",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3642.37
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  4,
+        "fecha":  "2026-04",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3699.79
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  5,
+        "fecha":  "2026-05",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3775.43
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  6,
+        "fecha":  "2026-06",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3831.37
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  7,
+        "fecha":  "2026-07",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3868.28
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  8,
+        "fecha":  "2026-08",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3886.16
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  9,
+        "fecha":  "2026-09",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3942.52
+    },
+    {
+        "municipio":  "Bilbao",
+        "municipio_codigo":  "48020",
+        "anio":  2026,
+        "mes":  10,
+        "fecha":  "2026-10",
+        "tipo_operacion":  "venta",
+        "precio_m2":  3980.1
+    }
+]

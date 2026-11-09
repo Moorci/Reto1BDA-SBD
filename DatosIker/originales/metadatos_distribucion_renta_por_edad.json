@@ -1,0 +1,120 @@
+{
+  "title": "Poblaciónde18ymásaños de la C.A. de Euskadi pordecilderenta personal y territoriohistórico, según edad (porcentaje)",
+  "variables": [
+    {
+      "code": "territorio historico",
+      "text": "territorio historico",
+      "values": [
+        "00",
+        "01",
+        "48",
+        "20"
+      ],
+      "valueTexts": [
+        "C.A. de Euskadi",
+        "Araba/Álava",
+        "Bizkaia",
+        "Gipuzkoa"
+      ]
+    },
+    {
+      "code": "decil (renta personal)",
+      "text": "decil (renta personal)",
+      "values": [
+        "00",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10"
+      ],
+      "valueTexts": [
+        "Total",
+        "Decil  2",
+        "Decil  3",
+        "Decil  4",
+        "Decil  5",
+        "Decil  6",
+        "Decil  7",
+        "Decil  8",
+        "Decil  9",
+        "Decil 10"
+      ]
+    },
+    {
+      "code": "edad",
+      "text": "edad",
+      "values": [
+        "100",
+        "110",
+        "130",
+        "140",
+        "150",
+        "160",
+        "170",
+        "180",
+        "190",
+        "200",
+        "210",
+        "220",
+        "230",
+        "240",
+        "250"
+      ],
+      "valueTexts": [
+        "Total",
+        "18 - 24 años",
+        "25 - 29 años",
+        "30 - 34 años",
+        "35 - 39 años",
+        "40 - 44 años",
+        "45 - 49 años",
+        "50 - 54 años",
+        "55 - 59 años",
+        "60 - 64 años",
+        "65 - 69 años",
+        "70 - 74 años",
+        "75 - 79 años",
+        "80 - 84 años",
+        ">=85 años"
+      ]
+    },
+    {
+      "code": "periodo",
+      "text": "periodo",
+      "values": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "valueTexts": [
+        "2013",
+        "2014",
+        "2015",
+        "2016",
+        "2017",
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024"
+      ],
+      "time": true
+    }
+  ]
+}

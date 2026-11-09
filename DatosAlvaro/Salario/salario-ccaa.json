@@ -1,0 +1,24 @@
+{
+  "fuente": "INE, Encuesta Anual de Estructura Salarial (tabla 28191); salario medio bruto anual, 2023",
+  "periodo": "2023",
+  "unidad": "€ brutos al año",
+  "datos": {
+    "AN": 26090,
+    "AR": 28062,
+    "AS": 28562,
+    "IB": 29075,
+    "CN": 25120,
+    "CB": 27097,
+    "CL": 26177,
+    "CM": 26062,
+    "CT": 31730,
+    "VC": 26817,
+    "EX": 24979,
+    "GA": 26547,
+    "MD": 34410,
+    "MC": 26349,
+    "NC": 32605,
+    "PV": 35170,
+    "RI": 27855
+  }
+}
