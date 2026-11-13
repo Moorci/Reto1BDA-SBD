@@ -1,0 +1,81 @@
+INFORME DE VALIDACION - FASE 2: CONSOLIDACION DE DATOS
+=====================================================
+
+ESTADO
+------
+Se validaron las fuentes disponibles y se prepararon los conjuntos municipales
+de Eustat y Etxebide. No se modificaron los archivos de entrada. No se cargaron
+datos en MongoDB, Kafka ni HDFS.
+
+CONJUNTOS CANONICOS Y VALIDACION
+-------------------------------
+
+Fuente       Registros             Cobertura y resultado
+-----------  --------------------  --------------------------------------------
+Fotocasa     41.164                CSV y JSON identicos; 251 municipios, 502
+                                   series, 82 meses por serie; sin duplicados.
+Pisos.com    1.041 anuncios        822 venta, 219 alquiler; 1.040 con codigo
+                                   validado, 117 codigos; Usansolo queda sin
+                                   codigo al no estar en el catalogo.
+EMAL anual   728 observaciones     73 municipios; claves sin duplicados.
+EMAL vigente 144 observaciones    72 municipios; claves sin duplicados.
+
+Eustat, archivos generados en procesados/eustat:
+
+Archivo                                      Registros  Municipios  Valor nulo
+-------------------------------------------  ---------  ----------  ----------
+renta_personal_municipal.json                   89.964         252         357
+indicadores_renta_personal_municipal.json       18.144         252          60
+percentiles_renta_personal_municipal.json      108.864         252         360
+distribucion_renta_personal_municipal.json      30.240         252         100
+
+Los cuatro archivos se leen como JSON, tienen codigos municipales de cinco
+caracteres, observaciones de origen unicas y valores numericos o nulos. Los
+valores ausentes se conservaron; no se sustituyeron por cero.
+
+Etxebide, archivos generados en procesados/etxebide:
+
+Archivo                                                        Registros  Municipios
+-------------------------------------------------------------  ---------  ----------
+Demandantes-Etxebide-Municipio-2026-04-01_con_codigo.csv          8.085         245
+Demandantes-Etxebide-Municipio-2026-07-01_con_codigo.csv          8.085         245
+
+Las dos fotografias comparten los mismos codigos. Se conservaron las columnas
+originales y se anadieron municipio_codigo y fecha_fotografia. La unica
+equivalencia necesaria fue Donostia -> Donostia / San Sebastian, codigo 20069.
+Las claves municipio/grupo/categoria no tienen duplicados.
+
+En el grupo CUPO, la categoria de menores de 36 anos tiene 245 filas por fecha.
+El valor Total esta suprimido/no disponible en 117 municipios en abril y 118
+en julio. La suma de los valores publicados es 38.883 y 38.810,
+respectivamente; no es un total completo ni debe interpretarse como personas
+unicas. Etxebide mide demanda de vivienda protegida, no precios del alquiler.
+
+LIMITACIONES DE INTERPRETACION
+------------------------------
+- La renta municipal de Eustat es renta personal, no salario neto mensual.
+- No se encontro salario juvenil municipal. Las tablas de edad disponibles no
+  tienen granularidad municipal; no se asignaran salarios regionales a
+  municipios.
+- Fotocasa son series de precios de oferta, Pisos.com son anuncios individuales
+  y EMAL es alquiler registrado. No son medidas intercambiables.
+- Las fotografias de Etxebide son snapshots de demanda de vivienda protegida;
+  las celdas suprimidas siguen identificadas como no disponibles.
+
+RIESGOS Y SIGUIENTE PASO
+------------------------
+El dry-run anterior del importador no escribio en MongoDB, pero detecto fuentes
+que se clasifican incorrectamente como salarios y el riesgo de descubrir copias
+o intermedios junto con los conjuntos canonicos. Antes de cualquier carga hay
+que limitar el importador a los archivos enumerados arriba y corregir la
+clasificacion semantica de Eustat y EMAL. Despues se podra iniciar el diseno y
+la carga de MongoDB, previa confirmacion del usuario.
+
+SCRIPTS DE PREPARACION
+----------------------
+scripts/eustat/procesar_indicadores_municipales.py
+scripts/etxebide/procesar_demandantes_municipales.py
+
+Ejecucion desde la raiz del proyecto:
+    .\.conda\python.exe -B .\DatosIker\scripts\eustat\procesar_indicadores_municipales.py
+    .\.conda\python.exe -B .\DatosIker\scripts\etxebide\procesar_demandantes_municipales.py

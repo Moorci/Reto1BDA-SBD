@@ -11,8 +11,6 @@ from datetime import datetime
 # CONFIGURACIÓN
 # ============================================================
 
-# El script está dentro de DatosIker/scripts/pisoscom/
-# Subimos tres niveles para llegar a DatosIker.
 RAIZ = Path(__file__).resolve().parents[2]
 
 ARCHIVO_PISOS = (
@@ -40,14 +38,11 @@ ARCHIVO_INFORME = (
 
 
 # ============================================================
-# FUNCIONES AUXILIARES
+# FUNCIONES
 # ============================================================
 
 def normalizar(texto):
-    """
-    Normaliza nombres únicamente para compararlos.
-    No modifica los datos originales.
-    """
+    """Normaliza un texto para poder compararlo."""
 
     if pd.isna(texto):
         return ""
@@ -57,20 +52,32 @@ def normalizar(texto):
     texto = unicodedata.normalize("NFD", texto)
 
     texto = "".join(
-        caracter
-        for caracter in texto
-        if unicodedata.category(caracter) != "Mn"
+        c for c in texto
+        if unicodedata.category(c) != "Mn"
     )
 
-    texto = re.sub(r"[^a-z0-9]", "", texto)
+    return re.sub(r"[^a-z0-9]", "", texto)
 
-    return texto
+
+def obtener_tokens(texto):
+    """
+    Obtiene las palabras normalizadas y ordenadas.
+    Permite comparar nombres bilingües en distinto orden.
+    """
+
+    texto = unicodedata.normalize(
+        "NFD", str(texto).strip().lower()
+    )
+
+    texto = "".join(
+        c for c in texto
+        if unicodedata.category(c) != "Mn"
+    )
+
+    return tuple(sorted(re.findall(r"[a-z0-9]+", texto)))
 
 
 def normalizar_provincia(provincia):
-    """
-    Unifica las variantes de nombre de las provincias.
-    """
 
     valor = normalizar(provincia)
 
@@ -88,14 +95,17 @@ def normalizar_provincia(provincia):
 
 def extraer_municipio(localidad):
     """
-    Si localidad_zona contiene un municipio entre paréntesis,
-    extrae ese municipio.
+    Extrae el municipio de localidad_zona.
 
-    Ejemplo:
-    Centro (Vitoria - Gasteiz)
-    -> Vitoria - Gasteiz
+    Ejemplos:
 
-    Si no hay paréntesis, conserva el texto completo.
+    Centro (Barakaldo) -> Barakaldo
+
+    Ametzola (Distrito Errekalde. Bilbao) -> Bilbao
+
+    San Sebastián - Donostia -> San Sebastián - Donostia
+
+    Si no hay paréntesis, conserva el nombre completo.
     """
 
     if pd.isna(localidad):
@@ -103,21 +113,95 @@ def extraer_municipio(localidad):
 
     localidad = str(localidad).strip()
 
-    coincidencia = re.search(r"\(([^()]*)\)\s*$", localidad)
+    coincidencia = re.search(
+        r"\(([^()]*)\)\s*$",
+        localidad
+    )
 
-    if coincidencia:
-        return coincidencia.group(1).strip()
+    if not coincidencia:
+        return localidad
 
-    return localidad
+    interior = coincidencia.group(1).strip()
+
+    # Los distritos de Bilbao contienen el municipio
+    # después del último punto.
+    if interior.lower().startswith("distrito "):
+        if "." in interior:
+            return interior.rsplit(".", 1)[-1].strip()
+
+    return interior
+
+
+def crear_aliases(fila):
+    """
+    Crea nombres alternativos a partir del nombre oficial
+    y del nombre utilizado por Fotocasa.
+
+    Separa denominaciones bilingües mediante / y -.
+    """
+
+    aliases = set()
+
+    nombres = [
+        fila["municipio_oficial"],
+        fila["nombre_fotocasa"]
+    ]
+
+    for nombre in nombres:
+
+        nombre = str(nombre).strip()
+
+        if not nombre:
+            continue
+
+        aliases.add(nombre)
+
+        partes = re.split(r"\s*/\s*|\s*-\s*", nombre)
+
+        for parte in partes:
+
+            parte = parte.strip()
+
+            if parte:
+                aliases.add(parte)
+
+    return aliases
+
+
+def buscar_coincidencias(municipio, provincia, catalogo):
+
+    nombre = normalizar(municipio)
+    tokens = obtener_tokens(municipio)
+
+    provincia_norm = normalizar_provincia(provincia)
+
+    coincidencias = []
+
+    for candidato in catalogo:
+
+        if candidato["provincia_normalizada"] != provincia_norm:
+            continue
+
+        for alias in candidato["aliases"]:
+
+            alias_norm = normalizar(alias)
+            alias_tokens = obtener_tokens(alias)
+
+            if (
+                nombre == alias_norm
+                or tokens == alias_tokens
+            ):
+
+                coincidencias.append(candidato)
+                break
+
+    return coincidencias
 
 
 def leer_csv(ruta):
-    """
-    Detecta automáticamente el separador del CSV.
-    Lee todos los campos como texto para preservar códigos.
-    """
 
-    with open(ruta, "r", encoding="utf-8-sig", newline="") as archivo:
+    with open(ruta, "r", encoding="utf-8-sig") as archivo:
+
         muestra = archivo.read(10000)
 
     separador = csv.Sniffer().sniff(
@@ -134,27 +218,8 @@ def leer_csv(ruta):
     )
 
 
-def coincidencia_nombre(municipio, candidatos):
-    """
-    Busca coincidencias por nombre.
-    Devuelve los registros candidatos sin asignar códigos
-    cuando existen varias posibilidades.
-    """
-
-    clave = normalizar(municipio)
-
-    if not clave:
-        return []
-
-    return [
-        candidato
-        for candidato in candidatos
-        if clave in candidato["nombres_normalizados"]
-    ]
-
-
 # ============================================================
-# VALIDACIÓN PRINCIPAL
+# PROCESO PRINCIPAL
 # ============================================================
 
 def main():
@@ -171,40 +236,43 @@ def main():
 
         if not archivo.exists():
             raise FileNotFoundError(
-                f"No se encuentra el archivo: {archivo}"
+                f"No se encuentra: {archivo}"
             )
 
-    CARPETA_INFORMES.mkdir(parents=True, exist_ok=True)
+    CARPETA_INFORMES.mkdir(
+        parents=True,
+        exist_ok=True
+    )
 
     # --------------------------------------------------------
     # 2. Leer archivos
     # --------------------------------------------------------
 
     pisos = leer_csv(ARCHIVO_PISOS)
-    catalogo = leer_csv(ARCHIVO_CATALOGO)
+    catalogo_df = leer_csv(ARCHIVO_CATALOGO)
 
-    print("\n1. ARCHIVOS LEÍDOS")
+    print("\nARCHIVOS LEÍDOS")
     print("-" * 65)
 
-    print(f"Anuncios Pisos.com: {len(pisos)}")
-    print(f"Registros catálogo Fotocasa: {len(catalogo)}")
+    print(f"Anuncios: {len(pisos)}")
+    print(f"Registros catálogo: {len(catalogo_df)}")
 
     print("\nColumnas Pisos.com:")
     print(list(pisos.columns))
 
     print("\nColumnas Fotocasa:")
-    print(list(catalogo.columns))
+    print(list(catalogo_df.columns))
 
     # --------------------------------------------------------
-    # 3. Comprobar columnas necesarias
+    # 3. Validar columnas
     # --------------------------------------------------------
 
-    columnas_pisos = {
+    requeridas_pisos = {
         "provincia",
         "localidad_zona"
     }
 
-    columnas_catalogo = {
+    requeridas_catalogo = {
         "municipio_codigo",
         "municipio_oficial",
         "provincia",
@@ -212,102 +280,104 @@ def main():
         "estado"
     }
 
-    faltan_pisos = columnas_pisos - set(pisos.columns)
-    faltan_catalogo = columnas_catalogo - set(catalogo.columns)
+    if not requeridas_pisos.issubset(pisos.columns):
+        raise ValueError("Faltan columnas en Pisos.com.")
 
-    if faltan_pisos or faltan_catalogo:
-        raise ValueError(
-            f"Faltan columnas. Pisos.com: {faltan_pisos}. "
-            f"Catálogo: {faltan_catalogo}"
-        )
+    if not requeridas_catalogo.issubset(catalogo_df.columns):
+        raise ValueError("Faltan columnas en el catálogo.")
 
     # --------------------------------------------------------
-    # 4. Preparar catálogo de municipios
+    # 4. Preparar catálogo
     # --------------------------------------------------------
-
-    catalogo["provincia_normalizada"] = (
-        catalogo["provincia"].apply(normalizar_provincia)
-    )
-
-    catalogo["codigo_original"] = (
-        catalogo["municipio_codigo"].astype(str)
-    )
 
     candidatos = []
 
-    for _, fila in catalogo.iterrows():
+    for _, fila in catalogo_df.iterrows():
 
-        # Solo utilizamos municipios validados.
-        if normalizar(fila["estado"]) != "validado":
-            continue
+        estado_catalogo = normalizar(fila["estado"])
 
-        nombres = {
-            normalizar(fila["municipio_oficial"]),
-            normalizar(fila["nombre_fotocasa"])
+        candidato = {
+
+            "codigo": str(fila["municipio_codigo"]),
+
+            "municipio_oficial": fila["municipio_oficial"],
+
+            "nombre_fotocasa": fila["nombre_fotocasa"],
+
+            "provincia": fila["provincia"],
+
+            "provincia_normalizada": normalizar_provincia(
+                fila["provincia"]
+            ),
+
+            "estado_catalogo": estado_catalogo,
+
+            "aliases": crear_aliases(fila)
+
         }
 
-        nombres.discard("")
+        candidatos.append(candidato)
 
-        candidatos.append({
-            "codigo": fila["codigo_original"],
-            "municipio_oficial": fila["municipio_oficial"],
-            "nombre_fotocasa": fila["nombre_fotocasa"],
-            "provincia": fila["provincia"],
-            "provincia_normalizada": fila["provincia_normalizada"],
-            "nombres_normalizados": nombres
-        })
+    municipios_validados = sum(
+        c["estado_catalogo"] == "validado"
+        for c in candidatos
+    )
+
+    municipios_excluidos = sum(
+        c["estado_catalogo"] != "validado"
+        for c in candidatos
+    )
 
     # --------------------------------------------------------
-    # 5. Preparar anuncios
+    # 5. Validar anuncios
     # --------------------------------------------------------
 
     resultados = []
 
+    provincias_euskadi = {
+        "alava",
+        "bizkaia",
+        "gipuzkoa"
+    }
+
     for indice, fila in pisos.iterrows():
 
-        provincia_original = fila["provincia"]
-        localidad_original = fila["localidad_zona"]
+        provincia = fila["provincia"]
+        localidad = fila["localidad_zona"]
 
-        municipio_extraido = extraer_municipio(
-            localidad_original
-        )
+        municipio = extraer_municipio(localidad)
 
-        provincia_norm = normalizar_provincia(
-            provincia_original
-        )
-
-        municipio_norm = normalizar(
-            municipio_extraido
-        )
+        provincia_norm = normalizar_provincia(provincia)
 
         estado = ""
         codigo = ""
         municipio_oficial = ""
         provincia_catalogo = ""
+        estado_catalogo = ""
         numero_candidatos = 0
 
-        # Comprobación de valores vacíos.
-        if not str(provincia_original).strip():
+        if not provincia.strip():
+
             estado = "provincia_vacia"
 
-        elif not str(localidad_original).strip():
+        elif not localidad.strip():
+
             estado = "localidad_vacia"
 
-        elif not municipio_norm:
+        elif provincia_norm not in provincias_euskadi:
+
+            estado = "provincia_no_reconocida"
+
+        elif not normalizar(municipio):
+
             estado = "municipio_no_identificable"
 
         else:
 
-            # Buscar únicamente dentro de la misma provincia.
-            candidatos_provincia = [
-                candidato
-                for candidato in candidatos
-                if candidato["provincia_normalizada"] == provincia_norm
-            ]
-
-            coincidencias = coincidencia_nombre(
-                municipio_extraido,
-                candidatos_provincia
+            coincidencias = buscar_coincidencias(
+                municipio,
+                provincia,
+                candidatos
             )
 
             numero_candidatos = len(coincidencias)
@@ -324,34 +394,49 @@ def main():
 
                 candidato = coincidencias[0]
 
-                codigo = candidato["codigo"]
+                estado_catalogo = candidato["estado_catalogo"]
+
                 municipio_oficial = candidato["municipio_oficial"]
+
                 provincia_catalogo = candidato["provincia"]
 
-                # Coincidencia literal o normalizada.
-                nombres_originales = {
-                    candidato["municipio_oficial"].strip().casefold(),
-                    candidato["nombre_fotocasa"].strip().casefold()
-                }
+                if estado_catalogo != "validado":
 
-                if municipio_extraido.strip().casefold() in nombres_originales:
-                    estado = "coincidencia_exacta"
+                    estado = "municipio_excluido_catalogo"
+
                 else:
-                    estado = "coincidencia_normalizada"
+
+                    codigo = candidato["codigo"]
+
+                    # Comprobamos si la coincidencia es literal
+                    # o requiere normalización.
+
+                    aliases = candidato["aliases"]
+
+                    if any(
+                        normalizar(municipio) == normalizar(alias)
+                        for alias in aliases
+                    ):
+
+                        estado = "coincidencia_exacta"
+
+                    else:
+
+                        estado = "coincidencia_normalizada"
 
         resultados.append({
 
             "fila_original": indice + 2,
 
-            "provincia_pisos": provincia_original,
+            "provincia_pisos": provincia,
 
-            "localidad_zona_original": localidad_original,
+            "localidad_zona_original": localidad,
 
-            "municipio_extraido": municipio_extraido,
+            "municipio_extraido": municipio,
 
             "provincia_normalizada": provincia_norm,
 
-            "municipio_normalizado": municipio_norm,
+            "municipio_normalizado": normalizar(municipio),
 
             "estado_correspondencia": estado,
 
@@ -361,6 +446,8 @@ def main():
 
             "provincia_catalogo": provincia_catalogo,
 
+            "estado_catalogo": estado_catalogo,
+
             "municipio_codigo": codigo
 
         })
@@ -368,7 +455,7 @@ def main():
     resultado = pd.DataFrame(resultados)
 
     # --------------------------------------------------------
-    # 6. Generar CSV de pendientes
+    # 6. Crear CSV de pendientes
     # --------------------------------------------------------
 
     pendientes = resultado[
@@ -381,31 +468,44 @@ def main():
     if not pendientes.empty:
 
         pendientes_resumen = (
-            pendientes
-            .groupby(
+
+            pendientes.groupby(
                 [
                     "provincia_pisos",
-                    "localidad_zona_original",
                     "municipio_extraido",
                     "estado_correspondencia"
                 ],
                 dropna=False
             )
-            .size()
-            .reset_index(name="numero_anuncios")
-            .sort_values(
-                ["provincia_pisos", "municipio_extraido"]
+            .agg(
+
+                numero_anuncios=(
+                    "fila_original",
+                    "count"
+                ),
+
+                localidades_zona_ejemplo=(
+                    "localidad_zona_original",
+                    lambda x: " | ".join(sorted(set(x)))
+                )
+
             )
+            .reset_index()
+            .sort_values([
+                "provincia_pisos",
+                "municipio_extraido"
+            ])
+
         )
 
     else:
 
         pendientes_resumen = pd.DataFrame(columns=[
             "provincia_pisos",
-            "localidad_zona_original",
             "municipio_extraido",
             "estado_correspondencia",
-            "numero_anuncios"
+            "numero_anuncios",
+            "localidades_zona_ejemplo"
         ])
 
     # --------------------------------------------------------
@@ -425,66 +525,90 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 8. Estadísticas
+    # 8. Calcular estadísticas
     # --------------------------------------------------------
 
-    estados = resultado["estado_correspondencia"].value_counts()
+    estados = resultado[
+        "estado_correspondencia"
+    ].value_counts()
 
-    coincidencias_exactas = int(
-        (resultado["estado_correspondencia"] == "coincidencia_exacta").sum()
+    exactas = int(
+        (resultado["estado_correspondencia"]
+         == "coincidencia_exacta").sum()
     )
 
-    coincidencias_normalizadas = int(
-        (resultado["estado_correspondencia"] == "coincidencia_normalizada").sum()
+    normalizadas = int(
+        (resultado["estado_correspondencia"]
+         == "coincidencia_normalizada").sum()
     )
 
-    sin_correspondencia = int(
-        (resultado["estado_correspondencia"] == "sin_correspondencia").sum()
+    excluidos = int(
+        (resultado["estado_correspondencia"]
+         == "municipio_excluido_catalogo").sum()
     )
 
     ambiguos = int(
-        (resultado["estado_correspondencia"] == "coincidencia_ambigua").sum()
+        (resultado["estado_correspondencia"]
+         == "coincidencia_ambigua").sum()
     )
 
-    validos = coincidencias_exactas + coincidencias_normalizadas
+    sin_correspondencia = int(
+        (resultado["estado_correspondencia"]
+         == "sin_correspondencia").sum()
+    )
+
+    total_correspondencias = exactas + normalizadas
 
     # --------------------------------------------------------
-    # 9. Crear informe TXT
+    # 9. Generar informe TXT
     # --------------------------------------------------------
 
     lineas = [
 
         "=" * 65,
+
         "INFORME DE VALIDACIÓN GEOGRÁFICA - PISOS.COM",
+
         "=" * 65,
 
-        f"Fecha de ejecución: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"Fecha: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
 
         "",
 
         "ARCHIVOS ANALIZADOS",
 
         f"Anuncios Pisos.com: {len(pisos)}",
-        f"Registros catálogo Fotocasa: {len(catalogo)}",
-        f"Municipios validados en catálogo: {len(candidatos)}",
+
+        f"Registros catálogo: {len(catalogo_df)}",
+
+        f"Municipios validados en catálogo: {municipios_validados}",
+
+        f"Registros excluidos del catálogo: {municipios_excluidos}",
 
         "",
 
-        "RESULTADOS DE CORRESPONDENCIA",
+        "RESULTADOS",
 
-        f"Coincidencias exactas: {coincidencias_exactas}",
-        f"Coincidencias normalizadas: {coincidencias_normalizadas}",
-        f"Total con correspondencia única: {validos}",
+        f"Coincidencias exactas: {exactas}",
+
+        f"Coincidencias normalizadas: {normalizadas}",
+
+        f"Total con correspondencia única: {total_correspondencias}",
+
+        f"Municipios excluidos: {excluidos}",
+
         f"Sin correspondencia: {sin_correspondencia}",
+
         f"Coincidencias ambiguas: {ambiguos}",
 
         "",
 
-        "PROVINCIAS EN PISOS.COM",
+        "PROVINCIAS EN PISOS.COM"
 
     ]
 
     for provincia, cantidad in pisos["provincia"].value_counts().items():
+
         lineas.append(f"{provincia}: {cantidad}")
 
     lineas.extend([
@@ -493,14 +617,12 @@ def main():
     ])
 
     for estado, cantidad in estados.items():
+
         lineas.append(f"{estado}: {cantidad}")
 
     lineas.extend([
-
         "",
-
-        "LOCALIDADES PENDIENTES",
-
+        "LOCALIDADES PENDIENTES"
     ])
 
     if pendientes_resumen.empty:
@@ -526,18 +648,17 @@ def main():
 
         "- Los archivos originales no se han modificado.",
 
-        "- Los nombres se han normalizado solo para comparar.",
+        "- Los nombres originales se conservan.",
 
-        "- Los códigos municipales se han conservado como texto.",
+        "- La normalización se utiliza únicamente para comparar.",
 
-        "- No se han asignado códigos en coincidencias ambiguas "
-        "o sin correspondencia.",
+        "- Los códigos municipales se mantienen como texto.",
 
-        "- Una coincidencia normalizada no demuestra por sí sola "
-        "que la localidad sea correcta.",
+        "- Los municipios excluidos no reciben código validado.",
 
-        "- La validación definitiva requiere revisar las "
-        "localidades pendientes.",
+        "- Las coincidencias ambiguas no reciben código.",
+
+        "- La validación definitiva requiere revisar las incidencias.",
 
         "",
 
@@ -551,7 +672,7 @@ def main():
     )
 
     # --------------------------------------------------------
-    # 10. Mostrar resumen por terminal
+    # 10. Mostrar resultados
     # --------------------------------------------------------
 
     print("\n" + "=" * 65)
@@ -560,18 +681,19 @@ def main():
 
     print(f"Anuncios analizados: {len(resultado)}")
 
-    print(f"Coincidencias exactas: {coincidencias_exactas}")
+    print(f"Coincidencias exactas: {exactas}")
 
-    print(f"Coincidencias normalizadas: {coincidencias_normalizadas}")
+    print(f"Coincidencias normalizadas: {normalizadas}")
 
-    print(f"Con correspondencia única: {validos}")
+    print(f"Total con correspondencia única: {total_correspondencias}")
+
+    print(f"Municipios excluidos: {excluidos}")
 
     print(f"Sin correspondencia: {sin_correspondencia}")
 
     print(f"Coincidencias ambiguas: {ambiguos}")
 
     print("\nEstados encontrados:")
-
     print(estados.to_string())
 
     print("\n" + "=" * 65)
@@ -582,8 +704,7 @@ def main():
     print(ARCHIVO_PENDIENTES)
     print(ARCHIVO_INFORME)
 
-    print("\nValidación geográfica preliminar finalizada.")
-    print("Es necesario revisar las localidades pendientes.")
+    print("\nValidación preliminar finalizada.")
 
 
 if __name__ == "__main__":

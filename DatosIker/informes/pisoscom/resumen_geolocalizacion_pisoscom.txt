@@ -1,0 +1,24 @@
+RESUMEN DE GEOLOCALIZACIÓN DE PISOS.COM
+=======================================================
+Anuncios de entrada: 1041
+Registros de validación: 1041
+Anuncios en archivo final: 1041
+Anuncios con código municipal: 1040
+Anuncios de municipio excluido: 1
+Códigos municipales diferentes: 117
+
+ESTADOS DE CORRESPONDENCIA
+-------------------------------------------------------
+coincidencia_exacta: 882
+coincidencia_normalizada: 158
+municipio_excluido_catalogo: 1
+
+COMPROBACIONES
+-------------------------------------------------------
+Correspondencia por fila_original: correcta
+Cruce uno a uno: correcto
+Anuncios sin validación: 0
+Anuncios validados sin código: 0
+Municipios excluidos con código: 0
+
+Archivo generado: C:\Users\Alvaro.Morcillo\Desktop\Reto1\DatosIker\procesados\pisoscom\pisos_euskadi_geolocalizado.csv

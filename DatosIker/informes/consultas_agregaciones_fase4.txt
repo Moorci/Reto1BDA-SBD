@@ -1,0 +1,105 @@
+FASE 4 - CONSULTAS, AGREGACIONES E INDICES
+==========================================
+
+EJECUCION
+---------
+Las cinco consultas, los tres pipelines y explain() se ejecutaron contra
+reto_vivienda_fase3. Los resultados completos se guardaron en
+resultados/fase4/consultas_y_agregaciones.json, con tres arrays independientes
+preparados para futuras visualizaciones.
+
+CINCO CONSULTAS
+---------------
+Consulta                                      Resultados  Filtros principales
+--------------------------------------------  ----------  -------------------------------
+Q1 evolucion de alquiler de las capitales             36  Tres codigos, alquiler y 12 meses.
+Q2 anuncios de venta con limites                      10  Tres capitales, <= 300.000 EUR,
+                                                            superficie >= 60 m2.
+Q3 alquiler vigente EMAL                               3  Referencia 2026-03-31; valores
+                                                            numericos positivos.
+Q4 renta personal disponible Eustat                    3  Periodo 2024, sexo Total, tres
+                                                            capitales y valor numerico.
+Q5 demanda VPO menores de 36                           10  Snapshot julio, campos anidados
+                                                            valores.total y estados.total.
+
+Las consultas incluyen proyecciones, ordenaciones, comparaciones y condiciones
+combinadas. Q5 filtra por estado publicado, no sustituye los valores suprimidos.
+
+TRES AGGREGATION PIPELINES
+--------------------------
+P1: ranking de 20 municipios con menor precio de oferta de alquiler Fotocasa
+en octubre de 2026; incluye nombre y territorio mediante $lookup.
+Primeros resultados observados: Errenteria 11,26 EUR/m2; Okondo y Leza
+12,76 EUR/m2.
+
+P2: evolucion mensual de alquiler de las tres capitales, de enero de 2020 a
+octubre de 2026: 246 observaciones (82 por capital).
+
+Municipio                 2020-01  2026-10  Variacion nominal
+------------------------  -------  -------  ----------------
+Vitoria-Gasteiz             10,38    12,76             22,93 %
+Bilbao                      16,67    16,87              1,20 %
+Donostia / San Sebastian    17,17    18,44              7,40 %
+
+Son valores de oferta Fotocasa en EUR/m2. La variacion no esta ajustada por
+inflacion y no representa necesariamente rentas efectivamente pagadas.
+
+P3: cruce municipal entre alquiler vigente EMAL (2026-03-31) y oferta
+Fotocasa (2026-10), con 72 municipios coincidentes. El resultado conserva
+ambos valores y fechas; la diferencia es descriptiva porque fuente, metodo y
+periodo de referencia son distintos. No se interpreta como una comparacion
+perfectamente equivalente ni como una relacion causal.
+
+INDICE Y EXPLAIN
+----------------
+Consulta: alquiler Fotocasa del codigo 48020, entre enero y octubre de 2026.
+
+Plan forzado sin indice:
+- COLLSCAN
+- 41.164 documentos examinados
+- 0 claves examinadas
+- 10 documentos devueltos
+
+Plan con municipio_tipo_fecha:
+- FETCH sobre IXSCAN
+- 10 documentos examinados
+- 10 claves examinadas
+- 10 documentos devueltos
+
+Ambos planes devolvieron los mismos 10 resultados. El indice redujo los
+documentos examinados en aproximadamente 99,98 %. Se compararon los planes con
+hint, sin borrar ni modificar el indice de la base.
+
+CONSISTENCIA
+------------
+Las cargas usan upsert atomico por documento, ids deterministas e indices
+unicos para las claves naturales. No hay una operacion de negocio que actualice
+varias colecciones como una sola unidad: los conjuntos son snapshots estaticos
+y cada observacion es independiente. Por eso no se necesita una transaccion
+multidocumento. Si una carga se interrumpe, la siguiente ejecucion es
+idempotente; al final se validan recuentos y referencias municipales.
+
+INTERPRETACION
+--------------
+- El resultado Eustat de 2024 es renta personal disponible en euros, no salario
+  neto mensual ni renta juvenil municipal.
+- Fotocasa, EMAL y Etxebide mantienen sus significados separados: oferta,
+  alquiler registrado y demanda de vivienda protegida.
+- Los datos Etxebide suprimidos no se convierten en cero ni se extrapolan.
+- Estos resultados no permiten calcular esfuerzo economico juvenil municipal
+  sin una fuente de ingresos municipal y juvenil adecuada.
+
+VALIDACION Y REPRODUCCION
+-------------------------
+Cinco pruebas unittest pasaron. Para repetir el proceso desde la raiz:
+
+    .\.conda\python.exe -B .\src\consultas_fase4.py
+    .\.conda\python.exe -B -m unittest discover -s tests -v
+
+El script solo lee MongoDB y reemplaza atomica y localmente el JSON de
+resultados de Fase 4.
+
+SIGUIENTE FASE
+--------------
+Pendiente: HDFS y Kafka para la Fase 5; despues, automatizacion de indicadores,
+graficos y conclusiones de la Fase 6.

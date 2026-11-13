@@ -1,0 +1,111 @@
+FASE 3 - DISENO, CARGA Y CRUD DE MONGODB
+========================================
+
+DECISION DE SEGURIDAD
+---------------------
+La instancia MongoDB ya contenia la base reto_vivienda con datos de
+importaciones anteriores y fuentes mezcladas. No se elimino ni modifico esa
+base. La carga nueva se realizo en la base aislada reto_vivienda_fase3.
+
+MODELO DE DATOS
+---------------
+
+Coleccion              Documentos  Contenido
+---------------------  ----------  -------------------------------------------
+municipios                    252  Catalogo maestro; _id es el codigo municipal
+                                    de cinco caracteres.
+precios_fotocasa            41164  Observaciones mensuales de oferta por
+                                    municipio, tipo y fecha; precio en EUR/m2.
+anuncios_pisoscom            1041  Anuncios individuales; precios y superficies
+                                    numericos cuando estaban disponibles.
+alquiler_emal                 872  Alquiler registrado, con anual y vigente
+                                    identificados separadamente.
+renta_personal_eustat      247212  Observaciones de renta personal municipal,
+                                    con dimensiones originales y nulos.
+demanda_vpo                 16170  Filas de las dos fotografias Etxebide;
+                                    valores y estados de publicacion anidados.
+
+La relacion es por municipio_codigo, que referencia municipios._id. Los
+documentos de hechos mantienen la clave como cadena. El unico anuncio sin
+correspondencia municipal se conserva con municipio_codigo nulo y su estado de
+correspondencia original.
+
+Se embeben en municipios los metadatos de catalogo Fotocasa porque son datos
+pequenos y propios de ese municipio. Se referencian las observaciones mediante
+municipio_codigo en lugar de repetir el documento municipal en cientos de miles
+de registros. Las series Fotocasa, anuncios Pisos.com, alquiler EMAL, renta
+personal Eustat y demanda Etxebide permanecen en colecciones distintas para
+evitar mezclar conceptos.
+
+LIMPIEZA, TRAZABILIDAD Y CONSISTENCIA
+------------------------------------
+- El cargador usa una lista explicita de los 11 archivos canonicos; no recorre
+  originales, copias, informes ni archivos temporales.
+- Los codigos municipales se validan como cadenas de cinco digitos.
+- Los campos numericos se convierten antes de persistir; campos vacios quedan
+  como null. Los nulos Eustat se conservaron: 877 valores.
+- En Etxebide, los valores numericos y los estados de supresion se guardan por
+  separado en valores y estados; se verificaron 9.220 estados suprimidos para
+  Total.
+- Se comprueban claves naturales duplicadas antes de escribir. Los documentos
+  usan ids deterministas, indice unico de clave_natural y upsert. Una segunda
+  ejecucion completo 306.711 upserts sin inserciones ni modificaciones.
+- Se guardan fuente, archivo procesado y fila de origen para trazabilidad.
+- Los upserts son atomicos por documento; no se usa una transaccion
+  multidocumento. El cargador no borra documentos. Las operaciones de limpieza
+  y carga se automatizan con Python y PyMongo.
+
+INDICES CREADOS
+---------------
+- municipios: territorio_historico.
+- precios_fotocasa: municipio_codigo/tipo/fecha y clave_natural unica.
+- anuncios_pisoscom: municipio_codigo/operacion, URL unica y clave_natural
+  unica.
+- alquiler_emal: municipio_codigo/periodicidad/anio y clave_natural unica.
+- renta_personal_eustat: municipio_codigo/tabla_eustat/periodo y clave_natural
+  unica.
+- demanda_vpo: municipio_codigo/fecha_fotografia/grupo y clave_natural unica.
+
+VALIDACION EJECUTADA
+--------------------
+- Dry-run: 11 fuentes validadas, 306.711 documentos previstos y 252 codigos
+  municipales en el catalogo; sin conexion ni escritura.
+- Carga real: recuentos finales iguales a los previstos en las seis colecciones.
+- Referencias: ningun codigo municipal desconocido; el anuncio sin codigo se
+  conserva como excepcion documentada.
+- Relacion: un $lookup de precios Fotocasa con municipios devolvio
+  Alegria-Dulantzi para el codigo 01001.
+- CRUD: Insert, Find, Update y Delete se ejecutaron y comprobaron sobre un
+  documento temporal con id aleatorio, que se elimino al terminar. La coleccion
+  de demostracion queda sin documentos.
+- Idempotencia: segunda carga con cero inserciones y cero modificaciones.
+- La base preexistente reto_vivienda conserva sus 590.761 documentos; no se
+  escribio en ella.
+- Pruebas focalizadas: 3 pruebas unittest correctas; Pylance sin diagnosticos
+  en los scripts de la fase.
+
+IMPORTADOR GENERICO
+-------------------
+El cargador canonico nuevo no depende del descubrimiento recursivo del
+importador antiguo. Se priorizaron las reglas de clasificacion de Eustat y
+EMAL, se retiro la regla ambigua que clasificaba cualquier fuente con "renta"
+como salarios y se desactivo por defecto la importacion generica. Solo puede
+ejecutarse explicitamente con --permitir-importacion-generica; no debe usarse
+para la carga canonica.
+
+SCRIPTS Y COMANDOS
+------------------
+Desde la raiz del proyecto:
+
+    .\.conda\python.exe -B .\src\cargar_mongodb_fase3.py --dry-run
+    .\.conda\python.exe -B .\src\cargar_mongodb_fase3.py
+    .\.conda\python.exe -B .\src\crud_demostracion_fase3.py
+
+El cargador usa la base reto_vivienda_fase3, definida en src/config.py. La
+segunda ejecucion es segura e idempotente. El CRUD de demostracion elimina
+unicamente el documento temporal que acaba de insertar.
+
+SIGUIENTE FASE
+--------------
+Pendiente: preparar consultas MongoDB, tres Aggregation Pipelines, analisis
+comparativo de municipios, explicacion de indices y resultados para graficos.

@@ -1,0 +1,703 @@
+# CONTEXTO COMPLETO DEL PROYECTO – RETO 1 IABD / BDA / SBD
+
+## 1. INSTRUCCIONES GENERALES
+
+Estoy trabajando en el reto intermodular de primera evaluación de BDA (Big Data Aplicado) y SBD (Sistemas Big Data).
+
+Tu función es continuar el trabajo que ya se ha realizado, no empezar el proyecto desde cero.
+
+Tienes acceso directo a los archivos del proyecto mediante Visual Studio Code. Aprovecha ese acceso para inspeccionar los archivos, ejecutar scripts, comprobar resultados y desarrollar las partes que faltan.
+
+Es imprescindible respetar estas condiciones:
+
+- No inventes datos, resultados, archivos ni fuentes.
+- No des por terminado ningún proceso sin haberlo ejecutado y comprobado.
+- Antes de modificar archivos, inspecciona los existentes.
+- No sobrescribas los datos originales.
+- Mantén separados los datos originales y los procesados.
+- Conserva los scripts que ya funcionan.
+- Utiliza Python para los procesos de extracción, limpieza, transformación e integración.
+- Utiliza PyMongo para trabajar con MongoDB.
+- Proporciona instrucciones sencillas y comandos reproducibles en terminal de Windows.
+- Cuando haya errores, identifica su causa antes de proponer soluciones.
+- No repitas procesos de extracción si ya tenemos los datos necesarios.
+- Comprueba siempre los resultados mediante estadísticas, recuentos y validaciones.
+- Mantén un registro de avances, errores y tareas pendientes.
+
+No quiero que sustituyas soluciones ya desarrolladas por otras completamente diferentes sin una razón técnica.
+
+El objetivo es conseguir un proyecto funcional, bien documentado y que cumpla los criterios de evaluación del PDF.
+
+---
+
+## 2. OBJETIVO DEL RETO
+
+El título del reto es:
+
+¿Dónde pueden vivir los jóvenes en Euskadi?
+
+La pregunta principal que debemos responder es:
+
+¿Puede una persona joven independizarse en Euskadi con su salario?
+
+Debemos desarrollar un sistema que recopile, almacene, procese y analice datos reales sobre vivienda y otros indicadores económicos y demográficos de los municipios de Euskadi.
+
+El resultado final debe permitir comparar municipios y justificar, mediante indicadores calculados a partir de los datos, cuáles ofrecen mejores posibilidades de emancipación juvenil.
+
+La tecnología exigida incluye:
+
+- Python.
+- APIs y web scraping.
+- HDFS.
+- Apache Kafka.
+- MongoDB.
+- PyMongo.
+- Consultas MongoDB.
+- Aggregation Pipeline.
+
+---
+
+## 3. UBICACIÓN Y ORGANIZACIÓN DEL PROYECTO
+
+La ubicación principal del proyecto en el ordenador de trabajo es:
+
+C:\Users\Alvaro.Morcillo\Desktop\Reto1\DatosIker
+
+La organización que hemos seguido separa:
+
+- originales: datos originales descargados u obtenidos de las fuentes.
+- procesados: datos limpios, transformados y preparados.
+- scripts: programas Python utilizados para extraer, validar, transformar y consolidar.
+- informes: resultados, gráficos y documentación.
+
+Antes de continuar, inspecciona el árbol real de directorios. No supongas que todos los archivos están en la ubicación esperada.
+
+Los códigos municipales deben conservarse como cadenas de texto de cinco caracteres, por ejemplo, "01002". No deben convertirse a números porque se perderían los ceros iniciales.
+
+---
+
+## 4. FUENTES DE DATOS Y TRABAJO REALIZADO
+
+Hemos investigado y trabajado con cinco fuentes principales.
+
+### 4.1. FOTOCASA – SERIE HISTÓRICA DE PRECIOS
+
+Es una de las fuentes principales del proyecto.
+
+Se eligió porque permite obtener una evolución histórica de los precios inmobiliarios por municipio, tanto de alquiler como de compraventa.
+
+Se investigó cómo acceder a los datos históricos y se trabajó con la información disponible en las páginas de Fotocasa.
+
+Se obtuvo autorización por correo electrónico para utilizar los datos con fines académicos y sin ánimo de lucro, almacenarlos, transformarlos y publicar resultados derivados citando la fuente como "Índice Inmobiliario Fotocasa".
+
+Se debe conservar la evidencia de esa autorización y respetar las condiciones comunicadas, incluidos los límites de frecuencia de acceso.
+
+**Resultado de la consolidación histórica:**
+
+- 251 municipios.
+- 502 series.
+- 82 meses por serie.
+- Periodo: enero de 2020 a octubre de 2026.
+- 41.164 registros.
+- 0 duplicados.
+
+Cada municipio tiene dos series:
+- Precio de alquiler.
+- Precio de compraventa.
+
+Los datos representan precios por metro cuadrado.
+
+Archivos consolidados:
+
+`procesados/fotocasa/series_historicas_251_municipios.csv`
+
+`procesados/fotocasa/series_historicas_251_municipios.json`
+
+Catálogo municipal:
+
+`originales/fotocasa/catalogo_municipios_fotocasa.csv`
+
+Script de consolidación conocido:
+
+`scripts/fotocasa/consolidar_series_historicas_251_municipios.py`
+
+También se conservaron los scripts y archivos utilizados para la extracción y consolidación de las series.
+
+El último resultado de consolidación confirmado es de 41.164 registros, 251 municipios y ningún duplicado.
+
+**Importante:** No volver a extraer toda la información de Fotocasa sin necesidad. Primero inspeccionar los archivos existentes y comprobar que los datos están disponibles y son legibles.
+
+La tarea pendiente es comprobar la estructura de los registros, sus campos, los tipos de datos, los valores ausentes y la coherencia temporal y municipal antes de integrarlos en MongoDB.
+
+### 4.2. PISOS.COM – ANUNCIOS INMOBILIARIOS
+
+Se utilizó Pisos.com para obtener anuncios inmobiliarios individuales de Euskadi.
+
+Esta fuente complementa la información histórica de Fotocasa.
+
+La diferencia es importante:
+
+- Fotocasa proporciona una evolución histórica agregada de precios por municipio.
+- Pisos.com proporciona anuncios individuales de viviendas en venta y alquiler.
+
+Se recopilaron inicialmente 1.152 anuncios.
+
+Después de una revisión manual se eliminaron 111 anuncios que no debían permanecer en el conjunto definitivo.
+
+Resultado final:
+
+- 1.041 anuncios.
+- 1.040 anuncios con código municipal validado.
+- 117 códigos municipales.
+- 1 municipio excluido: Usansolo.
+- 882 coincidencias municipales exactas.
+- 158 coincidencias después de normalizar nombres.
+- 0 municipios sin correspondencia o ambiguos entre los anuncios restantes y el catálogo utilizado.
+
+Archivo definitivo conocido:
+
+`procesados/pisoscom/pisos_euskadi_geolocalizado.csv`
+
+Los datos contienen anuncios de venta y alquiler.
+
+En una validación anterior se comprobaron:
+
+- 900 anuncios de venta.
+- 252 anuncios de alquiler.
+- 101 anuncios sin precio.
+- 40 anuncios sin superficie.
+- 141 anuncios sin precio por metro cuadrado.
+- 1.011 anuncios con cálculo de precio por metro cuadrado posible.
+
+La versión definitiva se obtuvo después de retirar 111 anuncios de revisión manual, por lo que no se deben trasladar automáticamente esos recuentos anteriores al archivo final sin volver a calcularlos.
+
+Se debe inspeccionar el CSV definitivo para conocer sus columnas exactas.
+
+Tarea pendiente: validar los 1.041 anuncios definitivos, comprobar sus tipos de datos y preparar los campos necesarios para MongoDB.
+
+### 4.3. EMAL – ALQUILER REGISTRADO
+
+Se trabajó con información de EMAL sobre contratos de alquiler registrados.
+
+Se generaron dos conjuntos de datos procesados.
+
+Alquiler anual:
+- 728 registros.
+- 73 municipios.
+
+Alquiler vigente:
+- 144 registros.
+- 72 municipios.
+
+Archivos conocidos:
+
+`procesados/emal_alquiler_anual_municipios.json`
+
+`procesados/emal_alquiler_vigente_municipios.json`
+
+Se comprobaron los códigos municipales y se verificó su correspondencia con los municipios de los conjuntos de referencia utilizados.
+
+No se detectaron códigos municipales sin correspondencia en aquella validación.
+
+Es importante distinguir esta fuente de Fotocasa y Pisos.com:
+
+- EMAL representa información de alquiler registrado.
+- Fotocasa representa precios de oferta o índices inmobiliarios.
+- Pisos.com representa anuncios inmobiliarios individuales.
+
+No se deben mezclar como si fueran exactamente el mismo tipo de precio.
+
+Esta distinción debe mantenerse también en los análisis y conclusiones.
+
+### 4.4. EUSTAT – INFORMACIÓN ECONÓMICA Y DEMOGRÁFICA
+
+Se investigaron varias tablas de Eustat.
+
+Entre ellas:
+- Renta por municipio.
+- Renta por grupos de edad.
+- Otros indicadores económicos y demográficos.
+
+Se inspeccionaron datos correspondientes a distintos periodos, incluyendo series de renta de 2001 a 2024 y otras tablas de 2013 a 2024.
+
+Se comprobó la correspondencia de códigos municipales con EMAL.
+
+En una de las comprobaciones:
+- EMAL anual tenía 73 códigos municipales.
+- EMAL vigente tenía 72 códigos municipales.
+- Los códigos comprobados coincidían con los correspondientes registros municipales de referencia.
+
+Existe una limitación importante: no hemos encontrado una fuente que proporcione directamente la renta salarial juvenil municipal que necesitamos para responder a la pregunta del reto.
+
+No debemos inventar salarios ni asignar salarios provinciales o autonómicos a municipios como si fueran municipales.
+
+Hay que revisar los archivos originales disponibles y determinar qué indicadores de renta de Eustat podemos utilizar realmente.
+
+También hay que identificar qué datos corresponden a renta personal, renta familiar u otros conceptos, y no tratarlos como equivalentes a un salario neto mensual.
+
+En el último inventario de la carpeta `procesados` no aparecieron archivos procesados de Eustat. Por tanto, hay que comprobar dónde están los originales y qué procesamiento se había realizado anteriormente.
+
+### 4.5. ETXEBIDE – INFORMACIÓN COMPLEMENTARIA
+
+Se trabajó con dos fotografías de datos de Etxebide correspondientes a abril y julio de 2026.
+
+Se contabilizaron:
+- 8.085 registros.
+- 245 municipios.
+
+Estos datos deben revisarse para determinar qué información concreta aportan al análisis de emancipación juvenil.
+
+No asumir que son precios de alquiler o compraventa.
+
+Inspeccionar los campos originales, identificar qué representan y decidir si pueden integrarse como fuente complementaria.
+
+En el último inventario de `procesados` tampoco aparecieron archivos procesados de Etxebide.
+
+---
+
+## 5. ESTADO DE LOS DATOS PROCESADOS
+
+El último inventario realizado de la carpeta `procesados` mostró:
+
+- 15 archivos.
+- 2 carpetas.
+
+Los conjuntos identificados fueron:
+
+- EMAL: 2 archivos JSON.
+- Fotocasa: 12 archivos CSV/JSON, incluyendo los conjuntos históricos consolidados.
+- Pisos.com: archivo CSV geolocalizado.
+
+No aparecieron conjuntos procesados de Eustat, Etxebide ni juventud.
+
+Este inventario es importante porque el siguiente paso acordado era revisar y validar todos los datos antes de empezar con la carga en MongoDB.
+
+---
+
+## 6. DECISIONES TÉCNICAS QUE DEBES RESPETAR
+
+1. Mantener los datos originales separados de los procesados.
+
+2. Mantener los códigos municipales como cadenas de cinco caracteres.
+
+3. Diferenciar precios históricos de Fotocasa, anuncios individuales de Pisos.com y alquiler registrado de EMAL.
+
+4. No mezclar indicadores económicos que midan conceptos diferentes.
+
+5. No inventar datos de salarios juveniles.
+
+6. Mantener la trazabilidad de las fuentes.
+
+7. Conservar los scripts de extracción y transformación.
+
+8. Priorizar la automatización mediante Python.
+
+9. No modificar manualmente los documentos de MongoDB para realizar la limpieza: las operaciones deben ejecutarse mediante scripts PyMongo.
+
+10. Comprobar los resultados de cada operación.
+
+---
+
+# 7. QUÉ FALTA POR HACER SEGÚN EL PDF DE EVALUACIÓN
+
+Esta parte es especialmente importante.
+
+El PDF establece requisitos concretos y criterios de puntuación. El objetivo es intentar alcanzar el nivel de 10 puntos en cada apartado, siempre que los datos y la arquitectura lo permitan.
+
+## BLOQUE A. VALIDACIÓN Y PREPARACIÓN DE DATOS
+
+Antes de empezar MongoDB:
+
+1. Inspeccionar todos los archivos originales y procesados.
+2. Identificar las columnas y estructuras JSON de cada fuente.
+3. Comprobar registros, duplicados, valores nulos y tipos.
+4. Validar los códigos municipales.
+5. Homogeneizar nombres y formatos.
+6. Identificar las relaciones posibles entre fuentes.
+7. Decidir qué datos se incorporarán a MongoDB.
+8. Documentar las limitaciones de cada fuente.
+
+No eliminar registros válidos únicamente porque tengan algún campo incompleto. Debe decidirse qué hacer con cada tipo de ausencia según su significado.
+
+## BLOQUE B. BDA – BIG DATA APLICADO
+
+### B1. Extracción de datos
+
+El PDF exige extracción mediante API y scraping.
+
+Ya se ha trabajado con varias fuentes y se han obtenido datos reales.
+
+Hay que documentar los métodos utilizados y comprobar qué fuentes se obtuvieron mediante API, cuáles mediante scraping y cuáles mediante descargas de datos.
+
+El criterio máximo exige automatizar API y scraping.
+
+### B2. Almacenamiento HDFS
+
+Pendiente de desarrollar y comprobar.
+
+Hay que:
+
+- Configurar HDFS.
+- Crear directorios para los datos originales.
+- Crear directorios para los datos procesados.
+- Subir los archivos originales.
+- Subir los archivos procesados.
+- Comprobar que se pueden recuperar.
+
+El objetivo es demostrar que los datos están organizados y almacenados en HDFS, no simplemente guardados en el disco local.
+
+### B3. Apache Kafka
+
+Pendiente de desarrollar.
+
+Hay que crear:
+
+- Un tópico Kafka para simular la recepción de anuncios inmobiliarios.
+- Un productor en Python.
+- Un consumidor en Python.
+
+El productor debe enviar anuncios en formato JSON.
+
+El consumidor debe recibirlos y procesarlos.
+
+La idea es simular la llegada de nuevos anuncios inmobiliarios, no limitarse a ejecutar un productor y un consumidor sin relación con el proyecto.
+
+### B4. Integración de componentes
+
+Pendiente de demostrar.
+
+El objetivo es conseguir un flujo funcional:
+
+Fuentes de datos → Python → HDFS → Kafka → consumidor Python → MongoDB.
+
+Hay que decidir la integración concreta y comprobar que los componentes intercambian información correctamente.
+
+El criterio máximo de BDA exige demostrar el flujo completo hasta MongoDB.
+
+---
+
+## BLOQUE C. SBD – SISTEMAS BIG DATA
+
+### C1. Diseño de MongoDB
+
+Pendiente de implementar.
+
+Debemos crear una base de datos MongoDB con al menos dos colecciones y una relación entre ellas.
+
+Una propuesta inicial que debe evaluarse según los datos reales es:
+
+Colección `municipios`:
+- Código municipal.
+- Nombre.
+- Territorio histórico.
+- Información complementaria disponible.
+
+Colección `indicadores_vivienda`:
+- Municipio.
+- Código municipal.
+- Fuente.
+- Tipo de indicador.
+- Fecha o periodo.
+- Valor.
+- Unidad.
+- Información histórica.
+
+También hay que valorar si tiene sentido crear colecciones independientes para anuncios individuales, datos económicos o alquiler registrado.
+
+No diseñes las colecciones definitivamente hasta inspeccionar las estructuras reales.
+
+El PDF valora especialmente justificar una decisión de embedding o referencing.
+
+### C2. CRUD mediante PyMongo
+
+Pendiente de demostrar.
+
+Hay que implementar las cuatro operaciones:
+
+- Insert.
+- Find.
+- Update.
+- Delete.
+
+No basta con escribirlas: hay que ejecutarlas y comprobar mediante código que los resultados son correctos.
+
+### C3. Integración de fuentes
+
+El PDF exige:
+
+- Cargar datos de al menos dos fuentes diferentes.
+- Relacionarlas mediante al menos un campo común.
+- Utilizar al menos dos colecciones.
+- Demostrar una relación, embedding o referencing.
+
+En nuestro caso, el código municipal puede ser el campo común principal.
+
+Fotocasa, EMAL, Pisos.com y los indicadores económicos pueden relacionarse por municipio cuando la granularidad y el significado de los datos lo permitan.
+
+### C4. Limpieza y transformación con PyMongo
+
+Pendiente de desarrollar.
+
+El nivel máximo exige al menos cuatro operaciones diferentes, incluyendo:
+
+- Tratamiento de nulos o campos ausentes.
+- Eliminación o tratamiento de duplicados.
+- Conversión de tipos y formatos.
+- Otras operaciones de limpieza o transformación.
+
+Todo debe automatizarse mediante scripts Python y PyMongo.
+
+### C5. Automatización
+
+Hay que conseguir que un conjunto de scripts permita ejecutar:
+
+Carga de datos + limpieza + transformación.
+
+No se deben modificar manualmente los documentos de MongoDB para preparar los resultados.
+
+### C6. Consultas MongoDB
+
+El nivel máximo exige al menos cinco consultas útiles para el reto.
+
+Deben incluir:
+
+- Una consulta con campos anidados o arrays.
+- Una consulta combinando dos o más condiciones.
+- Filtros.
+- Operadores de comparación.
+- Operadores lógicos.
+- Proyecciones.
+- Ordenaciones.
+
+Las consultas deben responder preguntas reales sobre vivienda y emancipación.
+
+### C7. Aggregation Pipeline
+
+El PDF exige tres pipelines para alcanzar el nivel máximo.
+
+En total deben utilizarse cinco etapas diferentes, incluyendo:
+
+- `$group`.
+- Al menos una de estas: `$lookup`, `$unwind` o `$facet`.
+
+Los pipelines deben responder preguntas relevantes del reto.
+
+Ejemplos de análisis que se pueden desarrollar, una vez comprobada la estructura de los datos:
+
+1. Comparar los precios de alquiler entre municipios.
+2. Obtener la evolución histórica del alquiler por municipio.
+3. Relacionar indicadores de vivienda con datos económicos.
+4. Comparar anuncios individuales con precios históricos.
+5. Calcular estadísticas de precios por territorio histórico.
+
+### C8. Índices y rendimiento
+
+Pendiente.
+
+Hay que:
+
+1. Crear un índice relacionado con una consulta real.
+2. Ejecutar `explain()` antes y después de utilizarlo, o comparar la consulta con y sin índice.
+3. Identificar `COLLSCAN` e `IXSCAN`.
+4. Revisar `totalDocsExamined`.
+5. Explicar si el índice mejora la consulta.
+
+### C9. Consistencia
+
+Pendiente.
+
+El PDF exige demostrar una operación atómica o justificar técnicamente por qué no es necesaria una transacción.
+
+Hay que identificar una operación real del proyecto que pueda requerir consistencia.
+
+Si no necesitamos una transacción multidocumento, demostrar mediante código una operación atómica y explicar por qué una transacción sería innecesaria.
+
+---
+
+## BLOQUE D. RA4 – PROCESAMIENTO, ANÁLISIS Y RESULTADOS
+
+Este apartado es especialmente importante.
+
+### D1. Integración de datos heterogéneos
+
+Debemos demostrar que integramos fuentes con estructuras diferentes.
+
+Por ejemplo:
+
+- Series históricas de Fotocasa.
+- Anuncios individuales de Pisos.com.
+- Alquiler registrado de EMAL.
+- Indicadores económicos de Eustat.
+- Información complementaria de Etxebide.
+
+Hay que adaptar las estructuras mediante Python/PyMongo.
+
+### D2. Automatización del análisis
+
+Crear un script que ejecute automáticamente las consultas y agregaciones principales de MongoDB y devuelva resultados preparados para su representación.
+
+No queremos tener que ejecutar manualmente cada consulta para obtener los resultados.
+
+### D3. Indicadores
+
+El PDF exige al menos cinco indicadores para el nivel máximo, combinando información de dos o más fuentes.
+
+Hay que seleccionar indicadores que puedan calcularse realmente con los datos disponibles.
+
+Algunos posibles indicadores, sujetos a disponibilidad y validación:
+
+- Precio medio de alquiler por metro cuadrado.
+- Precio medio de compraventa por metro cuadrado.
+- Evolución del precio del alquiler.
+- Variación porcentual del precio del alquiler.
+- Precio medio de los anuncios de alquiler.
+- Diferencia entre precios de oferta y alquiler registrado.
+- Relación entre renta disponible y coste estimado de vivienda.
+- Esfuerzo económico estimado para acceder a una vivienda.
+
+No todos los indicadores serán necesariamente calculables. Especialmente, el esfuerzo económico juvenil requiere disponer de una referencia de ingresos adecuada.
+
+No utilizar renta familiar, renta personal o salario como si fueran el mismo concepto.
+
+### D4. Respuesta a la pregunta del reto
+
+Hay que comparar al menos tres municipios o zonas.
+
+Las conclusiones deben estar relacionadas con indicadores calculados mediante MongoDB.
+
+La respuesta final debe permitir explicar:
+
+- Qué municipios presentan mejores precios de alquiler.
+- Qué municipios tienen mejores condiciones económicas según los datos disponibles.
+- Cómo ha evolucionado el mercado inmobiliario.
+- Qué diferencias existen entre alquiler registrado y precios de oferta.
+- Qué posibilidades de emancipación pueden observarse.
+
+Cada conclusión debe estar respaldada por datos.
+
+### D5. Preparación para visualización
+
+El nivel máximo exige generar automáticamente al menos tres conjuntos de resultados diferentes preparados para representar gráficamente.
+
+Por ejemplo:
+
+1. Evolución histórica del alquiler por municipio.
+2. Comparación de precios de alquiler entre municipios.
+3. Comparación de indicadores económicos y precios de vivienda.
+
+Los resultados deben generarse mediante PyMongo.
+
+Después se pueden utilizar para crear gráficos y tablas en el informe.
+
+---
+
+# 8. ENTREGABLES FINALES
+
+Según el PDF, debemos entregar:
+
+1. Código fuente: scripts Python organizados y documentados.
+2. Datos: ficheros originales almacenados en HDFS y base de datos MongoDB.
+3. Arquitectura: esquema explicativo del recorrido de los datos.
+4. Informe de resultados: gráficos, tablas y conclusiones.
+5. Demostración: ejecución del sistema y explicación de las decisiones técnicas.
+
+Por tanto, no debemos centrarnos únicamente en conseguir que MongoDB funcione. Hay que preparar también la arquitectura, los resultados y la demostración.
+
+---
+
+# 9. ORDEN DE TRABAJO RECOMENDADO
+
+Quiero que continúes siguiendo este orden:
+
+**FASE 1 – Auditoría del estado actual**
+
+- Inspeccionar todos los directorios.
+- Identificar los archivos existentes.
+- Comprobar los scripts.
+- Comprobar las estructuras y estadísticas de los conjuntos de datos.
+- Identificar archivos originales que todavía no estén procesados.
+- Generar un inventario real del proyecto.
+
+No modificar nada en esta fase.
+
+**FASE 2 – Consolidación de datos**
+
+- Terminar de validar Fotocasa.
+- Validar el archivo definitivo de Pisos.com.
+- Revisar EMAL.
+- Localizar y procesar los indicadores de Eustat.
+- Revisar Etxebide.
+- Determinar qué indicadores económicos pueden utilizarse realmente.
+- Preparar los conjuntos definitivos.
+
+**FASE 3 – Diseño e implementación de MongoDB**
+
+- Diseñar colecciones.
+- Justificar embedding y referencing.
+- Crear la base de datos.
+- Cargar las fuentes.
+- Implementar CRUD.
+- Realizar limpieza y transformaciones con PyMongo.
+- Comprobar los resultados.
+
+**FASE 4 – Consultas y análisis**
+
+- Preparar cinco o más consultas.
+- Desarrollar tres Aggregation Pipelines.
+- Crear índices.
+- Comprobar rendimiento con explain().
+- Implementar y justificar consistencia.
+
+**FASE 5 – BDA**
+
+- Configurar HDFS.
+- Almacenar originales y procesados.
+- Comprobar recuperación.
+- Implementar productor y consumidor Kafka.
+- Integrar Kafka con MongoDB.
+- Demostrar el flujo completo.
+
+**FASE 6 – Resultados**
+
+- Automatizar los análisis.
+- Calcular al menos cinco indicadores.
+- Comparar al menos tres municipios.
+- Generar tres conjuntos de resultados para visualización.
+- Crear gráficos y tablas.
+
+**FASE 7 – Entrega**
+
+- Preparar documentación.
+- Crear diagrama de arquitectura.
+- Elaborar informe.
+- Preparar demostración funcional.
+- Comprobar que todos los requisitos del PDF están cubiertos.
+
+---
+
+# 10. PRIMERA TAREA QUE DEBES REALIZAR AHORA
+
+No empieces directamente a crear MongoDB ni a escribir nuevos scripts.
+
+Primero quiero que hagas una auditoría del proyecto al que tienes acceso en Visual Studio Code.
+
+Necesito que:
+
+1. Inspecciones el árbol completo de directorios.
+2. Identifiques todos los archivos CSV, JSON, Python y demás formatos.
+3. Identifiques los scripts de extracción, consolidación y validación.
+4. Compruebes si los archivos consolidados de Fotocasa existen y son legibles.
+5. Compruebes los registros de Pisos.com y EMAL.
+6. Localices los originales de Eustat y Etxebide.
+7. Identifiques si ya existe algún trabajo de MongoDB, Kafka o HDFS.
+8. Revises si existen archivos de documentación o informes.
+9. Generes una tabla con cada conjunto de datos, su número de registros, campos principales y estado de validación.
+10. Indiques qué requisitos del PDF están realizados, cuáles están parcialmente realizados y cuáles no están realizados.
+
+No modifiques ni elimines archivos durante esta auditoría.
+
+Al terminar, presenta un informe del estado real del proyecto y propón el siguiente paso concreto.
+
+**IMPORTANTE: espera mi confirmación antes de empezar a modificar archivos o desarrollar la siguiente fase.**
+
+Quiero continuar el proyecto de forma progresiva, verificando cada paso antes de avanzar.
