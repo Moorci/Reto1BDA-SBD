@@ -110,6 +110,13 @@ SOURCE_SPECS = (
     ),
 )
 
+CANONICAL_COLLECTIONS = frozenset(spec.collection for spec in SOURCE_SPECS)
+ALLOWED_COLLECTIONS = CANONICAL_COLLECTIONS | {
+    "_metadata",
+    "crud_demostracion",
+    "anuncios_stream_fase5",
+}
+
 
 ETXEBIDE_METRICS = {
     "Empadronado_Compra": "empadronado_compra",
@@ -513,18 +520,8 @@ def _create_indexes(database: Database) -> None:
 
 def ensure_database_marker(database: Database) -> None:
     marker_collection = database["_metadata"]
-    allowed_collections = {
-        "_metadata",
-        "municipios",
-        "precios_fotocasa",
-        "anuncios_pisoscom",
-        "alquiler_emal",
-        "renta_personal_eustat",
-        "demanda_vpo",
-        "crud_demostracion",
-    }
     existing_collections = set(database.list_collection_names())
-    unexpected = existing_collections - allowed_collections
+    unexpected = existing_collections - ALLOWED_COLLECTIONS
     if unexpected:
         raise RuntimeError(
             "La base aislada contiene colecciones no reconocidas; no se modificará: "
@@ -547,7 +544,7 @@ def ensure_database_marker(database: Database) -> None:
             "_id": "fase3_schema",
             "version": 1,
             "creado_en": datetime.now(timezone.utc),
-            "colecciones": sorted(allowed_collections - {"_metadata", "crud_demostracion"}),
+            "colecciones": sorted(CANONICAL_COLLECTIONS),
         }
     )
 

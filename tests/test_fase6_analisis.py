@@ -3,11 +3,13 @@ from __future__ import annotations
 import unittest
 
 from src.analisis_fase6 import (
+    INDICATOR_DEFINITIONS,
     _grouped_capital_svg,
     _merge_municipal_indicators,
     _municipal_work_income_effort_rows,
     _regional_effort_rows,
     _required_code,
+    _scatter_svg,
 )
 
 
@@ -125,6 +127,32 @@ class Fase6AnalysisTests(unittest.TestCase):
 
         self.assertIn('viewBox="0 0 980 320"', svg)
         self.assertIn("EUR/m²/mes", svg)
+
+    def test_eustat_personal_income_is_labeled_as_annual_and_per_person(self) -> None:
+        indicator = next(
+            item
+            for item in INDICATOR_DEFINITIONS
+            if item["id"] == "eustat_renta_personal_disponible_eur"
+        )
+        svg = _scatter_svg(
+            [
+                {
+                    "municipio_codigo": "01059",
+                    "municipio": "Vitoria-Gasteiz",
+                    "fotocasa_alquiler_eur_m2": 10.0,
+                    "eustat_renta_personal_disponible_eur": 20000,
+                },
+                {
+                    "municipio_codigo": "48020",
+                    "municipio": "Bilbao",
+                    "fotocasa_alquiler_eur_m2": 12.0,
+                    "eustat_renta_personal_disponible_eur": 25000,
+                },
+            ]
+        )
+
+        self.assertEqual(indicator["unidad"], "EUR/persona/año")
+        self.assertIn("EUR/persona/año, 2024", svg)
 
 
 if __name__ == "__main__":

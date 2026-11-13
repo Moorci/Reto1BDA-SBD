@@ -21,4 +21,4 @@ Anuncios sin validación: 0
 Anuncios validados sin código: 0
 Municipios excluidos con código: 0
 
-Archivo generado: C:\Users\Alvaro.Morcillo\Desktop\Reto1\DatosIker\procesados\pisoscom\pisos_euskadi_geolocalizado.csv
+Archivo generado: DatosIker/procesados/pisoscom/pisos_euskadi_geolocalizado.csv

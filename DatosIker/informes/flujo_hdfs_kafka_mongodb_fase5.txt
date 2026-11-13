@@ -13,10 +13,13 @@ El archivo de entrada Pisos.com existe en HDFS:
 Su tamaño remoto y local es 195.471 bytes; se leyó desde HDFS y se validaron
 sus 1.041 filas y cabeceras.
 
-El estado remoto consultado solo muestra originales; no se creó ni subió otra
-carpeta HDFS. El manifiesto local del cargador se ajustó para excluir
-subcarpetas Fotocasa/pruebas y HTML notFound en futuras cargas. En HDFS ya
-había cinco HTML de pruebas, que no se borraron ni modificaron.
+HDFS contiene además 21 archivos procesados (205.376.874 bytes) en una carpeta
+separada. Se compararon tamaño y SHA-256 de los 21 archivos procesados; los
+hashes coinciden con el origen local. En total hay 290 originales/procesados y
+341.468.251 bytes. Los originales no se volvieron a cargar. El manifiesto local
+del cargador se ajustó para excluir subcarpetas Fotocasa/pruebas y HTML
+notFound en futuras cargas. En HDFS ya había cinco HTML de pruebas, que no se
+borraron ni modificaron.
 
 FLUJO EJECUTADO
 ---------------
@@ -56,19 +59,19 @@ DEPENDENCIAS Y EJECUCION EN WINDOWS
 -----------------------------------
 Desde la raíz Reto1, instalar:
 
-    .\.conda\python.exe -m pip install -r .\requirements-fase5.txt
+    .\.venv\Scripts\python.exe -m pip install -r .\requirements-fase5.txt
 
 Crear o verificar el tópico:
 
-    .\.conda\python.exe -B .\src\fase5_streaming.py crear-topic
+    .\.venv\Scripts\python.exe -B .\src\fase5_streaming.py crear-topic
 
 Abrir dos terminales desde la raíz. En la primera:
 
-    .\.conda\python.exe -u -B .\src\fase5_streaming.py consumidor
+    .\.venv\Scripts\python.exe -u -B .\src\fase5_streaming.py consumidor
 
 Cuando indique que está listo, ejecutar en la segunda:
 
-    .\.conda\python.exe -u -B .\src\fase5_streaming.py productor
+    .\.venv\Scripts\python.exe -u -B .\src\fase5_streaming.py productor
 
 El usuario HDFS, los endpoints, el tópico, MONGO_URI y otros valores admiten
 configuración mediante variables de entorno. Los valores por defecto del
@@ -84,7 +87,11 @@ que no se volvió a ejecutar ni se borró contenido HDFS.
 
 VALIDACION
 ----------
-- Diez pruebas unittest pasan.
+- Verificador WebHDFS de solo lectura ejecutado: 269 originales y 21
+  procesados; los 21 procesados coinciden por SHA-256 con los archivos locales.
+- Se recuperó desde HDFS el CSV Pisos.com y se validaron cabeceras y 1.041
+  anuncios.
+- La suite completa actual terminó con 20 pruebas unittest correctas.
 - Se ejecutó el flujo real HDFS -> Kafka -> MongoDB.
 - 1.041 mensajes fueron recibidos y correspondieron a 1.041 documentos con
   identificadores únicos.

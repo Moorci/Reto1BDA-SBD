@@ -32,6 +32,7 @@ EXCLUDED_DIR_NAMES = {
     ".git",
     ".vscode",
     ".ipynb_checkpoints",
+    "informes",
 }
 
 DATASET_RULES: List[Dict[str, Any]] = [

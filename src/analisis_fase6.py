@@ -70,7 +70,7 @@ INDICATOR_DEFINITIONS = [
         "id": "eustat_renta_personal_disponible_eur",
         "nombre": "Renta personal media disponible Eustat",
         "fuente": "Eustat",
-        "unidad": "EUR",
+        "unidad": "EUR/persona/año",
         "periodo": "Último periodo disponible",
     },
     {
@@ -961,7 +961,8 @@ def _scatter_svg(rows: list[dict[str, Any]]) -> str:
             'text-anchor="middle">Alquiler Fotocasa (EUR/m²/mes)</text>',
             f'<text x="20" y="{top + chart_height / 2:.1f}" '
             f'transform="rotate(-90 20 {top + chart_height / 2:.1f})" '
-            'text-anchor="middle">Renta personal disponible Eustat (EUR, 2024)'
+            'text-anchor="middle">Renta personal disponible Eustat '
+            '(EUR/persona/año, 2024)'
             "</text>",
         ]
     )
@@ -973,7 +974,8 @@ def _scatter_svg(rows: list[dict[str, Any]]) -> str:
         code = row["municipio_codigo"]
         color = "#dc2626" if code in CAPITALS else "#2563eb"
         title = html.escape(
-            f"{row['municipio']}: {rent:.2f} EUR/m²/mes; {income:.0f} EUR"
+            f"{row['municipio']}: {rent:.2f} EUR/m²/mes; "
+            f"{income:.0f} EUR/persona/año"
         )
         svg.append(
             f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3" fill="{color}" '
@@ -1657,8 +1659,19 @@ def _make_report(payload: dict[str, Any]) -> str:
         "contratos iniciados en 2024, anualizados a 12 meses, con la renta "
         "personal media Eustat de la categoría Renta del trabajo por municipio."
     )
+    youth_income_note = (
+        "La tabla Eustat PX_173402_crpf_rpf_rp03.px publica renta personal "
+        "media por grupos de edad (incluidos 18-19, 20-24 y 25-29 años) para "
+        "Euskadi, pero no tiene dimensión municipal. PX_173402_crpf_rpf_rp11s.px "
+        "publica renta personal por municipio, pero no tiene edad. No se combinan "
+        "esas tablas: este análisis no dispone de ingresos juveniles municipales "
+        "Eustat ni calcula un esfuerzo juvenil municipal con esa fuente. La "
+        "verificación y sus observaciones están en "
+        "DatosIker/informes/investigacion_ingresos_juveniles_eustat.txt."
+    )
     limitations = (
-        "Los cocientes de alquiler/renta son indicadores orientativos, no "
+        youth_income_note
+        + " Los cocientes de alquiler/renta son indicadores orientativos, no "
         "salarios ni tasas observadas de esfuerzo. La Renta del trabajo de "
         "Eustat es una renta personal media anual municipal sin desglose por "
         "edad y no equivale a salario neto juvenil. EMAL mide la renta mensual "
@@ -1687,7 +1700,7 @@ def _make_report(payload: dict[str, Any]) -> str:
         f"EUR/m²/mes). La mayor renta personal disponible Eustat corresponde a "
         f"{highest_personal_income['municipio']} "
         f"({_format_number(highest_personal_income['eustat_renta_personal_disponible_eur'], 0)} "
-        f"EUR en {periods['eustat_renta_personal']}), pero esto no permite "
+        f"EUR/persona/año en {periods['eustat_renta_personal']}), pero esto no permite "
         "concluir que las personas jóvenes puedan emanciparse allí. Entre las "
         "capitales, con la referencia regional de ingresos, el menor esfuerzo "
         f"estimado es {lowest_effort['municipio']} "
@@ -1743,7 +1756,8 @@ def _make_report(payload: dict[str, Any]) -> str:
                 f"Fotocasa venta ({periods['fotocasa_venta']}) EUR/m²",
                 f"EMAL ({periods['emal_vigente']}) EUR/m²/mes",
                 f"Pisos.com alquiler ({periods['pisoscom_extraccion']}) EUR/m²/mes",
-                f"Eustat renta personal disponible ({periods['eustat_renta_personal']}) EUR",
+                f"Eustat renta personal disponible "
+                f"({periods['eustat_renta_personal']}) EUR/persona/año",
                 "Fotocasa−EMAL EUR/m²/mes (descriptivo)",
             ],
             capital_table_rows,
@@ -1795,6 +1809,13 @@ def _make_report(payload: dict[str, Any]) -> str:
                 "Alquiler anualizado / renta trabajo %",
             ],
             municipal_work_effort_table_rows,
+        ),
+        "<h2>Ingresos juveniles municipales Eustat</h2>",
+        (
+            f"<p>{html.escape(youth_income_note)} "
+            '<a href="../../DatosIker/informes/'
+            'investigacion_ingresos_juveniles_eustat.txt">'
+            "Informe de contraste y evidencias.</a></p>"
         ),
         f"<p>{html.escape(conclusion)}</p>",
         "<h2>Resultados preparados para visualización</h2>",

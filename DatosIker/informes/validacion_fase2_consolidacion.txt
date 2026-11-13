@@ -77,5 +77,5 @@ scripts/eustat/procesar_indicadores_municipales.py
 scripts/etxebide/procesar_demandantes_municipales.py
 
 Ejecucion desde la raiz del proyecto:
-    .\.conda\python.exe -B .\DatosIker\scripts\eustat\procesar_indicadores_municipales.py
-    .\.conda\python.exe -B .\DatosIker\scripts\etxebide\procesar_demandantes_municipales.py
+    .\.venv\Scripts\python.exe -B .\DatosIker\scripts\eustat\procesar_indicadores_municipales.py
+    .\.venv\Scripts\python.exe -B .\DatosIker\scripts\etxebide\procesar_demandantes_municipales.py

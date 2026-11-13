@@ -70,7 +70,7 @@
       "id": "eustat_renta_personal_disponible_eur",
       "nombre": "Renta personal media disponible Eustat",
       "fuente": "Eustat",
-      "unidad": "EUR",
+      "unidad": "EUR/persona/año",
       "periodo": "Último periodo disponible"
     },
     {

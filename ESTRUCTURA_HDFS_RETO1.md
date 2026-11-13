@@ -4,6 +4,10 @@
 
 Mantener separados los archivos originales y los conjuntos procesados. No subir scripts, backups, archivos temporales ni informes/gráficos a estas zonas de datos.
 
+Los comandos de este documento asumen un entorno local `.venv` creado desde
+PowerShell con `py -3.12 -m venv .venv` e instalado mediante
+`python -m pip install -r requirements.txt`; no es necesario entregar `.conda`.
+
 La raíz puede ser, por ejemplo, `/user/<usuario>/reto1`. Dentro de ella se crea:
 
 ```text
@@ -98,8 +102,8 @@ Los conjuntos procesados se cargan por WebHDFS con
 [`src/HDFS/subir_procesados.py`](./src/HDFS/subir_procesados.py):
 
 ```powershell
-.\.conda\python.exe -B .\src\HDFS\subir_procesados.py --dry-run
-.\.conda\python.exe -B .\src\HDFS\subir_procesados.py
+.\.venv\Scripts\python.exe -B .\src\HDFS\subir_procesados.py --dry-run
+.\.venv\Scripts\python.exe -B .\src\HDFS\subir_procesados.py
 ```
 
 El script escribe bajo `procesados/`, conserva los subdirectorios locales y
@@ -108,6 +112,12 @@ tamaño y SHA-256 del archivo remoto. En la ejecución confirmada, los 21
 archivos sumaron 205.376.874 bytes; 20 se subieron y uno ya estaba idéntico.
 La verificación recursiva posterior encontró 21 archivos bajo HDFS
 `procesados/`.
+
+La carga indicada es para preparar una instalación nueva. En el entorno de
+este proyecto ya existen los originales y procesados verificados; no se deben
+volver a subir durante la demostración. Para inspección de solo lectura,
+usar `.\.venv\Scripts\python.exe -B -m src.HDFS.verificar_hdfs` o consultar el
+paso HDFS del [guion de defensa](./entrega/guion_demo.md).
 
 ## Fase 5 — flujo Kafka a MongoDB
 
@@ -121,19 +131,19 @@ en `reto_vivienda_fase3.anuncios_stream_fase5`. La colección canónica
 Crear o verificar el tópico desde la raíz del proyecto:
 
 ```powershell
-.\.conda\python.exe -B .\src\fase5_streaming.py crear-topic
+.\.venv\Scripts\python.exe -B .\src\fase5_streaming.py crear-topic
 ```
 
 En una primera terminal, iniciar el consumidor:
 
 ```powershell
-.\.conda\python.exe -u -B .\src\fase5_streaming.py consumidor
+.\.venv\Scripts\python.exe -u -B .\src\fase5_streaming.py consumidor
 ```
 
 Cuando indique que está listo, ejecutar en una segunda terminal:
 
 ```powershell
-.\.conda\python.exe -u -B .\src\fase5_streaming.py productor
+.\.venv\Scripts\python.exe -u -B .\src\fase5_streaming.py productor
 ```
 
 La verificación del flujo y sus recuentos están en

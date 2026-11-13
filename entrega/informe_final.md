@@ -23,7 +23,7 @@ una persona joven.
 | Índice Inmobiliario Fotocasa | 41.164 observaciones | 251 municipios; 82 meses por serie; 2020-01 a 2026-10 | Oferta de alquiler (EUR/m²/mes) y compraventa (EUR/m²). |
 | Pisos.com | 1.041 anuncios | Venta y alquiler; 1.040 con código municipal validado | Anuncios individuales. Para alquiler, el análisis usa 186 anuncios con precio/m² en 29 municipios y comunica los tamaños muestrales. |
 | EMAL | 872 observaciones | 728 anual (73 municipios) y 144 vigentes (72 municipios); 71 municipios con valor anual comparable en 2024 | Alquiler registrado. La hoja fuente se refiere a municipios de más de 5.000 habitantes; la media anual corresponde a contratos iniciados ese año, no es precio de oferta. |
-| Eustat | 247.212 observaciones en la colección canónica | 252 municipios; renta personal disponible y «Renta del trabajo» para 2024 | La renta del trabajo se compara con EMAL, pero no tiene desglose por edad ni equivale a salario neto. |
+| Eustat | 247.212 observaciones en la colección canónica | 252 municipios; renta personal disponible y «Renta del trabajo» para 2024 | Magnitudes de renta personal anual (EUR/persona/año); la renta del trabajo municipal no tiene desglose por edad ni equivale a salario neto. |
 | Etxebide | 16.170 filas en dos fotografías | Abril y julio de 2026; 245 municipios por fotografía | Demanda de vivienda protegida. Los valores suprimidos no se sustituyen por cero ni se extrapolan. |
 | Encuesta de Condiciones de Trabajo | Fuente regional consultada desde `reto_vivienda.salarios` | Euskadi; remuneración 2024, edades 16-29 | Referencia neta mensual por sexo de personas asalariadas y asimiladas; no es salario municipal ni de toda la juventud. |
 | IOVJ empleo-económico | Fuente regional consultada desde `reto_vivienda.indicadores_laborales` | Euskadi; indicador de 2024 | El valor 1.381 del grupo 18-29 se presenta como referencia separada, no se mezcla con la serie anterior. |
@@ -64,14 +64,47 @@ El catálogo maestro contiene 252 municipios. Los códigos de municipio se
 almacenan como cadenas de cinco caracteres. El único anuncio Pisos.com sin
 código municipal válido se conserva sin asignarle uno.
 
+### Investigación específica de ingresos juveniles municipales Eustat
+
+Se revisó el catálogo completo de Eustat (2.039 tablas), los ocho JSON
+originales de `DatosIker/originales`, los procesados y los scripts de descarga,
+exploración y validación. También se consultaron metadatos y datos candidatos
+en la API oficial. La respuesta municipal completa de RP11S coincide con el
+JSON original y se contrastaron filas procesadas de las tres capitales.
+
+La tabla RP03 (`PX_173402_crpf_rpf_rp03.px`) ofrece renta personal media
+**anual** por edad para Euskadi, con periodos 2001, 2003, 2006, 2009, 2011 y
+2013–2024. Incluye los grupos 18–19, 20–24 y 25–29, pero no 16–17 ni municipio.
+RP11S (`PX_173402_crpf_rpf_rp11s.px`) incluye 252 códigos municipales del
+catálogo del proyecto y periodos hasta 2024, pero no edad. Se comprobó que
+ambas tablas no pueden combinarse para obtener renta juvenil municipal. No se
+aplican a los municipios ingresos regionales ni repartos estimados.
+
+En RP03, los valores de 2024 para el total de sexos son, por ejemplo, 1.599 EUR
+de renta total y 1.077 EUR de renta del trabajo para 18–19 años; 8.156 y 7.097
+EUR para 20–24; 20.109 y 18.005 EUR para 25–29. Son valores regionales de renta
+personal anual, no salarios netos ni una media municipal del grupo 18–29.
+RP11S tiene 357 valores nulos con marcas de estado `-` o `:`; al no disponer
+de una glosa verificable para interpretarlas, se conservan como ausentes y no
+se convierten en ceros ni se atribuyen a supresión.
+
+**Conclusión:** no hay ingresos juveniles municipales verificados en las tablas
+de Eustat examinadas y no se calcula un indicador municipal de esfuerzo juvenil
+con ellas. Se mantienen por separado la remuneración juvenil neta regional,
+la renta personal municipal y la renta municipal procedente del trabajo. El
+detalle de tablas candidatas, cobertura, validaciones y valores ausentes está
+en el [informe de investigación Eustat](../DatosIker/informes/investigacion_ingresos_juveniles_eustat.txt).
+
 ## Obtención, procesamiento y uso de las fuentes
 
 El proyecto conserva scripts Python para automatizar el scraping de anuncios
 Pisos.com y para consultar páginas Fotocasa y extraer las series del HTML
-guardado. La preparación de EMAL, Eustat y Etxebide parte de los ficheros
-originales disponibles. En los scripts inspeccionados no se encontró un cliente
-API automatizado; se acepta esta brecha del criterio API por decisión del
-proyecto y se mantiene como parcial en la matriz.
+guardado. También existen clientes para consultar la API estadística oficial
+de Eustat, como parte de la investigación y descarga de datos económicos.
+Esto no es una API de precios inmobiliarios: los precios de vivienda del
+proyecto se obtuvieron mediante scraping/series archivadas y no se implementó
+un proveedor inmobiliario mediante API. La matriz valora esta distinción sin
+afirmar que no exista ninguna llamada API.
 
 Para publicar resultados Fotocasa, citar «Índice Inmobiliario Fotocasa» y
 respetar la autorización académica y los límites de frecuencia comunicados. La
@@ -110,7 +143,7 @@ regional en una base separada mediante el cargador focalizado
 
 ### Comparación de las capitales
 
-| Municipio | Fotocasa alquiler, 2026-10 (EUR/m²/mes) | EMAL vigente, 2026-03-31 (EUR/m²/mes) | Mediana de alquiler Pisos.com (EUR/m²/mes; n) | Renta personal Eustat, 2024 (EUR) |
+| Municipio | Fotocasa alquiler, 2026-10 (EUR/m²/mes) | EMAL vigente, 2026-03-31 (EUR/m²/mes) | Mediana de alquiler Pisos.com (EUR/m²/mes; n) | Renta personal Eustat, 2024 (EUR/persona/año) |
 |---|---:|---:|---:|---:|
 | Vitoria-Gasteiz | 12,76 | 9,728 | 17,60 (n=1) | 22.514 |
 | Bilbao | 16,87 | 12,202 | 19,33 (n=85) | 23.391 |
@@ -164,7 +197,7 @@ de la renta personal media anual del trabajo. Hay datos válidos en **71
 municipios**; la tabla completa se genera en
 [`esfuerzo_alquiler_renta_trabajo_municipal_2024.csv`](../resultados/fase6/esfuerzo_alquiler_renta_trabajo_municipal_2024.csv).
 
-| Municipio | Eustat renta del trabajo (EUR/año) | EMAL renta media (EUR/mes) | Alquiler anualizado / renta del trabajo |
+| Municipio | Eustat renta personal del trabajo (EUR/persona/año) | EMAL renta media (EUR/mes) | Alquiler anualizado / renta del trabajo |
 |---|---:|---:|---:|
 | Vitoria-Gasteiz | 15.945 | 781,98 | 58,85 % |
 | Bilbao | 16.040 | 910,66 | 68,13 % |
@@ -184,6 +217,19 @@ comparten una de cuatro trayectorias repetidas. Por eso se marca esa
 duplicación en el CSV de esfuerzo y el ranking limita la comparación a series
 no compartidas. Las tres capitales mostradas tienen series propias en el
 conjunto.
+
+### Respuesta a la pregunta del reto
+
+Los indicadores disponibles no permiten afirmar que una persona joven pueda
+independizarse en cualquier municipio: falta una renta juvenil municipal
+observada y comparable. Sí muestran que, bajo el supuesto explícito de una
+persona que paga una vivienda de 60 m², el alquiler medio de oferta de 2024 en
+las tres capitales equivale aproximadamente al 44–69 % de la referencia neta
+regional masculina de 16–29 años y al 46–72 % de la femenina. Donostia presenta
+el mayor porcentaje de ese escenario y Vitoria-Gasteiz el menor. Son cocientes
+ilustrativos con precio municipal e ingreso regional, no porcentajes reales
+observados de jóvenes ni una conclusión causal. La renta Eustat municipal de
+todos los grupos de edad permanece como indicador contextual independiente.
 
 ### Demanda de vivienda protegida
 
@@ -233,5 +279,31 @@ perciban ese salario ni se calcula una tasa individual o municipal observada.
 - [Diseño y carga MongoDB — Fase 3](../DatosIker/informes/diseno_carga_mongodb_fase3.txt)
 - [Consultas, agregaciones e índices — Fase 4](../DatosIker/informes/consultas_agregaciones_fase4.txt)
 - [Flujo HDFS, Kafka y MongoDB — Fase 5](../DatosIker/informes/flujo_hdfs_kafka_mongodb_fase5.txt)
+- [Investigación de ingresos juveniles Eustat](../DatosIker/informes/investigacion_ingresos_juveniles_eustat.txt)
 - [Análisis municipal — Fase 6](../resultados/fase6/informe_fase6.html)
 - [Código de análisis Fase 6](../src/analisis_fase6.py)
+
+## Fuentes, bibliografía y procedencia
+
+- **Fotocasa:** Índice Inmobiliario Fotocasa. Se conservan las series y el
+  catálogo municipal originales/procesados en `DatosIker`; citar la fuente y
+  respetar las condiciones académicas y de frecuencia comunicadas.
+- **Pisos.com:** anuncios individuales reunidos en
+  `DatosIker/originales/pisoscom` y procesados en
+  `DatosIker/procesados/pisoscom`. El replay de Fase 5 utiliza el snapshot
+  `pisos_euskadi.csv`, no anuncios en tiempo real.
+- **EMAL:** fichero institucional original
+  `DatosIker/originales/EMAL.-Barrios-Municipios.-2016-2026_es.xlsx`.
+- **Eustat:** catálogo y respuestas originales de
+  `DatosIker/originales/eustat_*.json`; catálogo y tablas consultables en la
+  [API oficial de Eustat](https://www.eustat.eus/bankupx/api/v1/es/DB/).
+  Códigos, dimensiones y observaciones contrastados están descritos en el
+  informe de investigación enlazado arriba.
+- **Etxebide:** las dos fotografías CSV de
+  `DatosIker/originales/etxebide` y sus versiones con códigos municipales en
+  `DatosIker/procesados/etxebide`.
+- **Referencias económicas regionales:** `remuMedia.csv` e
+  `iovj-empleo-economico.csv` conservados en `DatosAlvaro/Salario`; se
+  documentan como fuentes regionales, con sus grupos de edad, unidad y
+  definición, sin atribuirlos a municipios.
+- **Evaluación:** [rúbrica oficial del Reto 1](<../RETO 1Evaluacion SBD-BDA.pdf>).

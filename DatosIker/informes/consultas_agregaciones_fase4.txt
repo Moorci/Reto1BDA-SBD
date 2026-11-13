@@ -30,7 +30,9 @@ TRES AGGREGATION PIPELINES
 P1: ranking de 20 municipios con menor precio de oferta de alquiler Fotocasa
 en octubre de 2026; incluye nombre y territorio mediante $lookup.
 Primeros resultados observados: Errenteria 11,26 EUR/m2; Okondo y Leza
-12,76 EUR/m2.
+12,76 EUR/m2. Es un listado descriptivo de códigos municipales, no 20
+trayectorias independientes: varias zonas comparten exactamente series
+históricas Fotocasa. Fase 6 excluye series compartidas de su ranking.
 
 P2: evolucion mensual de alquiler de las tres capitales, de enero de 2020 a
 octubre de 2026: 246 observaciones (82 por capital).
@@ -82,7 +84,12 @@ idempotente; al final se validan recuentos y referencias municipales.
 INTERPRETACION
 --------------
 - El resultado Eustat de 2024 es renta personal disponible en euros, no salario
-  neto mensual ni renta juvenil municipal.
+  neto mensual ni renta juvenil municipal; las magnitudes personales anuales
+  se expresan como EUR/persona/año.
+- La revisión del catálogo de Eustat confirma que RP03 tiene edad, pero solo
+  geografía Euskadi; RP11S tiene municipios, pero no edad. No se combinan para
+  fabricar un ingreso juvenil municipal. Ver
+  DatosIker/informes/investigacion_ingresos_juveniles_eustat.txt.
 - Fotocasa, EMAL y Etxebide mantienen sus significados separados: oferta,
   alquiler registrado y demanda de vivienda protegida.
 - Los datos Etxebide suprimidos no se convierten en cero ni se extrapolan.
@@ -91,15 +98,19 @@ INTERPRETACION
 
 VALIDACION Y REPRODUCCION
 -------------------------
-Cinco pruebas unittest pasaron. Para repetir el proceso desde la raiz:
+La ejecución actual produjo cinco conjuntos de resultados de consulta, tres
+pipelines y `COLLSCAN`/`IXSCAN` con los mismos diez documentos devueltos. Para
+repetir el proceso desde la raíz:
 
-    .\.conda\python.exe -B .\src\consultas_fase4.py
-    .\.conda\python.exe -B -m unittest discover -s tests -v
+    .\.venv\Scripts\python.exe -B .\src\consultas_fase4.py
+    .\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
 
 El script solo lee MongoDB y reemplaza atomica y localmente el JSON de
 resultados de Fase 4.
 
 SIGUIENTE FASE
 --------------
-Pendiente: HDFS y Kafka para la Fase 5; despues, automatizacion de indicadores,
-graficos y conclusiones de la Fase 6.
+HDFS/Kafka y el análisis automatizado de Fase 6 se verificaron posteriormente;
+el flujo y las cifras vigentes están en
+DatosIker/informes/flujo_hdfs_kafka_mongodb_fase5.txt y
+resultados/fase6/informe_fase6.html.

@@ -39,8 +39,8 @@
 
   <rect x="45" y="431" width="260" height="82" class="box" fill="#eaf5ee" stroke="#6b9a7a"/>
   <text x="65" y="460" class="heading">Eustat</text>
-  <text x="65" y="484" class="body">JSON → renta personal y del trabajo</text>
-  <text x="65" y="504" class="small">Renta personal; no salario juvenil</text>
+  <text x="65" y="484" class="body">API / JSON → renta personal</text>
+  <text x="65" y="504" class="small">Edad regional; municipios sin edad</text>
 
   <rect x="45" y="529" width="260" height="82" class="box" fill="#eaf5ee" stroke="#6b9a7a"/>
   <text x="65" y="558" class="heading">Etxebide</text>
@@ -134,5 +134,5 @@
 
   <rect x="45" y="850" width="1505" height="76" rx="10" fill="#fff5f4" stroke="#c87570" stroke-width="2"/>
   <text x="68" y="881" class="heading">Brechas identificadas frente al nivel máximo del PDF</text>
-  <text x="68" y="908" class="body">No hay salario juvenil municipal verificado; Eustat «Renta del trabajo» no se desglosa por edad. Varias series Fotocasa se repiten entre códigos.</text>
+  <text x="68" y="908" class="body">No hay renta juvenil municipal verificada; API Eustat estadística, no de precios. Fotocasa repite series entre códigos.</text>
 </svg>

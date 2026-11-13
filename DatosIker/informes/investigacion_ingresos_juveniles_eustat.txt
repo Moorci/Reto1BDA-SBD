@@ -1,0 +1,182 @@
+INVESTIGACION DE INGRESOS JUVENILES MUNICIPALES EN EUSTAT
+========================================================
+
+Fecha de contraste: 2026-11-13
+
+PREGUNTA
+--------
+¿Publica Eustat una magnitud de renta personal o del trabajo con desglose
+simultaneo por edad y municipio que permita comparar los ingresos juveniles
+municipales con el alquiler?
+
+CONCLUSION
+----------
+No se ha encontrado en el catalogo de Eustat una tabla que publique ingresos
+personales juveniles por municipio. Las tablas de renta personal por edad son
+para el conjunto de Euskadi; las tablas municipales de renta no tienen edad.
+No se combinan ambas tablas ni se asigna a los municipios una renta regional.
+
+Por tanto, el proyecto no dispone de ingresos juveniles municipales reales de
+Eustat y no puede calcular con esta fuente un indicador municipal de esfuerzo
+de alquiler juvenil. Se mantienen separados:
+
+1. La referencia de remuneracion juvenil regional ya utilizada en Fase 6.
+2. La renta personal media municipal de Eustat, sin desglose por edad.
+3. La renta del trabajo municipal de Eustat, sin desglose por edad y distinta
+   de un salario neto individual.
+
+ALCANCE DE LA REVISION
+----------------------
+Se revisaron los ocho JSON originales indicados en DatosIker/originales:
+
+- eustat_catalogo.json
+- eustat_distribucion_renta_municipal.json
+- eustat_distribucion_renta_por_edad.json
+- eustat_indicadores_municipales.json
+- eustat_percentiles_renta_municipales.json
+- eustat_renta_por_edad.json
+- eustat_renta_por_municipio.json
+- eustat_tablas_relevantes.json
+
+Tambien se revisaron DatosIker/procesados/eustat, los scripts de descarga,
+exploracion, inspeccion y validacion de Eustat, y
+DatosIker/scripts/eustat/procesar_indicadores_municipales.py.
+No se modificaron los JSON originales.
+
+El catalogo local contiene 2.039 entradas. Se buscaron titulos relacionados
+con renta, salario, remuneracion, retribucion e ingresos, combinados con
+terminos de edad y geografia municipal/territorial. La seleccion inicial de
+tablas relevantes no se tomo como exhaustiva: se examino el catalogo completo
+y se consultaron metadatos de las tablas candidatas en la API oficial.
+
+RESULTADOS DE LAS TABLAS CANDIDATAS
+----------------------------------
+
+1. PX_173402_crpf_rpf_rp03.px
+   Titulo: Renta personal media de la C.A. de Euskadi por edad, segun sexo y
+   tipo de renta (euros).
+   Actualizacion indicada en el catalogo: 2026-10-16 12:38:02.
+   Periodos: 2001, 2003, 2006, 2009, 2011 y 2013-2024.
+   Dimensiones: sexo (3 categorias, incluido Total), tipo de renta (7),
+   edad (18) y periodo (17). No contiene territorio ni municipio.
+   Incluye 18-19, 20-24 y 25-29 años; no publica 16-17.
+   La magnitud es renta personal media anual en euros; sus categorias incluyen
+   Renta total, Renta del trabajo y Renta disponible. No es salario neto.
+
+   Contraste API y JSON original para sexo Total, 2024:
+
+   Grupo de edad | Renta total EUR/persona/año | Renta del trabajo EUR/persona/año
+   18-19         | 1.599                   | 1.077
+   20-24         | 8.156                   | 7.097
+   25-29         | 20.109                  | 18.005
+
+   Los seis valores consultados en la API coinciden con el JSON original.
+   Estas cifras son regionales; no se atribuyen a ningun municipio. Tampoco se
+   calcula una media conjunta 18-29, ya que exigiría ponderaciones de población
+   por edad que no se derivan de una media simple.
+
+2. PX_173402_crpf_rpf_rp11s.px
+   Titulo: Renta personal media de la C.A. de Euskadi por ambitos territoriales,
+   segun sexo y tipo de renta (euros).
+   Actualizacion indicada en el catalogo: 2026-10-16 12:38:49.
+   Periodos: 2001, 2003, 2006, 2009, 2011 y 2013-2024.
+   Dimensiones: ambitos territoriales (276), tipo de renta (7), sexo (3,
+   incluido Total) y periodo (17). No contiene edad.
+   Los 276 ambitos incluyen Euskadi, territorios historicos, comarcas y
+   municipios. El catalogo municipal del proyecto tiene 252 codigos, todos
+   presentes en la dimension; el codigo 00001 corresponde a Euskadi y no es
+   un municipio.
+
+   La API oficial devolvio la tabla completa (98.532 posiciones); las
+   dimensiones, etiquetas y todos los valores coinciden con
+   eustat_renta_por_municipio.json. Tambien se comprobaron las filas procesadas
+   para tres capitales:
+
+   Municipio        | Renta total 2024 | Renta del trabajo 2024
+   Vitoria-Gasteiz  | 27.143 EUR       | 15.945 EUR
+   Bilbao           | 28.521 EUR       | 16.040 EUR
+   Donostia         | 33.867 EUR       | 18.009 EUR
+
+   Son rentas personales medias municipales de todos los grupos de edad; no
+   son rentas juveniles ni salarios netos.
+
+3. PX_173402_crpf_rpf_rp30.px
+   Percentiles de renta personal por ambito territorial, percentil, sexo y
+   periodo. Incluye municipios, pero no edad. No permite identificar
+   percentiles juveniles.
+
+4. PX_173402_crpf_rpf_rp31.px y eustat_distribucion_renta_municipal.json
+   Distribucion porcentual de poblacion de 18 y mas años por territorio,
+   decil de renta personal y periodo. Incluye ambitos municipales, pero no una
+   edad juvenil; es una distribucion por decil, no una renta media juvenil.
+
+5. PX_173402_crpf_rpf_rp33.px y eustat_distribucion_renta_por_edad.json
+   Distribucion porcentual por decil, edad y periodo, con geografia de
+   Euskadi/territorios historicos (4 categorias), no municipio. Los grupos de
+   edad no convierten sus porcentajes en una renta monetaria municipal.
+
+6. PX_173402_crpf_rpf_rp36.px y eustat_indicadores_municipales.json
+   Indicadores municipales de renta personal y periodo, sin dimension de edad.
+
+7. PX_173402_crpf_rpf_rf10.px
+   Renta familiar media de Euskadi por edad de la persona perceptora principal,
+   sexo y tipo de renta. No tiene dimension municipal y mide renta familiar,
+   no renta individual de cada joven.
+
+8. PX_173402_crpf_rpf_rf18s.px
+   Renta familiar media por ambitos territoriales, sexo y tipo de renta, sin
+   edad. No se puede cruzar con RF10 para construir una renta familiar juvenil
+   municipal.
+
+9. PX_173402_crpf_rpf_rf33.px
+   Distribucion porcentual de familias por decil y edad de la persona
+   perceptora principal, con territorio historico, no municipio. No proporciona
+   renta monetaria individual juvenil.
+
+En las busquedas del catalogo tambien aparecieron titulos sobre actividad
+asalariada por edad y comarca, y cuentas/ingresos de entidades municipales.
+No son una tabla de renta personal juvenil municipal. No se identifico una
+tabla de ingresos por edad para municipios de mas de 40.000 habitantes que
+pudiera cubrir parcialmente las capitales.
+
+VALORES AUSENTES Y CODIGOS
+--------------------------
+El original municipal tiene 98.532 posiciones y 357 valores nulos. El campo
+status del JSON original asigna los simbolos "-" (315 posiciones) y ":"
+(42 posiciones). La tabla local no incluye una glosa que permita atribuir con
+seguridad a esos simbolos significados como confidencialidad, no aplicabilidad
+o ausencia de observacion. No se convierten en cero ni se interpretan como
+suprimidos sin una definicion oficial comprobable.
+
+El procesador conserva los valores nulos y el campo estado_valor cuando la
+fuente lo proporciona. La salida municipal existente contiene 89.964 filas
+(252 municipios x 7 tipos de renta x 3 sexos x 17 periodos) y 357 valores
+nulos. Los codigos municipales se mantienen como cadenas de cinco caracteres.
+La salida contiene Renta total, Renta del trabajo y Renta disponible como
+categorias distintas, sin tratarlas como salario neto.
+
+ADECUACION PARA EL INDICADOR DE ESFUERZO
+----------------------------------------
+No es valido calcular esfuerzo de alquiler juvenil municipal mediante RP03 y
+RP11S: no hay dimension comun de edad y municipio. Tampoco es valido aplicar
+la renta regional RP03 a municipios, repartirla proporcionalmente ni interpolar
+los valores ausentes.
+
+El cociente municipal EMAL/renta del trabajo de 2024 que ya se genera en Fase 6
+puede conservarse solo como comparacion contextual entre alquiler registrado
+medio y renta personal media del trabajo de todos los grupos de edad. No debe
+denominarse esfuerzo juvenil ni salario neto. La comparacion de alquiler de
+oferta con remuneracion juvenil regional tambien debe seguir identificada como
+escenario regional, no como ingreso municipal observado.
+
+FUENTES Y REPRODUCCION
+----------------------
+- Catalogo de Eustat conservado en DatosIker/originales/eustat_catalogo.json.
+- API oficial de datos: https://www.eustat.eus/bankupx/api/v1/es/DB/
+- Tablas: PX_173402_crpf_rpf_rp03.px, PX_173402_crpf_rpf_rp11s.px,
+  PX_173402_crpf_rpf_rp30.px, PX_173402_crpf_rpf_rp31.px,
+  PX_173402_crpf_rpf_rp33.px, PX_173402_crpf_rpf_rp36.px,
+  PX_173402_crpf_rpf_rf10.px, PX_173402_crpf_rpf_rf18s.px y
+  PX_173402_crpf_rpf_rf33.px.
+- Los metadatos se consultaron con GET y los datos de RP03/RP11S con POST a la
+  API oficial; las comprobaciones detalladas y comparaciones se describen arriba.

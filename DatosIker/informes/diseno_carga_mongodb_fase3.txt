@@ -54,6 +54,12 @@ LIMPIEZA, TRAZABILIDAD Y CONSISTENCIA
 - Los upserts son atomicos por documento; no se usa una transaccion
   multidocumento. El cargador no borra documentos. Las operaciones de limpieza
   y carga se automatizan con Python y PyMongo.
+- `ensure_database_marker` acepta las seis colecciones canonicas y la coleccion
+  independiente `anuncios_stream_fase5`, pero sigue rechazando nombres
+  desconocidos antes de modificar la base.
+- Una prueba de integracion ejecuta 200 incrementos `$inc` concurrentes sobre
+  un documento y comprueba el total exacto. El documento temporal se elimina
+  siempre; las cargas no requieren una transaccion entre colecciones.
 
 INDICES CREADOS
 ---------------
@@ -78,34 +84,46 @@ VALIDACION EJECUTADA
 - CRUD: Insert, Find, Update y Delete se ejecutaron y comprobaron sobre un
   documento temporal con id aleatorio, que se elimino al terminar. La coleccion
   de demostracion queda sin documentos.
+- Consistencia: 200 incrementos atomicos concurrentes dieron exactamente 200;
+  la prueba limpia su documento temporal incluso si falla la comprobacion.
 - Idempotencia: segunda carga con cero inserciones y cero modificaciones.
 - La base preexistente reto_vivienda conserva sus 590.761 documentos; no se
   escribio en ella.
-- Pruebas focalizadas: 3 pruebas unittest correctas; Pylance sin diagnosticos
-  en los scripts de la fase.
+- Pruebas de regresion de colecciones: colecciones canonicas y de streaming
+  aceptadas; una coleccion desconocida sigue bloqueada sin escrituras.
 
 IMPORTADOR GENERICO
 -------------------
 El cargador canonico nuevo no depende del descubrimiento recursivo del
-importador antiguo. Se priorizaron las reglas de clasificacion de Eustat y
-EMAL, se retiro la regla ambigua que clasificaba cualquier fuente con "renta"
-como salarios y se desactivo por defecto la importacion generica. Solo puede
-ejecutarse explicitamente con --permitir-importacion-generica; no debe usarse
-para la carga canonica.
+importador general. Este se mantiene como herramienta heredada para
+exploracion/dry-run: su escritura esta desactivada por defecto y rechaza
+`reto_vivienda_fase3`, que debe cargarse exclusivamente mediante
+`cargar_mongodb_fase3.py`. Las reglas se aplican en orden; los archivos con
+`eustat` se enrutan antes de la regla geografica general, y las reglas
+duplicadas de EMAL apuntan ambas a `alquiler_vivienda`. No se debe usar esta
+importacion generica para poblar las colecciones canonicas.
+
+Dry-run de 319 archivos compatibles, sin conexion ni escritura: EMAL original
+y procesado se clasificaron en `alquiler_vivienda`; los JSON Eustat originales
+y procesados en `indicadores_economicos`. La prueba detecto que el informe
+Eustat en `DatosIker/informes` se clasificaba como datos por compartir
+`eustat` en el nombre; se excluyo el directorio de informes y una prueba
+regresion confirma que los informes no se descubren, mientras los conjuntos
+procesados siguen disponibles.
 
 SCRIPTS Y COMANDOS
 ------------------
 Desde la raiz del proyecto:
 
-    .\.conda\python.exe -B .\src\cargar_mongodb_fase3.py --dry-run
-    .\.conda\python.exe -B .\src\cargar_mongodb_fase3.py
-    .\.conda\python.exe -B .\src\crud_demostracion_fase3.py
+    .\.venv\Scripts\python.exe -B .\src\cargar_mongodb_fase3.py --dry-run
+    .\.venv\Scripts\python.exe -B .\src\cargar_mongodb_fase3.py
+    .\.venv\Scripts\python.exe -B .\src\crud_demostracion_fase3.py
 
 El cargador usa la base reto_vivienda_fase3, definida en src/config.py. La
 segunda ejecucion es segura e idempotente. El CRUD de demostracion elimina
 unicamente el documento temporal que acaba de insertar.
 
-SIGUIENTE FASE
---------------
-Pendiente: preparar consultas MongoDB, tres Aggregation Pipelines, analisis
-comparativo de municipios, explicacion de indices y resultados para graficos.
+SIGUIENTES FASES
+----------------
+Las consultas, pipelines, el replay HDFS/Kafka y el analisis de Fase 6 se
+implementaron posteriormente; la evidencia esta en los informes de Fases 4-6.
