@@ -1,10 +1,5 @@
-.conda/
-.venv/
-venv/
-.vscode/
+.env
 __pycache__/
 *.py[cod]
-.env
-.env.*
-!.env.example
-*.tmp
+.pytest_cache/
+*.log

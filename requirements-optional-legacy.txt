@@ -1,3 +1,0 @@
-# Only for the legacy src/HDFS/consumidor.py utility. The main phase-5 flow
-# uses kafka-python and does not require this native extension.
-confluent-kafka>=2.3,<3
