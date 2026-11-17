@@ -86,7 +86,9 @@ Las integraciones se ejecutaron con los parámetros de conexión facilitados par
 Gráficos juveniles de 2024:
 
 - [Esfuerzo por los 72 municipios](../resultados/graficos/esfuerzo_alquiler_salario_juvenil_municipios_2024.png)
+- [Esfuerzo: 10 municipios con menor y mayor esfuerzo](../resultados/graficos/esfuerzo_alquiler_salario_juvenil_municipios_2024_10_menores_y_10_mayores.png)
 - [Dinero restante por municipio](../resultados/graficos/dinero_restante_salario_juvenil_municipios_2024.png)
+- [Dinero restante: 10 municipios con menor y mayor cantidad](../resultados/graficos/dinero_restante_salario_juvenil_municipios_2024_10_menores_y_10_mayores.png)
 - [Salario y alquiler por territorio](../resultados/graficos/salario_y_alquiler_juvenil_territorios_2024.png)
 - [Contraste con el indicador 49](../resultados/graficos/contraste_esfuerzo_juvenil_ovj_territorios_2024.png)
 - [Comparación de edades](../resultados/graficos/comparacion_juvenil_por_edad_2024.png)

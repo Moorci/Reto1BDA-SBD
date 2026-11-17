@@ -41,12 +41,20 @@ def _save(figure: plt.Figure, filename: str) -> None:
         raise RuntimeError(f"No se generó correctamente el gráfico: {destination}")
 
 
-def _plot_municipal_burden(rows: list[dict[str, str]]) -> None:
+def _plot_municipal_burden(
+    rows: list[dict[str, str]], extremes_only: bool = False
+) -> None:
     ordered = sorted(
         rows,
         key=lambda row: float(row["rent_as_share_of_youth_salary_percent"]),
     )
-    figure_height = max(17, len(ordered) * 0.24)
+    if extremes_only and len(ordered) > 20:
+        ordered = ordered[:10] + ordered[-10:]
+    figure_height = (
+        max(7, len(ordered) * 0.42)
+        if extremes_only
+        else max(17, len(ordered) * 0.24)
+    )
     figure, axis = plt.subplots(figsize=(12, figure_height))
     values = [
         float(row["rent_as_share_of_youth_salary_percent"]) for row in ordered
@@ -61,23 +69,41 @@ def _plot_municipal_burden(rows: list[dict[str, str]]) -> None:
     axis.axvline(30, color="#333333", linestyle="--", linewidth=1.2, label="30%")
     axis.set_title(
         "Alquiler sobre salario juvenil neto por municipio (2024)\n"
-        "Salario medio territorial asignado; no observado a nivel municipal"
+        + (
+            "10 municipios con menor y 10 con mayor esfuerzo\n"
+            if extremes_only
+            else ""
+        )
+        + "Salario medio territorial asignado; no observado a nivel municipal"
     )
     axis.set_xlabel("Porcentaje del salario neto mensual (18-34)")
     axis.set_ylabel("Municipio")
     axis.xaxis.set_major_formatter(PercentFormatter(xmax=100))
     axis.grid(axis="x", alpha=0.25)
     axis.legend()
-    axis.tick_params(axis="y", labelsize=6.5)
-    _save(figure, "esfuerzo_alquiler_salario_juvenil_municipios_2024.png")
+    axis.tick_params(axis="y", labelsize=9 if extremes_only else 6.5)
+    _save(
+        figure,
+        "esfuerzo_alquiler_salario_juvenil_municipios_2024"
+        + ("_10_menores_y_10_mayores" if extremes_only else "")
+        + ".png",
+    )
 
 
-def _plot_remaining_income(rows: list[dict[str, str]]) -> None:
+def _plot_remaining_income(
+    rows: list[dict[str, str]], extremes_only: bool = False
+) -> None:
     ordered = sorted(
         rows,
         key=lambda row: float(row["money_remaining_after_rent_eur"]),
     )
-    figure_height = max(17, len(ordered) * 0.24)
+    if extremes_only and len(ordered) > 20:
+        ordered = ordered[:10] + ordered[-10:]
+    figure_height = (
+        max(7, len(ordered) * 0.42)
+        if extremes_only
+        else max(17, len(ordered) * 0.24)
+    )
     figure, axis = plt.subplots(figsize=(12, figure_height))
     values = [float(row["money_remaining_after_rent_eur"]) for row in ordered]
     colors = ["#bc5b54" if value < 0 else "#26856b" for value in values]
@@ -89,13 +115,23 @@ def _plot_remaining_income(rows: list[dict[str, str]]) -> None:
     axis.axvline(0, color="#333333", linewidth=1)
     axis.set_title(
         "Salario juvenil neto restante tras pagar el alquiler (2024)\n"
-        "Antes de suministros y otros gastos"
+        + (
+            "10 municipios con menor y 10 con mayor cantidad restante\n"
+            if extremes_only
+            else ""
+        )
+        + "Antes de suministros y otros gastos"
     )
     axis.set_xlabel("Euros mensuales")
     axis.set_ylabel("Municipio")
     axis.grid(axis="x", alpha=0.25)
-    axis.tick_params(axis="y", labelsize=6.5)
-    _save(figure, "dinero_restante_salario_juvenil_municipios_2024.png")
+    axis.tick_params(axis="y", labelsize=9 if extremes_only else 6.5)
+    _save(
+        figure,
+        "dinero_restante_salario_juvenil_municipios_2024"
+        + ("_10_menores_y_10_mayores" if extremes_only else "")
+        + ".png",
+    )
 
 
 def _plot_salary_and_rent(rows: list[dict[str, str]]) -> None:
@@ -220,7 +256,9 @@ def main() -> None:
             "Las tablas juveniles no tienen la cobertura esperada para los gráficos."
         )
     _plot_municipal_burden(municipalities)
+    _plot_municipal_burden(municipalities, extremes_only=True)
     _plot_remaining_income(municipalities)
+    _plot_remaining_income(municipalities, extremes_only=True)
     _plot_salary_and_rent(territories)
     _plot_territory_benchmark(territories)
     _plot_age_comparison(age_groups)
